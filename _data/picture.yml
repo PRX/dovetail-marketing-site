@@ -1,0 +1,50 @@
+# _data/picture.yml
+
+media_queries:
+    mobile: 'max-width: 480px'
+    tablet: 'max-width: 768'
+    laptop: 'max-width: 1024px'
+    desktop: 'max-width: 1200'
+    wide: 'min-width: 1201'
+
+presets:
+  default:
+    formats: [avif, jp2, webp, original] # Order matters!
+    widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
+    sizes:
+      mobile: calc(100vw - 16px)
+      tablet: 80vw
+    size: 1200px
+    format_quality:
+      webp: 90
+      avif: 90
+      jp2: 90
+    link_source: false
+    dimension_attributes: true
+    attributes:
+      parent: 'data-downloadable="true"'
+      picture: 'class="default-picture" data-volume="11"'
+      img: 'class="default-image"'
+      a: 'class="image-link"'
+
+  webp:
+    formats: [webp, original]
+
+  avif:
+    formats: [avif, webp, original]
+
+  loaded:
+    formats: [avif, jp2, webp, original]
+    dimension_attributes: true
+
+  thumbnail:
+    base_width: 500 # How wide the 1x image should be.
+    pixel_ratios: [1, 1.5, 2] # Which multipliers to target.
+    widths: [500]
+    fallback_width: 500 # The default is 800, which is probably too big.
+    size: 500px
+    formats:  [avif, jp2, webp, original]
+    dimension_attributes: true
+    attributes:
+      picture: 'class="thumbnail"'
+      img: 'class="thumbnail-image"'

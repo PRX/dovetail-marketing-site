@@ -1,16 +1,39 @@
+.navbar {
+  font-size: .8rem;
+
+  @media (min-width: 576px) {
+    font-size: 1rem;
+  }
+}
+
+.navbar-brand {
+  img {
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link {
   font-family: $font-header-base;
   color: $white;
   border: 2px solid transparent;
 
   &.btn {
+    margin-top: 1rem;
     padding: .5rem 1rem;
+    width: 100%;
+
+    @media (min-width: 576px) {
+      width: auto;
+      margin-top: 0;
+    }
   }
 }
 
 .navbar-collapse {
-  flex-grow: 0;
-  padding-top: 10px;
+  /*flex-grow: 0;
+  padding-top: 10px;*/
 
 
   .navbar-nav {
@@ -27,8 +50,24 @@
   width: 100%;
   margin-top: 1rem;
 
-  @media (min-width: 400px) {
+  @media (min-width: 576px) {
     width: auto;
     margin-top: 0;
+  }
+}
+
+.nav-area {
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: 576px) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  @media (min-width: 992px) {
+    flex-direction: row;
   }
 }

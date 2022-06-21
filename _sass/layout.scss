@@ -6,3 +6,34 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-header-base;
 }
+
+.lede {
+  position: relative;
+  &.hero {
+    padding-top: 10rem;
+  }
+}
+
+.hero {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  h1 {
+    font-family: $font-family-base;
+
+    strong {
+      font-family: $font-header-base
+    }
+
+    em {
+      font-family: $font-header-base;
+      font-style: italic;
+    }
+  }
+}
+
+.hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;background-attachment: fixed;
+}

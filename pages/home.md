@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <section class="text-white hero-image lede hero px-4 pb-6 m-0" style="background-image: url('/assets/img/microphone-x-bg.jpg');">
-  <div class="container">
+  <div class="container col-xxl-8">
     <h1 class="display-5"><strong class="fw-bold">Privacy first</strong> podcast distribution for <em>professional producers</em></h1>
     <div class="mx-auto">
       <p class="lead mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
@@ -15,7 +15,7 @@ permalink: /
   </div>
 </section>
 
-<div class="container px-4 py-5 text-white" id="icon-grid">
+<div class="container col-xxl-8 px-4 py-5 text-white" id="icon-grid">
   <h2 class="pb-2 border-bottom">Icon grid</h2>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
     <div class="col d-flex align-items-start">

@@ -25,6 +25,12 @@
   }
 }
 
+.navbar-brand {
+  img {
+    fill: $white;
+  }
+}
+
 .navbar-expand-md .navbar-collapse {
   background-color: $dark-blue;
   padding: 15px;

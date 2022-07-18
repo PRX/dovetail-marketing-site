@@ -14,8 +14,8 @@ permalink: /contact/
     <p>Use this form to let us know how we can help you with your podcasting needs:</p>
     <hr />
 
+    <h2>Tell us a little about yourself...</h2>
     <form>
-      <h2>Tell us a little about yourself...</h2>
       <div class="form-group">
         <label for="inputName">Name</label>
         <input type="text" class="form-control" id="inputName" aria-describedby="inputName" placeholder="Enter your name">

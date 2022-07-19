@@ -7,16 +7,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-header-base;
 }
 
-.lede {
-  position: relative;
-  &.hero {
-    padding-top: 10rem;
-  }
-}
-
 .hero {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  position: relative;
+
+  &.lede {
+      padding-top: 10rem;
+  }
 
   h1 {
     font-family: $font-family-base;
@@ -33,10 +31,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+  position: absolute;
+
+  div {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero-content {
+  width: 100%;
+  display: grid;
+  padding: 1.5rem;
+  grid-gap: 1rem;
+  grid-row: 1 / -1;
+  position: relative;
+  grid-column: 1 / -1;
+  align-content: end;
+
+  .hero-content-inner {
+    display: flex;
+    z-index: 1;
+    grid-row: 1 / -1;
+    flex-direction: column;
+  }
 }
 
 .half-x-mark {

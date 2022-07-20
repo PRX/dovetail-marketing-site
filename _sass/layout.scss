@@ -5,6 +5,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-header-base;
+
+  &.display-6 {
+    font-family: $font-family-base;
+    font-weight: normal;
+  }
+
 }
 
 blockquote {
@@ -38,15 +44,42 @@ blockquote {
 }
 
 .bg-ltblue {
-  background: $ltblue;
+  background: $cyan;
 }
 
 .bg-darkblue {
   background-color: $dark-blue;
+  opacity: 1;
+  background-image:  radial-gradient($cyan 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($cyan 1.1500000000000001px, $dark-blue 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;
 }
 
 .bg-darkgreen {
   background-color: $dark-green;
+}
+
+.bg-polka {
+  background-color: $white;
+  opacity: 1;
+  background-image:  radial-gradient($cyan 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($cyan 1.1500000000000001px, $white 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;
+}
+
+.bg-boxes {
+  background-color: $white;
+background-image:  linear-gradient($white 1px, transparent 1px), linear-gradient(to right, $white 1px, $gray-100 1px);
+background-size: 20px 20px;
+}
+
+.bg-zig-zag {
+  background-color: #eee;
+  opacity: 1;
+  background-image:  linear-gradient(135deg, #f5f5f5 25%, transparent 25%), linear-gradient(225deg, #f5f5f5 25%, transparent 25%), linear-gradient(45deg, #f5f5f5 25%, transparent 25%), linear-gradient(315deg, #f5f5f5 25%, #eee 25%);
+  background-position:  5px 0, 5px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
 }
 
 .hero {
@@ -144,6 +177,13 @@ blockquote {
 }
 
 .section-features {
+  h3 {
+    font-family: $font-family-base;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
   img {
     width: 100%;
     height: 150px;
@@ -151,5 +191,12 @@ blockquote {
     object-fit: cover;
     object-position: center;
     border: 1px solid $gray-300;
+  }
+}
+
+.product-image {
+  img {
+    width: 100%;
+    height: auto;
   }
 }

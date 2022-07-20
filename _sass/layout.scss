@@ -50,7 +50,7 @@ blockquote {
 .bg-darkblue {
   background-color: $dark-blue;
   opacity: 1;
-  background-image:  radial-gradient($cyan 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($cyan 1.1500000000000001px, $dark-blue 1.1500000000000001px);
+  background-image:  radial-gradient($blue 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($blue 1.1500000000000001px, $dark-blue 1.1500000000000001px);
   background-size: 46px 46px;
   background-position: 0 0,23px 23px;
 }

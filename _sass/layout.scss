@@ -73,6 +73,12 @@ background-image:  linear-gradient($white 1px, transparent 1px), linear-gradient
 background-size: 20px 20px;
 }
 
+.bg-wavy {
+  background-color: #fff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fff 5px ), repeating-linear-gradient( #e5e5e555, #e5e5e5 );
+}
+
 .bg-zig-zag {
   background-color: #eee;
   opacity: 1;

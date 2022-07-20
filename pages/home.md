@@ -105,7 +105,7 @@ permalink: /
   </div>
 </section>
 
-<section class="bg-zig-zag pt-5 pb-0">
+<section class="bg-wavy pt-5 pb-0">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Best in Class Inventory Management</h2>
     <p class="lead">Easily and quickly understand where ad inventory is available.</p>

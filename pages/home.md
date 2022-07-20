@@ -23,7 +23,7 @@ permalink: /
 
 <section class="bg-ltblue px-4 py-5 text-white border-top" id="icon-grid">
   <div class="container col-xxl-8">
-    <div class="row g-4 py-4">
+    <div class="row g-4">
       <div class="col d-flex align-items-start">
         <div>
           <h4 class="fw-bold text-uppercase">Content Management with Ease</h4>
@@ -47,13 +47,14 @@ permalink: /
         </div>
       </div>
     </div>
+    <p class="text-center mt-4 mb-0"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
   </div>
 </section>
 
-<section class="bg-gray px-4 py-5 border-top" id="icon-grid">
+<section class="bg-darkblue text-white px-4 py-5 border-top" id="icon-grid">
   <div class="container col-xxl-8">
-    <h3>Top Publishers Rely on PRX Dovetail</h3>
-    <div class="row g-4 py-4">
+    <h3 class="mb-4">Top Publishers Rely on PRX Dovetail</h3>
+    <div class="row g-4">
       <div class="col d-flex align-items-start">
         {% picture img/artwork/False_Idol_Final_Podcast_Artwork.png --alt False Idol from Religion of Sports %}
       </div>

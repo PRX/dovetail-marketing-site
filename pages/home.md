@@ -67,16 +67,24 @@ permalink: /
 
 <section class="bg-boxes px-4 pt-5 pb-0">
   <div class="container col-xxl-8">
-  <h2 class="display-6">Content Management with Ease</h2>
-  <p class="lead">Producer tools for episode uploads and feed management</p>
-  <ul class="text-left mx-auto">
-    <li>Multiple &amp; Private RSS Feeds</li>
-    <li>Embeddable Player with ad previews</li>
-    <li>Episode scheduling</li>
-    <li>New podcast import from RSS</li>
-    <li>Bonus and teaser episodes</li>
-    <li>Episode keywords</li>
-  </ul>
+    <h2 class="display-6">Content Management with Ease</h2>
+    <p class="lead">Producer tools for episode uploads and feed management</p>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>Multiple &amp; Private RSS Feeds</li>
+          <li>Embeddable Player with ad previews</li>
+          <li>Episode scheduling</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li>New podcast import from RSS</li>
+          <li>Bonus and teaser episodes</li>
+          <li>Episode keywords</li>
+        </ul>
+      </div>
+    </div>
     <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
       <div class="container p-0 product-image">
          {% picture img/publish.png --alt Screenshot of publishing episodes in PRX Dovetail %}
@@ -89,14 +97,22 @@ permalink: /
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
     <p class="lead">Understand your podcast performance</p>
-    <ul>
-      <li>IAB 2.1 complaint data</li>
-      <li>Understand Downloads across episodes</li>
-      <li>Unique Listener Metrics</li>
-      <li>Look up by GEO or Device</li>
-      <li>Show forecasts</li>
-      <li>Integrate with Podtrac or Chartable</li>
-    </ul>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>IAB 2.1 complaint data</li>
+          <li>Understand Downloads across episodes</li>
+          <li>Unique Listener Metrics</li>
+        </ul>
+      </div>
+            <div class="col">
+        <ul>
+          <li>Look up by GEO or Device</li>
+          <li>Show forecasts</li>
+          <li>Integrate with Podtrac or Chartable</li>
+        </ul>
+      </div>
+    </div>
     <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
       <div class="container p-0 product-image">
         {% picture img/metrics.png --alt Screenshot of podcast analytics in PRX Dovetail %}
@@ -109,14 +125,22 @@ permalink: /
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Best in Class Inventory Management</h2>
     <p class="lead">Easily and quickly understand where ad inventory is available.</p>
-    <ul>
-      <li>Ad Inventory Management</li>
-      <li>Geolocated Ad Targeting</li>
-      <li>Real-time Availability</li>
-      <li>Creative library with Pingbacks</li>
-      <li>Quality Control and Brand Safety</li>
-      <li>House Ads and messaging</li>
-    </ul>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>Ad Inventory Management</li>
+          <li>Geolocated Ad Targeting</li>
+          <li>Real-time Availability</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li>Creative library with Pingbacks</li>
+          <li>Quality Control and Brand Safety</li>
+          <li>House Ads and messaging</li>
+        </ul>
+      </div>
+    </div>
     <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
       <div class="container p-0 product-image">
         {% picture img/avails-search.png --alt Screenshot of looking up ad inventory in PRX Dovetail %}

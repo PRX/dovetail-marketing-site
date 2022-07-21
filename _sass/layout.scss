@@ -234,3 +234,26 @@ background-size: 20px 20px;
   height: auto;
   }
 }
+
+.post-content {
+
+  h2, h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .hero-image {
+    img {margin-bottom: 0;}
+  }
+
+  a {
+    font-family: $font-header-base;
+    font-weight: bold;
+    color: $blue;
+  }
+}

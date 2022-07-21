@@ -21,6 +21,8 @@ For many years at PRX, we’ve been using dynamic ad insertion to ensure that ad
 
 Building your own ad server is really hard. So by using Kevel we could lean on really good technology out of the box. As our CTO, Andrew Kuklewicz, points out in [an interview](https://soundsprofitable.com/article/kevel) with _Sounds Profitable_ host Bryan Barletta, the initial integration wasn’t very difficult and at the time made sense.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CkZfvubCfSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 However, after hundreds of millions, maybe billions, of ad impressions later, we learned we needed to be more efficient in our process. We really didn’t have a ton of visibility into the full inventory picture and it was difficult to forecast potential availability.
 
 PRX’s Ad-Ops team did some serious spreadsheet magic to help manage the inventory. But a very large volume of inventory caused managing the sheets a challenge to manage. Quickly, the spreadsheet became so complex that it hit the limit of cells available in Google Sheets - something I wasn’t aware was realistically possible.

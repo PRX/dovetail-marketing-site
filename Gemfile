@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
 
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
+gem 'jekyll', ENV['JEKYLL_VERSION'] if ENV['JEKYLL_VERSION']
+gem 'minima'
 
 group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem 'jekyll_picture_tag', '~> 2.0'
+  gem 'github-pages', '227'
+  gem 'jekyll-feed'
+  gem 'jekyll_picture_tag'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
 end

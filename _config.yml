@@ -1,4 +1,5 @@
 title: PRX Dovetail
+theme: Minima
 
 author:
   name: PRX
@@ -39,12 +40,6 @@ exclude:
     "*.sh",
     "*.yml"
   ]
-
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-    line_numbers: false
 
 # Guideline:https://www.digitalocean.com/community/tutorials/jekyll-compress-html0
 compress_html:

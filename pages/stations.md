@@ -13,7 +13,7 @@ permalink: /stations
 
 <section class="bg-darkblue text-white px-4 py-5" id="icon-grid">
   <div class="container col-xxl-8">
-    <h2 class="mb-4 display-6 fw-bold">Public Media Stations Partnering with PRX</h2>
+    <h2 class="mb-3 display-6 fw-bold">Public Media Stations Partnering with PRX</h2>
     <p class="mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
     <div class="row g-3 thumbnail-gallery">
       <div class="col d-flex align-items-center justify-content-center">
@@ -56,9 +56,9 @@ permalink: /stations
   </div>
 </section>
 
-<section class="bg-boxes p-4">
+<section class="bg-boxes p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Self Service Dovetail for Stations</h2>
+    <h2 class="display-6 mb-3">Self Service Dovetail for Stations</h2>
     <p class="lead">We’re ecstatic to share that we’ve increased our ability to offer PRX’s podcast publishing platform, Dovetail, to your public radio organization.</p>
     <p>If you already publish podcasts or if you are exploring podcasting, we hope you will consider Dovetail for your podcast distribution needs.</p>
     <p>PRX’s platform is built on the trusted values of public media. It is vital to preserve, protect, and expand our ecosystem.</p>
@@ -77,9 +77,9 @@ permalink: /stations
     </figure>
   </div>
 </section>
-<section class="bg-polka p-4">
+<section class="bg-polka p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Dovetail Pricing for Stations</h2>
+    <h2 class="display-6 mb-3">Dovetail Pricing for Stations</h2>
     <p class="lead">Pricing scales with your needs and we are committed to more affordable feeds than distribution platforms from for-profit organizations.</p>
     <p>Regarding costs, the use of Dovetail for public radio stations will entail its own fee for the station, separate from membership and content purchases.</p>
     <p>We are mindful that organizations of different sizes have different needs and capabilities. There are also several options:</p>
@@ -105,9 +105,9 @@ permalink: /stations
     </figure>
   </div>
 </section>
-<section class="bg-wavy p-4">
+<section class="bg-wavy p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Dovetail is built on public media trust and values</h2>
+    <h2 class="display-6 mb-3">Dovetail is built on public media trust and values</h2>
     <p class="lead">For public media to retain its mission, values, destiny, and independence, it’s crucial that we continue to ‘own the rails.’ As a trusted public media organization and technology innovator, PRX can help.</p>
     <ul>
       <li>Dovetail is built on public media trust and values, and exhibits exceptional functionality</li>

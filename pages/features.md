@@ -11,9 +11,9 @@ permalink: /features
   </div>
 </header>
 
-<section class="bg-boxes p-4">
+<section class="bg-boxes p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Dynamic Ad Insertion saves time, costs, and resources</h2>
+    <h2 class="display-6 mb-3 ">Dynamic Ad Insertion saves time, costs, and resources</h2>
     <p>Dovetail's dynamic ad insertion capabilities allow you to optimize monetization. Best-in-class ad insertion technology seamlessly stitches sponsorship messages into produced audio, at any break in your show, with specific targeting (for example, by geo-location).</p>
     <p>The platform also allows flexibility for different business models. For example, you can monetize across a whole catalog, or just on a single episode. The platform also allows for both host-read ads or pre-produced ads.</p>
     <p>Dovetail supports all types of advertising campaigns, from house ads to sponsorship. And, the platform provides you with comprehensive reporting and analysis, as well as inventory forecasting.</p>
@@ -22,17 +22,17 @@ permalink: /features
   </div>
 </section>
 
-<section class="bg-polka p-4">
+<section class="bg-polka p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Multiple RSS feeds</h2>
+    <h2 class="display-6 mb-3">Multiple RSS feeds</h2>
     <p class="lead">Dovetail is highly flexible, supporting multiple RSS feeds. A couple of use cases: this enables producers to participate in podcast memberships or subscriptions services by creating private ad-free feeds, or to produce bonus content for station members.</p>
     <p class="text-center mt-4 mb-0"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
   </div>
 </section>
 
-<section class="bg-wavy p-4">
+<section class="bg-wavy p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Real-time data to help you understand your audience</h2>
+    <h2 class="display-6 mb-3">Real-time data to help you understand your audience</h2>
     <p class="lead">One of the biggest pain points in podcasting is access to data and metrics that may be used to inform strategic goals. PRX’s technology solves this problem.</p>
     <p>PRX’s platform empowers podcast producers with knowledge - the latest download data is available in real time.</p>
     <p>Data is also broken down by geography, device, and podcast app, providing insight to producers into where, how, and when audiences are listening to their programming.</p>

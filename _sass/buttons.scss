@@ -3,6 +3,12 @@
   border: 2px solid transparent;
   color: $black;
   border-radius: 25px;
+  font-weight: bold;
+  font-family: $font-header-base;
+
+  &:hover {
+    background-color: $orange;
+    border-color: transparent;
 
   &:hover {
     background: $white;

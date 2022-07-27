@@ -56,3 +56,8 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+picture:
+  source: "assets"
+  output: "assets/generated"
+  suppress_warnings: true

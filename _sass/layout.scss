@@ -1,6 +1,8 @@
 body {
   background: $gray-200;
   font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -168,7 +170,6 @@ background-size: 20px 20px;
 
 .hero-content {
   display: grid;
-  padding: 1.5rem;
   grid-gap: 1rem;
   grid-row: 1 / -1;
   position: relative;
@@ -224,5 +225,35 @@ background-size: 20px 20px;
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.thumbnail {
+  img {
+  width: 300px;
+  height: auto;
+  }
+}
+
+.post-content {
+
+  h2, h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .hero-image {
+    img {margin-bottom: 0;}
+  }
+
+  a {
+    font-family: $font-header-base;
+    font-weight: bold;
+    color: $blue;
   }
 }

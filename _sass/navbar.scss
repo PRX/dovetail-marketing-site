@@ -17,13 +17,28 @@
     font-family: $font-header-base;
     color: $white;
     border: 2px solid transparent;
+    padding: 0.125rem 0;
+
+    @media (min-width: 992px) {
+      padding: 0.5rem 1rem;
+    }
+
+    &:hover {
+      color: $orange;
+    }
 
     &.btn-primary {
       color: $black;
-      border: 2px solid rgba(0, 0, 0, 0.25);
+      width: 130px;
+
+      @media (min-width: 992px) {
+        margin-left: .5rem;
+        width: auto;
+      }
     }
   }
 }
+
 
 .navbar-brand {
   img {
@@ -31,14 +46,16 @@
   }
 }
 
-.navbar-expand-md .navbar-collapse {
+
+.navbar-expand-lg .navbar-collapse {
   background-color: $dark-blue;
-  padding: 15px;
-  border-radius: 15px 0px 15px 15px;
+  padding: 5px 15px 15px;
+  border-radius: 5px 0px 5px 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     justify-content: flex-end;
+    align-items: flex-end;
     background-color: transparent;
     padding: 0;
     box-shadow: none;

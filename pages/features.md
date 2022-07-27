@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Features
+description: Dovetail provides producers with a seamless podcast publishing experience
 permalink: /features
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">

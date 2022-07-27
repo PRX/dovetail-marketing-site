@@ -1,20 +1,23 @@
 ---
 layout: page
 title: Contact
+description: We want to know how we can help you with your podcasting needs.
 permalink: /contact/
 ---
-<div class="bg-ltblue px-4 py-5 text-white border-top" id="icon-grid">
+<header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="display-5 post-title p-name" itemprop="name headline">Contact</h1>
+      <p class="lead fs-3">We want to know how we can help you with your podcasting needs. We know forms are boring, but this will help us understand better!</p>
+    </div>
+  </div>
+</header>
+
+<div class="bg-darkblue px-4 py-2 pb-4 text-white">
   <div class="container col-xxl-8">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
   <div class="post-content">
-    <p>Use this form to let us know how we can help you with your podcasting needs:</p>
-    <hr />
-
-    <h2>Tell us a little about yourself...</h2>
+    <h2 class="display-6">Tell us a little about yourself...</h2>
     <form>
       <div class="form-group">
         <label for="inputName">Name</label>
@@ -38,7 +41,7 @@ permalink: /contact/
         <input type="text" class="form-control" id="textPhone" aria-describedby="textPhone" placeholder="(xxx)-xxx-xxxx">
       </div>
       <hr />
-      <h2>Tell us about your podcasts...</h2>
+      <h2 class="display-6">Tell us about your podcasts...</h2>
       <div class="form-group">
         <label for="NumberPodcasts">How many podcasts do you currently have?</label>
         <input type="text" class="form-control" id="NumberPodcasts" aria-describedby="NumberPodcasts" placeholder="Enter number of podcasts">

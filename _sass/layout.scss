@@ -1,8 +1,259 @@
 body {
-  background: $blue;
+  background: $gray-200;
   font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-header-base;
+
+  &.display-6 {
+    font-family: $font-family-base;
+    font-weight: normal;
+  }
+}
+
+strong,
+.fw-bold {
+  font-family: $font-header-base;
+}
+
+.text-white {
+  a {
+  color: $ltblue;
+
+    &.btn-primary {
+      color: $black;
+    }
+  }
+}
+
+blockquote {
+  p {
+    border-left: 5px solid $orange;
+    padding-left: 1rem;
+  }
+}
+
+.blockquote-footer {
+  font-size: 1.25rem;
+  color: $white;
+  margin-top: 1rem;
+}
+
+.py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.bg-black-diagonal {
+  background-color: $black;
+  opacity: 1;
+  background: repeating-linear-gradient( 45deg, $gray-900, $gray-900 2px, $black 2px, $black 10px );
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-gray {
+  background-color: $gray-200;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-ltblue {
+  background: $cyan;
+}
+
+.bg-darkblue {
+  background-color: $dark-blue;
+  opacity: 1;
+  background-image:  radial-gradient($blue 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($blue 1.1500000000000001px, $dark-blue 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;
+}
+
+.bg-darkgreen {
+  background-color: $dark-green;
+}
+
+.bg-polka {
+  background-color: $white;
+  opacity: 1;
+  background-image:  radial-gradient($cyan 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($cyan 1.1500000000000001px, $white 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;
+}
+
+.bg-boxes {
+  background-color: $white;
+background-image:  linear-gradient($white 1px, transparent 1px), linear-gradient(to right, $white 1px, $gray-100 1px);
+background-size: 20px 20px;
+}
+
+.bg-wavy {
+  background-color: #fff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fff 5px ), repeating-linear-gradient( #e5e5e555, #e5e5e5 );
+}
+
+.bg-zig-zag {
+  background-color: #eee;
+  opacity: 1;
+  background-image:  linear-gradient(135deg, #f5f5f5 25%, transparent 25%), linear-gradient(225deg, #f5f5f5 25%, transparent 25%), linear-gradient(45deg, #f5f5f5 25%, transparent 25%), linear-gradient(315deg, #f5f5f5 25%, #eee 25%);
+  background-position:  5px 0, 5px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
+
+.hero {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+
+  &.lede {
+      padding-top: 10rem;
+  }
+
+  h1 {
+    font-family: $font-family-base;
+
+    strong {
+      font-family: $font-header-base
+    }
+
+    em {
+      font-family: $font-header-base;
+      font-style: italic;
+    }
+  }
+}
+
+.hero-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+  position: absolute;
+
+  div {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero-content {
+  display: grid;
+  grid-gap: 1rem;
+  grid-row: 1 / -1;
+  position: relative;
+  grid-column: 1 / -1;
+  align-content: end;
+
+  .hero-content-inner {
+    display: flex;
+    z-index: 1;
+    grid-row: 1 / -1;
+    flex-direction: column;
+  }
+}
+
+.half-x-mark {
+  position: relative;
+
+  &::before {
+    content: '';
+    background-image: url(/assets/img/prx-mark.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.thumbnail-gallery {
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.section-features {
+  h3 {
+    font-family: $font-family-base;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid $gray-300;
+  }
+}
+
+.product-image {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.thumbnail {
+  img {
+  width: 300px;
+  height: auto;
+  }
+}
+
+.post-content {
+
+  h2, h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .hero-image {
+    img {margin-bottom: 0;}
+  }
+
+  a {
+    font-family: $font-header-base;
+    font-weight: bold;
+    color: $blue;
+  }
 }

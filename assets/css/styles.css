@@ -23,15 +23,93 @@
 
 @font-face { font-family: 'montserratbold_italic'; src: url("/assets/fonts/montserrat/montserrat-bolditalic-webfont.woff2") format("woff2"), url("/assets/fonts/montserrat/montserrat-bolditalic-webfont.woff") format("woff"); font-weight: normal; font-style: normal; font-display: swap; }
 
-.btn-primary { background: #ff9600; border: 2px solid transparent; color: #000; border-radius: 25px; }
+.btn-primary { background: #ff9600; border: 2px solid transparent; color: #000; border-radius: 25px; font-weight: bold; font-family: "montserratbold", sans-serif; }
 
 .btn-primary:hover { background: #fff; color: #000; }
 
-body { background: #0072A3; font-family: "montserratregular", sans-serif; }
+body { background: #e9e9ec; font-family: "montserratregular", sans-serif; font-size: 1.25rem; line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "montserratbold", sans-serif; }
 
-.navbar { position: absolute; top: 0; left: 0; width: 100%; height: auto; font-size: .9rem; padding: 1rem .25rem; }
+h1.display-6, h2.display-6, h3.display-6, h4.display-6, h5.display-6, h6.display-6 { font-family: "montserratregular", sans-serif; font-weight: normal; }
+
+strong, .fw-bold { font-family: "montserratbold", sans-serif; }
+
+.text-white a { color: #2D9CDB; }
+
+.text-white a.btn-primary { color: #000; }
+
+blockquote p { border-left: 5px solid #ff9600; padding-left: 1rem; }
+
+.blockquote-footer { font-size: 1.25rem; color: #fff; margin-top: 1rem; }
+
+.py-5 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+
+.bg-black-diagonal { background-color: #000; opacity: 1; background: repeating-linear-gradient(45deg, #1a1a1a, #1a1a1a 2px, #000 2px, #000 10px); }
+
+.bg-white { background-color: #fff; }
+
+.bg-gray { background-color: #e9e9ec; }
+
+.bg-cyan { background-color: #0dcaf0; }
+
+.bg-ltblue { background: #0dcaf0; }
+
+.bg-darkblue { background-color: #003A57; opacity: 1; background-image: radial-gradient(#0072A3 1.15px, transparent 1.15px), radial-gradient(#0072A3 1.15px, #003A57 1.15px); background-size: 46px 46px; background-position: 0 0,23px 23px; }
+
+.bg-darkgreen { background-color: #0A7176; }
+
+.bg-polka { background-color: #fff; opacity: 1; background-image: radial-gradient(#0dcaf0 1.15px, transparent 1.15px), radial-gradient(#0dcaf0 1.15px, #fff 1.15px); background-size: 46px 46px; background-position: 0 0,23px 23px; }
+
+.bg-boxes { background-color: #fff; background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(to right, #fff 1px, #f5f5f5 1px); background-size: 20px 20px; }
+
+.bg-wavy { background-color: #fff; opacity: 1; background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #fff 5px), repeating-linear-gradient(#e5e5e555, #e5e5e5); }
+
+.bg-zig-zag { background-color: #eee; opacity: 1; background-image: linear-gradient(135deg, #f5f5f5 25%, transparent 25%), linear-gradient(225deg, #f5f5f5 25%, transparent 25%), linear-gradient(45deg, #f5f5f5 25%, transparent 25%), linear-gradient(315deg, #f5f5f5 25%, #eee 25%); background-position: 5px 0, 5px 0, 0 0, 0 0; background-size: 10px 10px; background-repeat: repeat; }
+
+.hero { padding-top: 5rem; padding-bottom: 5rem; position: relative; }
+
+.hero.lede { padding-top: 10rem; }
+
+.hero h1 { font-family: "montserratregular", sans-serif; }
+
+.hero h1 strong { font-family: "montserratbold", sans-serif; }
+
+.hero h1 em { font-family: "montserratbold", sans-serif; font-style: italic; }
+
+.hero-image { top: 0; left: 0; width: 100%; bottom: 0; z-index: 0; position: absolute; }
+
+.hero-image div { display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px; }
+
+.hero-image img { position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover; }
+
+.hero-content { display: grid; grid-gap: 1rem; grid-row: 1 / -1; position: relative; grid-column: 1 / -1; align-content: end; }
+
+.hero-content .hero-content-inner { display: flex; z-index: 1; grid-row: 1 / -1; flex-direction: column; }
+
+.half-x-mark { position: relative; }
+
+.half-x-mark::before { content: ''; background-image: url(/assets/img/prx-mark.svg); position: absolute; top: 0; left: 0; }
+
+.thumbnail-gallery img { width: 150px; height: auto; }
+
+.section-features h3 { font-family: "montserratregular", sans-serif; font-weight: normal; font-style: italic; margin-bottom: 1rem; }
+
+.section-features img { width: 100%; height: 150px; margin-bottom: 1rem; object-fit: cover; object-position: center; border: 1px solid #dddde0; }
+
+.product-image img { width: 100%; height: auto; }
+
+.thumbnail img { width: 300px; height: auto; }
+
+.post-content h2, .post-content h3 { margin: 2rem 0 1rem; }
+
+.post-content img { width: 100%; height: auto; margin-bottom: 1rem; }
+
+.post-content .hero-image img { margin-bottom: 0; }
+
+.post-content a { font-family: "montserratbold", sans-serif; font-weight: bold; color: #0072A3; }
+
+.navbar { position: absolute; top: 0; left: 0; width: 100%; height: auto; font-size: .9rem; padding: 1rem .25rem; z-index: 3000; }
 
 @media (min-width: 576px) { .navbar { font-size: 1rem; } }
 
@@ -44,6 +122,8 @@ h1, h2, h3, h4, h5, h6 { font-family: "montserratbold", sans-serif; }
 .navbar.navbar-dark .navbar-nav .nav-link.btn-primary { color: #000; width: 130px; }
 
 @media (min-width: 992px) { .navbar.navbar-dark .navbar-nav .nav-link.btn-primary { margin-left: .5rem; width: auto; } }
+
+.navbar-brand img { fill: #fff; }
 
 .navbar-expand-lg .navbar-collapse { background-color: #003A57; padding: 5px 15px 15px; border-radius: 5px 0px 5px 5px; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25); }
 

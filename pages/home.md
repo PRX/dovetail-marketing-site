@@ -48,7 +48,7 @@ image: /assets/img/og-image.jpg
         {% picture img/artwork/SnapPRX.png --alt Snap Judgement %}
       </div>
       <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/song-exploder-podcast.jpg --alt Song Exploder %}
+        {% picture img/artwork/song-exploder.webp --alt Song Exploder %}
       </div>
       <div class="col d-flex align-items-center justify-content-center">
         {% picture img/artwork/projectbrazen.webp --alt Project Brazen Originals %}

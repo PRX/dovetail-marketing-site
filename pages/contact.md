@@ -3,6 +3,7 @@ layout: page
 title: Contact
 description: We want to know how we can help you with your podcasting needs.
 permalink: /contact/
+image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
   <div class="hero-content container col-xxl-8">

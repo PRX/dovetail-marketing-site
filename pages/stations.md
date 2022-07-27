@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /stations
+image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
   <div class="hero-content container col-xxl-8">

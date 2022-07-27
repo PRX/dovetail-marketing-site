@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+image: /assets/img/og-image.jpg
 ---
 
 <section class="text-white lede hero px-4 pb-6 m-0">

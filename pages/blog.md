@@ -3,6 +3,7 @@ layout: default
 title: Blog
 description: Thoughts from the PRX Tech Team
 permalink: /blog
+image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
   <div class="hero-content container col-xxl-8">

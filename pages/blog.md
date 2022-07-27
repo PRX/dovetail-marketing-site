@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Blog
+description: Thoughts from the PRX Tech Team
 permalink: /blog
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">

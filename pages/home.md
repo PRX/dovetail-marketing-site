@@ -13,7 +13,7 @@ permalink: /
       <div class="mx-auto">
         <p class="lead mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
         <div class="d-grid gap-2 d-sm-flex">
-          <a href="/contact" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
+          <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ permalink: /
         </div>
       </div>
     </div>
-    <p class="text-center mt-4 mb-0"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+    <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
   </div>
 </section>
 
@@ -202,7 +202,7 @@ permalink: /
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">
       <h2 class="display-6 fw-bold mb-3">Ensure your podcast keeps it independence.<br>Reach out today.</h2>
-      <p class="text-center"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+      <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>
 </aside>

@@ -90,7 +90,7 @@ permalink: /stations
     </ul>
     <p>Fees for Dovetail will be lower than those run by for-profit organizations and platforms.</p>
     <p>We welcome conversation to discuss your needs and to determine the best route regarding pricing.</p>
-    <p class="text-center mt-4 mb-0"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+    <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
   </div>
 </section>
 <section class="bg-darkblue text-white px-4 py-5">
@@ -114,7 +114,7 @@ permalink: /stations
       <li>Dovetail is fueled by public media values, including trust and quality.</li>
       <li>PRX’s podcast publishing and distribution technology is the public media leader and a leader in the audio industry as a whole in areas such as protecting listener privacy (instead of tracking listener data in an invasive manner), preserving a podcasting ecosystem open and accessible to all, and functionality.</li>
     </ul>
-    <p class="text-center mt-4 mb-0"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Learn more about our features</a></p>
+    <p class="text-center mt-4 mb-0"><a href="{% link pages/features.md %}" type="button" class="btn btn-primary px-4 gap-3">Learn more about our features</a></p>
   </div>
 </section>
 <aside class="text-white hero px-4 m-0 half-x-mark">
@@ -124,7 +124,7 @@ permalink: /stations
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">
       <h2 class="display-6 fw-bold mb-3">Ensure your podcast keeps it independence.<br>Reach out today.</h2>
-      <p class="text-center"><a href="/contact" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+      <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>
 </aside>

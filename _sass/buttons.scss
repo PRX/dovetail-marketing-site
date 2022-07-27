@@ -1,6 +1,6 @@
 .btn-primary {
   background: $orange;
-  border: 2px solid rgba(0,0,0,0.25);
+  border: 2px solid transparent;
   color: $black;
   border-radius: 25px;
   font-weight: bold;
@@ -9,5 +9,9 @@
   &:hover {
     background-color: $orange;
     border-color: transparent;
+
+  &:hover {
+    background: $white;
+    color: $black;
   }
 }

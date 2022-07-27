@@ -12,6 +12,7 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    base32 (0.3.4)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -21,7 +22,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
-    i18n (1.10.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.2)
       addressable (~> 2.4)
@@ -48,13 +49,13 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.3)
+    jekyll_picture_tag (1.10.2)
       addressable (~> 2.6)
-      jekyll (~> 4.0)
-      mime-types (~> 3.0)
-      objective_elements (~> 1.1)
-      rainbow (~> 3.0)
-      ruby-vips (~> 2.0.17)
+      base32 (~> 0.3)
+      jekyll (< 5)
+      mime-types (~> 3)
+      mini_magick (~> 4)
+      objective_elements (~> 1.1.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -67,35 +68,36 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
+    mini_magick (4.11.0)
     objective_elements (1.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    rainbow (3.1.1)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.29.0)
-    ruby-vips (2.0.17)
-      ffi (~> 1.9)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
-  x86_64-darwin-19
+  x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bundler
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll_picture_tag (~> 2.0)
+  jekyll_picture_tag (~> 1.10.2)
   minima-bootstrap-5!
+  webrick
 
 BUNDLED WITH
-   2.3.15
+   2.3.19

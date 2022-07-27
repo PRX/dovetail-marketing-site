@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-# Jekyll Minima - Bootstrap 5
+# Dovetail as a Product page - coming soon
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 

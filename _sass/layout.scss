@@ -34,6 +34,11 @@ strong,
       color: $black;
     }
   }
+
+  .fs-3,
+  .fs-4 {
+    color: $gray-200;
+  }
 }
 
 blockquote {
@@ -62,6 +67,10 @@ blockquote {
 
 .bg-white {
   background-color: $white;
+
+  p, li {
+    color: $gray-600;
+  }
 }
 
 .bg-gray {

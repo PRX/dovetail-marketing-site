@@ -59,7 +59,8 @@ image: /assets/img/og-image.jpg
   </div>
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">
-      <h2 class="display-6 fw-bold mb-3">Ensure your podcast keeps it independence.<br>Reach out today.</h2>
+      <h2 class="display-6 fw-bold">Ensure your podcast keeps it independence</h2>
+      <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>

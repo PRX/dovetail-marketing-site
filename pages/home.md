@@ -12,7 +12,7 @@ image: /assets/img/og-image.jpg
     <div class="hero-content-inner">
       <h1 class="display-5"><strong class="fw-bold">Privacy first</strong> podcast distribution for <em>professional producers</em></h1>
       <div class="mx-auto">
-        <p class="lead mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
+        <p class="fs-3 mt-2 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
         <div class="d-grid gap-2 d-sm-flex">
           <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
         </div>
@@ -24,7 +24,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-darkblue text-white px-4 py-5" id="icon-grid">
   <div class="container col-xxl-8">
     <h2 class="mb-4 display-6 fw-bold">Top Publishers Rely on PRX Dovetail</h2>
-    <p class="mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
+    <p class="fs-4 mt-2 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
     <div class="row g-3 thumbnail-gallery">
       <div class="col d-flex align-items-center justify-content-center">
         {% picture img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
@@ -69,7 +69,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-boxes px-4 pt-5 pb-0">
   <div class="container col-xxl-8">
     <h2 class="display-6">Content Management with Ease</h2>
-    <p class="lead">Producer tools for episode uploads and feed management</p>
+    <p class="fs-4 mt-2">Producer tools for episode uploads and feed management</p>
     <div class="row">
       <div class="col">
         <ul>
@@ -97,7 +97,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-polka px-4 pt-5 pb-0">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
-    <p class="lead">Understand your podcast performance</p>
+    <p class="fs-4 mt-2">Understand your podcast performance</p>
     <div class="row">
       <div class="col">
         <ul>
@@ -125,7 +125,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-wavy pt-5 pb-0">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Best in Class Inventory Management</h2>
-    <p class="lead">Easily and quickly understand where ad inventory is available.</p>
+    <p class="fs-4 mt-2">Easily and quickly understand where ad inventory is available.</p>
     <div class="row">
       <div class="col">
         <ul>
@@ -166,7 +166,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-boxes px-4 py-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 fw-bold mb-4">Built with listener privacy in mind</h2>
-    <p>PRX adheres to the highest privacy standards. We are taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+    <p class="fs-4">PRX adheres to the highest privacy standards. We are taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
     <div class="row g-4">
       <div class="col d-flex align-items-start">
         <div>
@@ -202,7 +202,8 @@ image: /assets/img/og-image.jpg
   </div>
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">
-      <h2 class="display-6 fw-bold mb-3">Ensure your podcast keeps it independence.<br>Reach out today.</h2>
+      <h2 class="display-6 fw-bold">Ensure your podcast keeps it independence</h2>
+      <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>

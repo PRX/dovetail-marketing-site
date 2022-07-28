@@ -67,6 +67,10 @@ blockquote {
 
 .bg-white {
   background-color: $white;
+
+  p, li {
+    color: $gray-600;
+  }
 }
 
 .bg-gray {

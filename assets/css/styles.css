@@ -135,8 +135,6 @@ input::placeholder, textarea::placeholder { font-style: italic; }
 
 @media (min-width: 992px) { .navbar.navbar-dark .navbar-nav .nav-link.btn-primary { margin-left: .5rem; width: auto; } }
 
-.navbar-brand img { fill: #fff; }
-
 .navbar-expand-lg .navbar-collapse { background-color: #000; margin-top: 5px; padding: 15px; border-radius: 5px 0px 5px 5px; border: 1px solid #555; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25); flex-basis: 100%; width: 0; }
 
 .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: flex-end; }

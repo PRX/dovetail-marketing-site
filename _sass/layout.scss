@@ -34,6 +34,11 @@ strong,
       color: $black;
     }
   }
+
+  .fs-3,
+  .fs-4 {
+    color: $gray-200;
+  }
 }
 
 blockquote {

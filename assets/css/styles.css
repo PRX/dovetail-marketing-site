@@ -25,7 +25,7 @@
 
 .btn-primary { background: #ff9600; border: 2px solid transparent; color: #000; border-radius: 25px; font-weight: bold; font-family: "montserratbold", sans-serif; }
 
-.btn-primary:hover { background: #fff; color: #000; }
+.btn-primary:hover { background: #fff; color: #000; border-color: #fff; }
 
 body { background: #e9e9ec; font-family: "montserratregular", sans-serif; font-size: 1.25rem; line-height: 1.5; }
 
@@ -41,6 +41,8 @@ strong, .fw-bold { font-family: "montserratbold", sans-serif; }
 
 .text-white a.btn-primary { color: #000; }
 
+.text-white .fs-3, .text-white .fs-4 { color: #e9e9ec; }
+
 blockquote p { border-left: 5px solid #ff9600; padding-left: 1rem; }
 
 .blockquote-footer { font-size: 1.25rem; color: #fff; margin-top: 1rem; }
@@ -50,6 +52,8 @@ blockquote p { border-left: 5px solid #ff9600; padding-left: 1rem; }
 .bg-black-diagonal { background-color: #000; opacity: 1; background: repeating-linear-gradient(45deg, #1a1a1a, #1a1a1a 2px, #000 2px, #000 10px); }
 
 .bg-white { background-color: #fff; }
+
+.bg-white p, .bg-white li { color: #727276; }
 
 .bg-gray { background-color: #e9e9ec; }
 

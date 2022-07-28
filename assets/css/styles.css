@@ -137,6 +137,6 @@ input::placeholder, textarea::placeholder { font-style: italic; }
 
 .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: flex-end; }
 
-@media (min-width: 992px) { .navbar-expand-lg .navbar-collapse { justify-content: flex-end; background-color: transparent; padding: 0; box-shadow: none; } .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: center; } }
+@media (min-width: 992px) { .navbar-expand-lg .navbar-collapse { justify-content: flex-end; background-color: transparent; padding: 0; box-shadow: none; border: none; } .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: center; } }
 
 /*# sourceMappingURL=styles.css.map */

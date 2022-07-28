@@ -29,6 +29,8 @@
 
 body { background: #e9e9ec; font-family: "montserratregular", sans-serif; font-size: 1.25rem; line-height: 1.5; }
 
+a:link:hover, a:visited:hover { text-decoration: none; }
+
 h1, h2, h3, h4, h5, h6 { font-family: "montserratbold", sans-serif; }
 
 h1.display-6, h2.display-6, h3.display-6, h4.display-6, h5.display-6, h6.display-6 { font-family: "montserratregular", sans-serif; font-weight: normal; }
@@ -131,8 +133,10 @@ input::placeholder, textarea::placeholder { font-style: italic; }
 
 .navbar-brand img { fill: #fff; }
 
-.navbar-expand-lg .navbar-collapse { background-color: #003A57; padding: 5px 15px 15px; border-radius: 5px 0px 5px 5px; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25); }
+.navbar-expand-lg .navbar-collapse { background-color: #000; margin-top: 5px; padding: 15px; border-radius: 5px 0px 5px 5px; border: 1px solid #555; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25); flex-basis: 100%; width: 0; }
 
-@media (min-width: 992px) { .navbar-expand-lg .navbar-collapse { justify-content: flex-end; align-items: flex-end; background-color: transparent; padding: 0; box-shadow: none; } .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: center; } }
+.navbar-expand-lg .navbar-collapse .navbar-nav { align-items: flex-end; }
+
+@media (min-width: 992px) { .navbar-expand-lg .navbar-collapse { justify-content: flex-end; background-color: transparent; padding: 0; box-shadow: none; } .navbar-expand-lg .navbar-collapse .navbar-nav { align-items: center; } }
 
 /*# sourceMappingURL=styles.css.map */

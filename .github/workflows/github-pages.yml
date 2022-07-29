@@ -1,9 +1,15 @@
+# TODO Look into using a more native workflow
+# https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
     branches:
       - main
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   github-pages:

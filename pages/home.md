@@ -25,43 +25,65 @@ image: /assets/img/og-image.jpg
   <div class="container col-xxl-8">
     <p class="fs-3 mt-4 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
     <p class="fs-4 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
-    <div class="row g-3 thumbnail-gallery pb-4">
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
+    <div id="logoCarouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/reveal-podcast.jpg --alt Reveal podcast %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/LUSA+x+PRX+for+Amazon.png --alt Latino USA %}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/themoth.webp --alt The Moth %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/SnapPRX.png --alt Snap Judgement %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/song-exploder.webp --alt Song Exploder %}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/projectbrazen.webp --alt Project Brazen Originals %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/smithsonian.webp --alt Sidedoor from Smithsonian %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/loveletters.webp --alt Love Letters from Boston Globe %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/reveal-podcast.jpg --alt Reveal podcast %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/LUSA+x+PRX+for+Amazon.png --alt Latino USA %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/the_moth.png --alt The Moth %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/SnapPRX.png --alt Snap Judgement %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/song-exploder.webp --alt Song Exploder %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/projectbrazen.webp --alt Project Brazen Originals %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/smithsonian.webp --alt Sidedoor from Smithsonian %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/loveletters.webp --alt Love Letters from Boston Globe %}
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        {% picture img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
 </section>

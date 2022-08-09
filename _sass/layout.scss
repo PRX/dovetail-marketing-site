@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-base;
     font-weight: normal;
   }
+
+  &.fw-bold {
+    font-family: $font-header-base;
+  }
 }
 
 strong,
@@ -127,24 +131,42 @@ background-size: 20px 20px;
 }
 
 .hero {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  /*padding-top: 5rem;
+  padding-bottom: 5rem;*/
+  padding: 0;
   position: relative;
+  overflow: hidden;
 
   &.lede {
       padding-top: 10rem;
   }
 
-  h1 {
-    font-family: $font-family-base;
+  .hero-x-content {
+    margin-top: -81px;
+    position: relative;
+    padding-top: calc(8rem + 81px);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 5rem;
+    background: rgb(0,58,87);
+    background: linear-gradient(90deg, rgba(0,58,87,1) 0%, rgba(0,114,163,0.5) 50%, rgba(0,114,163,0) 100%);
 
-    strong {
-      font-family: $font-header-base
+
+    &::before {
+      content: '';
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,114,163,0.5);
+      clip-path: polygon(0% 0%, 54% 0, 75% 59%, 60% 100%, 0% 100%)
     }
 
-    em {
-      font-family: $font-header-base;
-      font-style: italic;
+    .hero-content-inner {
+      z-index: 5;
     }
   }
 }
@@ -197,18 +219,6 @@ background-size: 20px 20px;
     z-index: 1;
     grid-row: 1 / -1;
     flex-direction: column;
-  }
-}
-
-.half-x-mark {
-  position: relative;
-
-  &::before {
-    content: '';
-    background-image: url(/assets/img/prx-mark.svg);
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 }
 

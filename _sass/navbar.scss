@@ -35,6 +35,10 @@
         margin-left: .5rem;
         width: auto;
       }
+
+      &:hover {
+        border-color: $orange;
+      }
     }
   }
 }

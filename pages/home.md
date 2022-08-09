@@ -4,20 +4,27 @@ permalink: /
 image: /assets/img/og-image.jpg
 ---
 
-<section class="text-white lede hero px-4 pb-6 m-0">
+<section class="text-white hero hero-x">
   <div class="hero-image">
-    <div>{% picture img/microphone-x-bg.jpg --alt Podcasting microphones %}</div>
+    <div>{% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
   </div>
-  <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="display-5"><strong class="fw-bold">Privacy first</strong> podcast distribution for <em>professional producers</em></h1>
-      <div class="mx-auto">
-        <p class="fs-3 mt-2 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
+  <div class="hero-x-content">
+    <div class="hero-content container col-xxl-8">
+      <div class="hero-content-inner col-8">
+        <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
+        <!--<p class="fs-3 mt-2 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>-->
         <div class="d-grid gap-2 d-sm-flex">
           <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="bg-darkblue text-white px-4 py-5">
+  <div class="container col-xxl-8">
+    <p class="fs-3 mt-2 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>
+    <p class="fs-4 mt-2 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
   </div>
 </section>
 

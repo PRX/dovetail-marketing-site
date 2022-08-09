@@ -69,6 +69,31 @@ blockquote {
   background: repeating-linear-gradient( 45deg, $gray-900, $gray-900 2px, $black 2px, $black 10px );
 }
 
+.bg-blue-diagonal {
+  background-color: $blue;
+  opacity: 1;
+  background: repeating-linear-gradient( 45deg, $ltblue, $ltblue 2px, $blue 2px, $blue 10px );
+}
+
+.bg-x {
+  background-color: $gray-100;
+  background-image: url('/assets/img/prx-mark-outline-white.svg');
+  background-repeat: repeat;
+}
+
+.bg-x-blue {
+  background-color: $blue;
+  background-image: url('/assets/img/prx-mark-outline-blue.svg');
+  background-repeat: repeat;
+
+  &.text-white {
+    .fs-3,
+    .fs-4 {
+      color: #fff;
+    }
+  }
+}
+
 .bg-white {
   background-color: $white;
 
@@ -131,8 +156,6 @@ background-size: 20px 20px;
 }
 
 .hero {
-  /*padding-top: 5rem;
-  padding-bottom: 5rem;*/
   padding: 0;
   position: relative;
   overflow: hidden;
@@ -151,7 +174,6 @@ background-size: 20px 20px;
     background: rgb(0,58,87);
     background: linear-gradient(90deg, rgba(0,58,87,1) 0%, rgba(0,114,163,0.5) 50%, rgba(0,114,163,0) 100%);
 
-
     &::before {
       content: '';
       left: 0;
@@ -162,7 +184,25 @@ background-size: 20px 20px;
       width: 100%;
       height: 100%;
       background-color: rgba(0,114,163,0.5);
-      clip-path: polygon(0% 0%, 54% 0, 75% 59%, 60% 100%, 0% 100%)
+      clip-path: polygon(0% 0%, 31% 0, 100% 59%, 45% 100%, 0% 100%);
+    }
+
+    @media (min-width: 576px) {
+      &::before {
+        clip-path: polygon(0% 0%, 54% 0, 75% 59%, 60% 100%, 0% 100%);
+      }
+    }
+
+    @media (min-width: 768px) {
+      &::before {
+        clip-path: polygon(0% 0%, 48% 0, 85% 59%, 60% 100%, 0% 100%);
+      }
+    }
+
+    @media (min-width: 992px) {
+      &::before {
+        clip-path: polygon(0% 0%, 57% 0, 85% 59%, 64% 100%, 0% 100%);
+      }
     }
 
     .hero-content-inner {

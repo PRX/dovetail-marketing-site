@@ -1,3 +1,5 @@
+$x-half-path: 'M905.335 600.029L1192.36 312.754C1197.02 308.093 1199.64 301.76 1199.64 295.166C1199.64 288.572 1197.02 282.239 1192.36 277.579L922.908 7.89153C918.251 3.22536 911.924 0.601532 905.335 0.601532C898.747 0.601532 892.419 3.22536 887.763 7.89153L600.737 295.166L600.108 294.536L313.082 7.29C308.426 2.62383 302.098 0 295.51 0C288.921 0 282.594 2.62383 277.937 7.29L8.48388 276.977C3.82175 281.638 1.2002 287.971 1.2002 294.565C1.2002 301.159 3.82175 307.492 8.48388 312.152L296.111 600.029L8.48388 887.905C3.82175 892.565 1.2002 898.899 1.2002 905.493C1.2002 912.087 3.82175 918.42 8.48388 923.08L277.937 1192.71C282.594 1197.38 288.921 1200 295.51 1200C302.098 1200 308.426 1197.38 313.082 1192.71L516.109 989.507C516.109 989.507 522.663 864.846 376.417 680.434L600.68 904.862L887.763 1192.17C892.419 1196.83 898.747 1199.46 905.335 1199.46C911.924 1199.46 918.251 1196.83 922.908 1192.17L1192.36 922.479C1197.02 917.818 1199.64 911.485 1199.64 904.891C1199.64 898.297 1197.02 891.964 1192.36 887.303L905.335 600.029Z';
+
 body {
   background: $gray-200;
   font-family: $font-family-base;
@@ -182,44 +184,37 @@ background-size: 20px 20px;
   }
 
   .hero-x-content {
-    margin-top: -81px;
+    margin-top: 0;
     position: relative;
-    padding-top: calc(8rem + 81px);
+    padding-top: 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0;
     background: rgb(0,58,87);
     background: linear-gradient(90deg, rgba(0,58,87,1) 0%, rgba(0,114,163,0.5) 50%, rgba(0,114,163,0) 100%);
 
     &::before {
       content: '';
-      left: 0;
-      right: 0;
-      bottom: 0;
+      position: absolute;
+      top: -52%;
+      right: -60%;
       z-index: 2;
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: 152%;
       background-color: rgba(0,114,163,0.5);
-      clip-path: polygon(0% 0%, 31% 0, 100% 59%, 45% 100%, 0% 100%);
+      clip-path: path($x-half-path);
     }
 
-    @media (min-width: 576px) {
-      &::before {
-        clip-path: polygon(0% 0%, 54% 0, 75% 59%, 60% 100%, 0% 100%);
-      }
-    }
+    &.first-element {
+      margin-top: -81px;
+      position: relative;
+      padding-top: calc(8rem + 81px);
+      padding-bottom: 5rem;
 
-    @media (min-width: 768px) {
       &::before {
-        clip-path: polygon(0% 0%, 48% 0, 85% 59%, 60% 100%, 0% 100%);
-      }
-    }
-
-    @media (min-width: 992px) {
-      &::before {
-        clip-path: polygon(0% 0%, 57% 0, 85% 59%, 64% 100%, 0% 100%);
-
+        top: -60%;
+        height: 160%;
       }
     }
 

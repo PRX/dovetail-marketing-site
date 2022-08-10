@@ -15,7 +15,7 @@ image: /assets/img/og-image.jpg
       --picture class="hero"
     %}</div>
   </div>
-  <div class="hero-x-content">
+  <div class="hero-x-content first-element">
     <div class="hero-content container col-xxl-8">
       <div class="hero-content-inner col-md-8">
         <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
@@ -109,7 +109,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pt-4 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/publish.png --alt Screenshot of publishing episodes in PRX Dovetail %}
+            {% picture img/publish-screenshot.jpg --alt Screenshot of publishing episodes in PRX Dovetail %}
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/metrics.png --alt Screenshot of podcast analytics in PRX Dovetail %}
+            {% picture img/metrics-screenshot.jpg --alt Screenshot of podcast analytics in PRX Dovetail %}
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/avails-search.png --alt Screenshot of looking up ad inventory in PRX Dovetail %}
+            {% picture img/availability-screenshot.jpg --alt Screenshot of looking up ad inventory in PRX Dovetail %}
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ image: /assets/img/og-image.jpg
   <div class="hero-image">
     <div>{% picture img/podcast-studio.jpg --alt Podcasting studio %}</div>
   </div>
-  <div class="hero-x-content hero-x-gray">
+  <div class="hero-x-content hero-x-gray pt-5 pb-4">
     <div class="hero-content container col-xxl-8">
       <div class="hero-content-inner col-md-8">
         <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
@@ -203,7 +203,7 @@ image: /assets/img/og-image.jpg
             </div>
           </div>
         </div>
-        <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+        <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
       </div>
     </div>
   </div>

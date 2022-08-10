@@ -6,13 +6,19 @@ image: /assets/img/og-image.jpg
 
 <section class="text-white hero hero-x">
   <div class="hero-image">
-    <div>{% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
+    <div>
+    {%
+      picture
+      webp
+      img/microphone-bg.jpg 16:9
+      --alt Podcasting microphones
+      --picture class="hero"
+    %}</div>
   </div>
   <div class="hero-x-content">
     <div class="hero-content container col-xxl-8">
       <div class="hero-content-inner col-md-8">
         <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
-        <!--<p class="fs-3 mt-2 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through Dynamic Ad Insertion to help producers succeed in today’s open podcast ecosystem.</p>-->
         <div class="d-grid gap-2 d-sm-flex">
           <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
         </div>
@@ -88,7 +94,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-boxes px-4 pt-5 pb-0">
+<section class="bg-boxes px-4 pt-5 pb-4">
   <div class="container col-xxl-8">
     <h2 class="display-6">Manage Your Content with Ease</h2>
     <div class="row">
@@ -100,7 +106,7 @@ image: /assets/img/og-image.jpg
           <li>Manage content with <strong>titles, tags, and keywords</strong></li>
         </ul>
       </div>
-      <div class="col-md-6 pt-4">
+      <div class="col-md-6 pt-4 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
             {% picture img/publish.png --alt Screenshot of publishing episodes in PRX Dovetail %}
@@ -111,7 +117,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-polka px-4 pt-5 pb-0">
+<section class="bg-polka px-4 pt-5 pb-4">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
     <div class="row">
@@ -124,7 +130,7 @@ image: /assets/img/og-image.jpg
           <li><strong>IAB 2.1 complaint</strong></li>
         </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
             {% picture img/metrics.png --alt Screenshot of podcast analytics in PRX Dovetail %}
@@ -135,7 +141,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-wavy pt-5 pb-0">
+<section class="bg-wavy pt-5 pb-4">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
     <div class="row">
@@ -144,10 +150,10 @@ image: /assets/img/og-image.jpg
         <ul class="mb-4">
           <li><strong>Dynamic Ad Insertion:</strong> Run ads uniquely at any break in a show or paired to “bookend” before and after a story at the time of user download </li>
           <li><strong>Targeting:</strong> By episode, show, network, vertical, topic/keyword, and geo-location.</li>
-          <li><strong>Third-Party Tags</strong> for delivery verification by Atlas, Google/DoubleClick, Sizmek, Podtrac, Lucid, MediaMath, and others upon request.</li>
+          <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory..</li>
         </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
             {% picture img/avails-search.png --alt Screenshot of looking up ad inventory in PRX Dovetail %}
@@ -158,36 +164,48 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-darkblue text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white px-4 py-5">
   <div class="container col-xxl-8">
-    <figure class="text-right">
-      <blockquote class="blockquote">
-        <p class="display-6">A well-known quote, contained in a blockquote element.</p>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <figure class="col-md-8">
+        <blockquote class="blockquote">
+          <p class="display-6">A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+      </figure>
+      <div class="quote-mark col-4">
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" />
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="bg-boxes px-4 py-5">
-  <div class="container col-xxl-8">
-    <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
-    <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-    <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
-    <div class="row g-4">
-      <div class="col d-flex align-items-start">
-        <div>
-          <ul>
-            <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
-            <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
-            <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
-          </ul>
+<section class="hero hero-x">
+  <div class="hero-image">
+    <div>{% picture img/podcast-studio.jpg --alt Podcasting studio %}</div>
+  </div>
+  <div class="hero-x-content hero-x-gray">
+    <div class="hero-content container col-xxl-8">
+      <div class="hero-content-inner col-md-8">
+        <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
+        <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+        <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
+        <div class="row g-4">
+          <div class="col d-flex align-items-start">
+            <div>
+              <ul>
+                <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
+                <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
+                <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
       </div>
     </div>
-    <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
   </div>
 </section>
 

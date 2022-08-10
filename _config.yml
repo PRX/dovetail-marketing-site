@@ -61,4 +61,3 @@ picture:
   source: "assets"
   output: "assets/generated"
   suppress_warnings: true
-  ignore_missing_images: true

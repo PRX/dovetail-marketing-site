@@ -30,7 +30,7 @@ image: /assets/img/og-image.jpg
       </div>
       {%- if post.heroimage -%}
       <div class="col-3 p-4 thumbnail d-none d-lg-block">
-        {% picture thumbnail "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
+        {% picture "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
       </div>
       {%- endif -%}
     </div>

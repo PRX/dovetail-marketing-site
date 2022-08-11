@@ -109,7 +109,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pt-4 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/publish-screenshot.jpg --alt Screenshot of publishing episodes in PRX Dovetail %}
+            {% picture img/publish-screenshot.jpg --alt Screenshot of publishing episodes in Dovetail from PRX %}
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/metrics-screenshot.jpg --alt Screenshot of podcast analytics in PRX Dovetail %}
+            {% picture img/metrics-screenshot.jpg --alt Screenshot of podcast analytics in Dovetail from PRX %}
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6 pb-4">
         <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
           <div class="container p-0 product-image">
-            {% picture img/availability-screenshot.jpg --alt Screenshot of looking up ad inventory in PRX Dovetail %}
+            {% picture img/availability-screenshot.jpg --alt Screenshot of looking up ad inventory in Dovetail from PRX %}
           </div>
         </div>
       </div>

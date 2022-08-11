@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /2022/07/21/introducing-dovetail-as-product
-title: Introducing Inventory Management in PRX Dovetail
+title: Introducing Inventory Management in Dovetail from PRX
 author: Brandon Hundt
 image: /assets/img/podcast-studio.png
 heroimage: img/podcast-studio.png

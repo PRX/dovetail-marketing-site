@@ -5,14 +5,20 @@ description: Dovetail provides producers with a seamless podcast publishing expe
 permalink: /features
 image: /assets/img/og-image.jpg
 ---
-<header class="post-header bg-black-diagonal text-white lede hero px-5 pb-4 m-0">
-  <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="display-5 post-title p-name" itemprop="name headline">Features</h1>
-      <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+<section class="text-white hero hero-x">
+  <div class="hero-image">
+    <div>
+    {% picture img/features-hero.jpg --alt Podcasting studio with microphone in foreground %}</div>
+  </div>
+  <div class="hero-x-content first-element">
+    <div class="hero-content container col-xxl-8">
+      <div class="hero-content-inner col-md-8">
+        <h1 class="mb-4 fw-bold">Features</h1>
+        <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+      </div>
     </div>
   </div>
-</header>
+</section>
 
 <section class="bg-boxes p-5">
   <div class="container col-xxl-8">
@@ -26,11 +32,23 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-darkblue text-white p-5">
-  <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Multiple RSS feeds</h2>
-    <p class="lead">Dovetail is highly flexible, supporting multiple RSS feeds. A couple of use cases: this enables producers to participate in podcast memberships or subscriptions services by creating private ad-free feeds, or to produce bonus content for station members.</p>
-    <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+<section class="hero hero-no-x text-white">
+  <div class="hero-image">
+    <div>{% picture img/multiple-feeds-hero.jpg --alt woman at laptop wearing headphones %}</div>
+  </div>
+  <div class="pt-5 pb-4">
+    <div class="hero-content container col-xxl-8">
+      <div class="row">
+        <div class="icon-svg quote-mark d-flex  justify-content-center col-4">
+          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" />
+        </div>
+        <div class="hero-content-inner col-8">
+          <h2 class="display-6 mb-4">Multiple RSS feeds</h2>
+          <p class="lead">Dovetail is highly flexible, supporting multiple RSS feeds. A couple of use cases: this enables producers to participate in podcast memberships or subscriptions services by creating private ad-free feeds, or to produce bonus content for station members.</p>
+          <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -42,18 +60,26 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-darkblue text-white px-4 py-5" id="icon-grid">
-  <div class="container col-xxl-8">
-    <h2 class="display-6">Privacy and Trust</h2>
-    <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-    <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
-    <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
+<section class="hero hero-x">
+  <div class="hero-image">
+    <div>{% picture img/podcast-studio.jpg --alt Podcasting studio %}</div>
+  </div>
+  <div class="hero-x-content hero-x-gray pt-5 pb-4">
+    <div class="hero-content container col-xxl-8">
+      <div class="hero-content-inner col-md-8">
+        <h2 class="display-6 mb-4">Privacy and Trust</h2>
+        <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+        <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
+        <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
+        <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+      </div>
+    </div>
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 half-x-mark">
+<aside class="text-white hero px-4 m-0 cta">
   <div class="hero-image">
-    <div>{% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
+    <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">

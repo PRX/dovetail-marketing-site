@@ -7,13 +7,7 @@ image: /assets/img/og-image.jpg
 <section class="text-white hero hero-x">
   <div class="hero-image">
     <div>
-    {%
-      picture
-      webp
-      img/microphone-bg.jpg 16:9
-      --alt Podcasting microphones
-      --picture class="hero"
-    %}</div>
+    {% picture img/homepage-hero.jpg --alt Podcasting studio with microphone %}</div>
   </div>
   <div class="hero-x-content first-element">
     <div class="hero-content container col-xxl-8">
@@ -209,12 +203,12 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 half-x-mark">
+<aside class="text-white hero px-4 m-0 cta">
   <div class="hero-image">
-    <div>{% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
+    <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>
   <div class="hero-content container col-xxl-8 text-center py-4">
-    <div class="hero-content-inner mt-4 mb-4">
+    <div class="hero-content-inner">
       <h2 class="display-6 pt-4">Ensure your podcast keeps it independence</h2>
       <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>

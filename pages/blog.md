@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Blog
-description: Thoughts from the PRX Tech Team
+title: Resources
+description: Thoughts and other resources from the PRX Tech Team
 permalink: /blog
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
   <div class="hero-content container col-xxl-8">
     <div class="hero-content-inner">
-      <h1 class="display-5 post-title p-name" itemprop="name headline">Blog</h1>
-      <p class="lead fs-3">Thoughts from the PRX Tech Team</p>
+      <h1 class="display-5 post-title p-name" itemprop="name headline">Resources</h1>
+      <p class="lead fs-3">Thoughts and other resources from the PRX Tech Team</p>
     </div>
   </div>
 </header>

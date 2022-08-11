@@ -9,7 +9,7 @@ media_queries:
 
 presets:
   default:
-    formats: [avif, webp, original] # Order matters!
+    formats: [webp, original] # Order matters!
     widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
     sizes:
       mobile: calc(100vw - 16px)
@@ -17,8 +17,6 @@ presets:
     size: 1200px
     format_quality:
       webp: 90
-      avif: 90
-      jp2: 90
     link_source: false
     dimension_attributes: true
 
@@ -26,8 +24,8 @@ presets:
     formats: [webp, original]
 
   avif:
-    formats: [avif, webp, original]
+    formats: [webp, original]
 
   loaded:
-    formats: [avif, webp, original]
+    formats: [webp, original]
     dimension_attributes: true

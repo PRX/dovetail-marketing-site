@@ -6,13 +6,7 @@ image: /assets/img/og-image.jpg
 <section class="text-white hero hero-x">
   <div class="hero-image">
     <div>
-    {%
-      picture
-      webp
-      img/microphone-bg.jpg 16:9
-      --alt Podcasting microphones
-      --picture class="hero"
-    %}</div>
+    {% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
   </div>
   <div class="hero-x-content first-element">
     <div class="hero-content container col-xxl-8">

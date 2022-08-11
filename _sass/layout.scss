@@ -153,8 +153,7 @@ background-size: 20px 20px;
 .section-quote {
   position: relative;
   overflow: hidden;
-
-  &::after {
+  /*&::after {
     content: '';
     top: -6rem;
     right: 0;
@@ -171,6 +170,14 @@ background-size: 20px 20px;
   figure {
     position: relative;
     z-index: 5;
+  }*/
+}
+
+.quote-mark {
+  img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
   }
 }
 

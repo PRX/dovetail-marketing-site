@@ -4,7 +4,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header bg-darkblue text-white lede hero px-4 pb-4 m-0">
     {%- if page.heroimage -%}
-    <div class="hero-image">
+    <div class="hero-image post">
       <div>{% picture {{ page.heroimage | escape }} --alt {{ page.heroimagealt }}} %}</div>
     </div>
     {%- endif -%}

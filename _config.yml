@@ -1,4 +1,4 @@
-title: PRX Dovetail
+title: Dovetail from PRX
 
 author:
   name: PRX
@@ -61,4 +61,3 @@ picture:
   source: "assets"
   output: "assets/generated"
   suppress_warnings: true
-  ignore_missing_images: true

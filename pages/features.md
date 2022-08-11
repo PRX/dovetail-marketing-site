@@ -62,7 +62,7 @@ image: /assets/img/og-image.jpg
 
 <section class="hero hero-x">
   <div class="hero-image">
-    <div>{% picture img/podcast-studio.jpg --alt Podcasting studio %}</div>
+    <div>{% picture img/privacy-hero.jpg --alt Headphones on an orange background %}</div>
   </div>
   <div class="hero-x-content hero-x-gray pt-5 pb-4">
     <div class="hero-content container col-xxl-8">

@@ -35,7 +35,7 @@ image: /assets/img/og-image.jpg
           Kerri Hoffman, CEO of PRX
         </figcaption>
       </figure>
-      <div class="quote-mark d-flex justify-content-center col-4">
+      <div class="quote-mark icon-svg d-flex justify-content-center col-4">
         <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
       </div>
     </div>
@@ -128,7 +128,7 @@ image: /assets/img/og-image.jpg
           Andrew Kuklewicz, Chief Technology Officer at PRX
         </figcaption>
       </figure>
-      <div class="quote-mark d-flex justify-content-center col-4">
+      <div class="quote-mark icon-svg d-flex justify-content-center col-4">
         <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
       </div>
     </div>

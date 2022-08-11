@@ -30,7 +30,7 @@ image: /assets/img/og-image.jpg
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>
@@ -45,48 +45,48 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/gbh.jpeg --alt GBH logo %}
+              {% picture thumbnail img/artwork/gbh.jpeg --alt GBH logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kcrw.png --alt KCRW logo %}
+              {% picture thumbnail img/artwork/kcrw.png --alt KCRW logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kera.png --alt KERA logo %}
+              {% picture thumbnail img/artwork/kera.png --alt KERA logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wamu.png --alt WAMU logo %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wpln.png --alt WPLN logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wunc.png --alt WUNC logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/cpr.png --alt Colorado Public Radio logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wwno.png --alt WWNO logo %}
+              {% picture thumbnail img/artwork/wamu.png --alt WAMU logo %}
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-             {% picture img/artwork/wypr.png --alt WYPR logo %}
+              {% picture thumbnail img/artwork/wpln.png --alt WPLN logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/stlpr.png --alt St Louis Public Radio logo %}
+              {% picture thumbnail img/artwork/wunc.png --alt WUNC logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-               {% picture img/artwork/whpr.jpeg --alt WHPR logo %}
+              {% picture thumbnail img/artwork/cpr.png --alt Colorado Public Radio logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kalw.png --alt KALW logo %}
+              {% picture thumbnail img/artwork/wwno.png --alt WWNO logo %}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+             {% picture thumbnail img/artwork/wypr.png --alt WYPR logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/stlpr.png --alt St Louis Public Radio logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               {% picture thumbnail img/artwork/whpr.jpeg --alt WHPR logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/kalw.png --alt KALW logo %}
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ image: /assets/img/og-image.jpg
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>

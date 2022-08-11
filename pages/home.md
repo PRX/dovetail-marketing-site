@@ -30,48 +30,48 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
+              {% picture thumbnail img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
+              {% picture thumbnail img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/reveal-podcast.jpg --alt Reveal podcast %}
+              {% picture thumbnail img/artwork/reveal-podcast.jpg --alt Reveal podcast %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/LUSA+x+PRX+for+Amazon.png --alt Latino USA %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/themoth.webp --alt The Moth %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/SnapPRX.png --alt Snap Judgement %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/song-exploder.webp --alt Song Exploder %}
+              {% picture thumbnail img/artwork/LUSA+x+PRX+for+Amazon.png --alt Latino USA %}
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/projectbrazen.webp --alt Project Brazen Originals %}
+              {% picture thumbnail img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/smithsonian.webp --alt Sidedoor from Smithsonian %}
+              {% picture thumbnail img/artwork/themoth.webp --alt The Moth %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/loveletters.webp --alt Love Letters from Boston Globe %}
+              {% picture thumbnail img/artwork/SnapPRX.png --alt Snap Judgement %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}
+              {% picture thumbnail img/artwork/song-exploder.webp --alt Song Exploder %}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/projectbrazen.webp --alt Project Brazen Originals %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/smithsonian.webp --alt Sidedoor from Smithsonian %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/loveletters.webp --alt Love Letters from Boston Globe %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ image: /assets/img/og-image.jpg
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>

@@ -40,7 +40,7 @@ image: /assets/img/og-image.jpg
     <div class="hero-content container col-xxl-8">
       <div class="row">
         <div class="icon-svg quote-mark d-flex  justify-content-center col-4">
-          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" />
+          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" width="100" height="100" />
         </div>
         <div class="hero-content-inner col-8">
           <h2 class="display-6 mb-4">Multiple RSS feeds</h2>

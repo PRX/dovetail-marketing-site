@@ -23,9 +23,18 @@ presets:
   webp:
     formats: [webp, original]
 
-  avif:
-    formats: [webp, original]
-
   loaded:
     formats: [webp, original]
     dimension_attributes: true
+
+  thumbnail:
+    base_width: 250 # How wide the 1x image should be.
+    pixel_ratios: [1, 1.5, 2] # Which multipliers to target.
+    widths: [250]
+    fallback_width: 250 # The default is 800, which is probably too big.
+    size: 250px
+    formats:  [webp, original]
+    dimension_attributes: true
+    attributes:
+      picture: 'class="thumbnail"'
+      img: 'class="thumbnail-image"'

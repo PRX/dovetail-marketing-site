@@ -9,7 +9,7 @@ image: /assets/img/og-image.jpg
   <div class="hero-content container col-xxl-8">
     <div class="hero-content-inner">
       <h1 class="display-5 post-title p-name" itemprop="name headline">Contact</h1>
-      <p class="lead fs-3">We want to know how we can help you with your podcasting needs. We know forms are boring, but this will help us understand better!</p>
+      <p class="lead fs-3">We want to know how we can help you with your podcasting needs. We know forms are boring, but this will help us better understand your podcasting needs.</p>
     </div>
   </div>
 </header>
@@ -50,6 +50,14 @@ image: /assets/img/og-image.jpg
       <div class="form-group">
         <label for="AvgDownloads">What are your average monthly downloads?</label>
         <input type="text" class="form-control" id="AvgDownloads" aria-describedby="AvgDownloads" placeholder="Enter avg number of downloads">
+      </div>
+      <div class="form-group">
+        <label for="Distributor">Who is your current podcast distributor?</label>
+        <input type="text" class="form-control" id="Distributor" aria-describedby="Distributor" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="DAI">Are you using dynamic ad insertion for your podcasts?</label>
+        <input type="text" class="form-control" id="DAI" aria-describedby="DAI" placeholder="Enter response">
       </div>
       <div class="form-group">
         <label for="howHelp">How can we help you?</label>

@@ -32,6 +32,12 @@ strong,
   font-family: $font-header-base;
 }
 
+ul {
+  li {
+    margin-bottom: .5rem;
+  }
+}
+
 .text-white {
   a {
   color: $ltblue;

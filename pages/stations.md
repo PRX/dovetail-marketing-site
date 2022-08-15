@@ -40,12 +40,12 @@ image: /assets/img/og-image.jpg
   <div class="container col-xxl-8">
     <h2 class="mb-3 display-6">Public Media Stations Partnering with PRX</h2>
     <p class="fs-4 mt-2 mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
-    <div id="logoCarouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/gbh.jpeg --alt GBH logo %}
+              {% picture thumbnail img/artwork/gbh.png --alt GBH logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/kcrw.png --alt KCRW logo %}
@@ -83,7 +83,7 @@ image: /assets/img/og-image.jpg
               {% picture thumbnail img/artwork/stlpr.png --alt St Louis Public Radio logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-               {% picture thumbnail img/artwork/whpr.jpeg --alt WHPR logo %}
+               {% picture thumbnail img/artwork/whpr.png --alt WHPR logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/kalw.png --alt KALW logo %}

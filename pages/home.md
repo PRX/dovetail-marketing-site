@@ -25,7 +25,7 @@ image: /assets/img/og-image.jpg
   <div class="container col-xxl-8">
     <p class="fs-3 mt-4 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
     <p class="fs-4 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
-    <div id="logoCarouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
@@ -49,26 +49,26 @@ image: /assets/img/og-image.jpg
               {% picture thumbnail img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/themoth.webp --alt The Moth %}
+              {% picture thumbnail img/artwork/themoth.png --alt The Moth %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/SnapPRX.png --alt Snap Judgement %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/song-exploder.webp --alt Song Exploder %}
+              {% picture thumbnail img/artwork/song-exploder.png --alt Song Exploder %}
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/projectbrazen.webp --alt Project Brazen Originals %}
+              {% picture thumbnail img/artwork/projectbrazen.png --alt Project Brazen Originals %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/smithsonian.webp --alt Sidedoor from Smithsonian %}
+              {% picture thumbnail img/artwork/smithsonian.png --alt Sidedoor from Smithsonian %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/loveletters.webp --alt Love Letters from Boston Globe %}
+              {% picture thumbnail img/artwork/loveletters.png --alt Love Letters from Boston Globe %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}

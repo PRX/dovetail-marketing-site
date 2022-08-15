@@ -32,11 +32,11 @@
 <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-ipad-retina-152x152.png">
 
 <!-- Stylesheets -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href="/assets/css/styles.css" rel="stylesheet">
+<link async href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link async href="/assets/css/styles.css" rel="stylesheet">
 
 <!-- JavaScript files -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 <!-- Plausible Analytics -->
 <script defer data-domain="dovetail.prx.org" src="https://plausible.io/js/plausible.js"></script>
@@ -73,66 +73,45 @@
     </div>
   </nav>
 
-    <section class="text-white hero hero-x">
+    <section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
-    <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/homepage-hero-200-24b5353e1.webp 200w, /assets/generated/img/homepage-hero-400-24b5353e1.webp 400w, /assets/generated/img/homepage-hero-800-24b5353e1.webp 800w, /assets/generated/img/homepage-hero-1200-24b5353e1.webp 1200w, /assets/generated/img/homepage-hero-1600-24b5353e1.webp 1600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/homepage-hero-200-f705e8f1b.jpg 200w, /assets/generated/img/homepage-hero-400-f705e8f1b.jpg 400w, /assets/generated/img/homepage-hero-800-f705e8f1b.jpg 800w, /assets/generated/img/homepage-hero-1200-f705e8f1b.jpg 1200w, /assets/generated/img/homepage-hero-1600-f705e8f1b.jpg 1600w" type="image/jpeg" /><img src="/assets/generated/img/homepage-hero-800-f705e8f1b.jpg" alt="Podcasting studio with microphone" width="6720" height="4480" /></picture>
-</div>
+    <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/hero-homepage-200-e36e90830.webp 200w, /assets/generated/img/hero-homepage-400-e36e90830.webp 400w, /assets/generated/img/hero-homepage-800-e36e90830.webp 800w, /assets/generated/img/hero-homepage-1200-e36e90830.webp 1200w, /assets/generated/img/hero-homepage-1440-e36e90830.webp 1440w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/hero-homepage-200-53104ce61.jpg 200w, /assets/generated/img/hero-homepage-400-53104ce61.jpg 400w, /assets/generated/img/hero-homepage-800-53104ce61.jpg 800w, /assets/generated/img/hero-homepage-1200-53104ce61.jpg 1200w, /assets/generated/img/hero-homepage-1440-53104ce61.jpg 1440w" type="image/jpeg" /><img src="/assets/generated/img/hero-homepage-800-53104ce61.jpg" alt="Podcasting studio with microphone" width="1440" height="1024" /></picture>
+
+    </div>
   </div>
-  <div class="hero-x-content first-element">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
-        <div class="d-grid gap-2 d-sm-flex">
-          <a href="/contact/" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
-        </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
+      <div class="d-grid gap-2 d-sm-flex">
+        <a href="/contact/" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-x-blue text-white px-4 py-4">
+<section class="bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-3 mt-4 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
+    <p class="fs-3 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
     <p class="fs-4 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
-    <div id="logoCarouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Crushed-Podcast-Art1-200-ed183e90f.webp 200w, /assets/generated/img/artwork/Crushed-Podcast-Art1-300-ed183e90f.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Crushed-Podcast-Art1-200-ded92fd20.jpeg 200w, /assets/generated/img/artwork/Crushed-Podcast-Art1-300-ded92fd20.jpeg 300w" type="image/jpeg" /><img src="/assets/generated/img/artwork/Crushed-Podcast-Art1-300-ded92fd20.jpeg" alt="Crushed from Religion of Sports" width="300" height="300" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/Crushed-Podcast-Art1-250-f14623260.webp 1.0x, /assets/generated/img/artwork/Crushed-Podcast-Art1-300-f14623260.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/Crushed-Podcast-Art1-250-ded92fd20.jpeg 1.0x, /assets/generated/img/artwork/Crushed-Podcast-Art1-300-ded92fd20.jpeg 1.2x" type="image/jpeg" /><img class="thumbnail-image" src="/assets/generated/img/artwork/Crushed-Podcast-Art1-250-ded92fd20.jpeg" alt="Crushed from Religion of Sports" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Frontline+Dispatch-200-64dfb1912.webp 200w, /assets/generated/img/artwork/Frontline+Dispatch-300-64dfb1912.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Frontline+Dispatch-200-6918727e4.jpg 200w, /assets/generated/img/artwork/Frontline+Dispatch-300-6918727e4.jpg 300w" type="image/jpeg" /><img src="/assets/generated/img/artwork/Frontline+Dispatch-300-6918727e4.jpg" alt="The Frontline Dispatch" width="300" height="300" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/Frontline+Dispatch-250-fd6a8baed.webp 1.0x, /assets/generated/img/artwork/Frontline+Dispatch-300-fd6a8baed.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/Frontline+Dispatch-250-6918727e4.jpg 1.0x, /assets/generated/img/artwork/Frontline+Dispatch-300-6918727e4.jpg 1.2x" type="image/jpeg" /><img class="thumbnail-image" src="/assets/generated/img/artwork/Frontline+Dispatch-250-6918727e4.jpg" alt="The Frontline Dispatch" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/reveal-podcast-200-ba743cbe2.webp 200w, /assets/generated/img/artwork/reveal-podcast-300-ba743cbe2.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/reveal-podcast-200-d497ec40e.jpg 200w, /assets/generated/img/artwork/reveal-podcast-300-d497ec40e.jpg 300w" type="image/jpeg" /><img src="/assets/generated/img/artwork/reveal-podcast-300-d497ec40e.jpg" alt="Reveal podcast" width="300" height="300" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/reveal-podcast-250-1154010fe.webp 1.0x, /assets/generated/img/artwork/reveal-podcast-300-1154010fe.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/reveal-podcast-250-d497ec40e.jpg 1.0x, /assets/generated/img/artwork/reveal-podcast-300-d497ec40e.jpg 1.2x" type="image/jpeg" /><img class="thumbnail-image" src="/assets/generated/img/artwork/reveal-podcast-250-d497ec40e.jpg" alt="Reveal podcast" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-200-b5e39b9ce.webp 200w, /assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-300-b5e39b9ce.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-200-fc6acabfd.png 200w, /assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-300-fc6acabfd.png 300w" type="image/png" /><img src="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-300-fc6acabfd.png" alt="Latino USA" width="300" height="300" /></picture>
-
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/TED-talks-daily-200-2faa14ce0.webp 200w, /assets/generated/img/artwork/TED-talks-daily-300-2faa14ce0.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/TED-talks-daily-200-900929b01.jpg 200w, /assets/generated/img/artwork/TED-talks-daily-300-900929b01.jpg 300w" type="image/jpeg" /><img src="/assets/generated/img/artwork/TED-talks-daily-300-900929b01.jpg" alt="TED Talks Daily" width="300" height="300" /></picture>
-
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/themoth-200-cf1db7a82.webp 200w, /assets/generated/img/artwork/themoth-313-cf1db7a82.webp 313w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/themoth-200-cf1db7a82.webp 200w, /assets/generated/img/artwork/themoth-313-cf1db7a82.webp 313w" type="image/webp" /><img src="/assets/generated/img/artwork/themoth-313-cf1db7a82.webp" alt="The Moth" width="313" height="313" /></picture>
-
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/SnapPRX-200-4a6873c73.webp 200w, /assets/generated/img/artwork/SnapPRX-300-4a6873c73.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/SnapPRX-200-372e08a17.png 200w, /assets/generated/img/artwork/SnapPRX-300-372e08a17.png 300w" type="image/png" /><img src="/assets/generated/img/artwork/SnapPRX-300-372e08a17.png" alt="Snap Judgement" width="300" height="300" /></picture>
-
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/song-exploder-200-e2da37933.webp 200w, /assets/generated/img/artwork/song-exploder-313-e2da37933.webp 313w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/song-exploder-200-e2da37933.webp 200w, /assets/generated/img/artwork/song-exploder-313-e2da37933.webp 313w" type="image/webp" /><img src="/assets/generated/img/artwork/song-exploder-313-e2da37933.webp" alt="Song Exploder" width="313" height="313" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-250-a2efe8937.webp 1.0x, /assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-300-a2efe8937.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-250-fc6acabfd.png 1.0x, /assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-300-fc6acabfd.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/LUSA+x+PRX+for+Amazon-250-fc6acabfd.png" alt="Latino USA" width="300" height="300" /></picture>
 
             </div>
           </div>
@@ -140,19 +119,39 @@
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/projectbrazen-200-4a49304d0.webp 200w, /assets/generated/img/artwork/projectbrazen-313-4a49304d0.webp 313w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/projectbrazen-200-4a49304d0.webp 200w, /assets/generated/img/artwork/projectbrazen-313-4a49304d0.webp 313w" type="image/webp" /><img src="/assets/generated/img/artwork/projectbrazen-313-4a49304d0.webp" alt="Project Brazen Originals" width="313" height="313" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/TED-talks-daily-250-b1869b0a2.webp 1.0x, /assets/generated/img/artwork/TED-talks-daily-300-b1869b0a2.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/TED-talks-daily-250-900929b01.jpg 1.0x, /assets/generated/img/artwork/TED-talks-daily-300-900929b01.jpg 1.2x" type="image/jpeg" /><img class="thumbnail-image" src="/assets/generated/img/artwork/TED-talks-daily-250-900929b01.jpg" alt="TED Talks Daily" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/smithsonian-200-2ae22125a.webp 200w, /assets/generated/img/artwork/smithsonian-313-2ae22125a.webp 313w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/smithsonian-200-2ae22125a.webp 200w, /assets/generated/img/artwork/smithsonian-313-2ae22125a.webp 313w" type="image/webp" /><img src="/assets/generated/img/artwork/smithsonian-313-2ae22125a.webp" alt="Sidedoor from Smithsonian" width="313" height="313" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/themoth-250-94221c09c.webp 1.0x, /assets/generated/img/artwork/themoth-300-94221c09c.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/themoth-250-c7375c18e.png 1.0x, /assets/generated/img/artwork/themoth-300-c7375c18e.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/themoth-250-c7375c18e.png" alt="The Moth" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/loveletters-200-0e4428c41.webp 200w, /assets/generated/img/artwork/loveletters-313-0e4428c41.webp 313w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/loveletters-200-0e4428c41.webp 200w, /assets/generated/img/artwork/loveletters-313-0e4428c41.webp 313w" type="image/webp" /><img src="/assets/generated/img/artwork/loveletters-313-0e4428c41.webp" alt="Love Letters from Boston Globe" width="313" height="313" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/SnapPRX-250-a80bb8b1b.webp 1.0x, /assets/generated/img/artwork/SnapPRX-300-a80bb8b1b.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/SnapPRX-250-372e08a17.png 1.0x, /assets/generated/img/artwork/SnapPRX-300-372e08a17.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/SnapPRX-250-372e08a17.png" alt="Snap Judgement" width="300" height="300" /></picture>
 
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Ear-hustle-podcast-200-62dbd72f2.webp 200w, /assets/generated/img/artwork/Ear-hustle-podcast-300-62dbd72f2.webp 300w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/artwork/Ear-hustle-podcast-200-f18c7f811.jpg 200w, /assets/generated/img/artwork/Ear-hustle-podcast-300-f18c7f811.jpg 300w" type="image/jpeg" /><img src="/assets/generated/img/artwork/Ear-hustle-podcast-300-f18c7f811.jpg" alt="Ear Hustle" width="300" height="300" /></picture>
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/song-exploder-250-c99d01b8e.webp 1.0x, /assets/generated/img/artwork/song-exploder-300-c99d01b8e.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/song-exploder-250-05fc76649.png 1.0x, /assets/generated/img/artwork/song-exploder-300-05fc76649.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/song-exploder-250-05fc76649.png" alt="Song Exploder" width="300" height="300" /></picture>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/projectbrazen-250-e2e089e71.webp 1.0x, /assets/generated/img/artwork/projectbrazen-300-e2e089e71.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/projectbrazen-250-30a514805.png 1.0x, /assets/generated/img/artwork/projectbrazen-300-30a514805.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/projectbrazen-250-30a514805.png" alt="Project Brazen Originals" width="300" height="300" /></picture>
+
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/smithsonian-250-aef03c0d6.webp 1.0x, /assets/generated/img/artwork/smithsonian-300-aef03c0d6.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/smithsonian-250-8115155bf.png 1.0x, /assets/generated/img/artwork/smithsonian-300-8115155bf.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/smithsonian-250-8115155bf.png" alt="Sidedoor from Smithsonian" width="300" height="300" /></picture>
+
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/loveletters-250-217997bf4.webp 1.0x, /assets/generated/img/artwork/loveletters-300-217997bf4.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/loveletters-250-5f53d6031.png 1.0x, /assets/generated/img/artwork/loveletters-300-5f53d6031.png 1.2x" type="image/png" /><img class="thumbnail-image" src="/assets/generated/img/artwork/loveletters-250-5f53d6031.png" alt="Love Letters from Boston Globe" width="300" height="300" /></picture>
+
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <picture class="thumbnail"><source srcset="/assets/generated/img/artwork/Ear-hustle-podcast-250-d7148d2d6.webp 1.0x, /assets/generated/img/artwork/Ear-hustle-podcast-300-d7148d2d6.webp 1.2x" type="image/webp" /><source srcset="/assets/generated/img/artwork/Ear-hustle-podcast-250-f18c7f811.jpg 1.0x, /assets/generated/img/artwork/Ear-hustle-podcast-300-f18c7f811.jpg 1.2x" type="image/jpeg" /><img class="thumbnail-image" src="/assets/generated/img/artwork/Ear-hustle-podcast-250-f18c7f811.jpg" alt="Ear Hustle" width="300" height="300" /></picture>
 
             </div>
           </div>
@@ -170,7 +169,7 @@
   </div>
 </section>
 
-<section class="bg-boxes px-4 pt-5 pb-4">
+<section class="bg-boxes p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6">Manage Your Content with Ease</h2>
     <div class="row">
@@ -194,7 +193,7 @@
   </div>
 </section>
 
-<section class="bg-polka px-4 pt-5 pb-4">
+<section class="bg-polka p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
     <div class="row">
@@ -219,7 +218,7 @@
   </div>
 </section>
 
-<section class="bg-wavy pt-5 pb-4">
+<section class="bg-wavy p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
     <div class="row">
@@ -243,7 +242,7 @@
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -255,41 +254,41 @@
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>
 </section>
 
-<section class="hero hero-x">
+<section class="hero p-5">
   <div class="hero-image">
-    <div><picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/privacy-hero-200-2b527835a.webp 200w, /assets/generated/img/privacy-hero-400-2b527835a.webp 400w, /assets/generated/img/privacy-hero-800-2b527835a.webp 800w, /assets/generated/img/privacy-hero-1200-2b527835a.webp 1200w, /assets/generated/img/privacy-hero-1600-2b527835a.webp 1600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/privacy-hero-200-945a1e11a.jpg 200w, /assets/generated/img/privacy-hero-400-945a1e11a.jpg 400w, /assets/generated/img/privacy-hero-800-945a1e11a.jpg 800w, /assets/generated/img/privacy-hero-1200-945a1e11a.jpg 1200w, /assets/generated/img/privacy-hero-1600-945a1e11a.jpg 1600w" type="image/jpeg" /><img src="/assets/generated/img/privacy-hero-800-945a1e11a.jpg" alt="Headphones on an orange background" width="5760" height="3840" /></picture>
-</div>
+    <div>
+    <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/hero-privacy-200-b71c75d9b.webp 200w, /assets/generated/img/hero-privacy-400-b71c75d9b.webp 400w, /assets/generated/img/hero-privacy-800-b71c75d9b.webp 800w, /assets/generated/img/hero-privacy-1200-b71c75d9b.webp 1200w, /assets/generated/img/hero-privacy-1440-b71c75d9b.webp 1440w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/hero-privacy-200-2811e0d2a.jpg 200w, /assets/generated/img/hero-privacy-400-2811e0d2a.jpg 400w, /assets/generated/img/hero-privacy-800-2811e0d2a.jpg 800w, /assets/generated/img/hero-privacy-1200-2811e0d2a.jpg 1200w, /assets/generated/img/hero-privacy-1440-2811e0d2a.jpg 1440w" type="image/jpeg" /><img src="/assets/generated/img/hero-privacy-800-2811e0d2a.jpg" alt="Headphones on an orange background" width="1440" height="1024" /></picture>
+
+    </div>
   </div>
-  <div class="hero-x-content hero-x-gray pt-5 pb-4">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
-        <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-        <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
-        <div class="row g-4">
-          <div class="col d-flex align-items-start">
-            <div>
-              <ul>
-                <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
-                <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
-                <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
-              </ul>
-            </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
+      <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+      <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
+      <div class="row g-4">
+        <div class="col d-flex align-items-start">
+          <div>
+            <ul>
+              <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
+              <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
+              <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
+            </ul>
           </div>
         </div>
-        <p class="mb-4"><a href="/contact/" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
       </div>
+      <p class="mb-4"><a href="/contact/" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 cta">
+<aside class="text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div><picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/cta-hero-200-2c50791ed.webp 200w, /assets/generated/img/cta-hero-400-2c50791ed.webp 400w, /assets/generated/img/cta-hero-800-2c50791ed.webp 800w, /assets/generated/img/cta-hero-1200-2c50791ed.webp 1200w, /assets/generated/img/cta-hero-1600-2c50791ed.webp 1600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/cta-hero-200-ad170f236.jpg 200w, /assets/generated/img/cta-hero-400-ad170f236.jpg 400w, /assets/generated/img/cta-hero-800-ad170f236.jpg 800w, /assets/generated/img/cta-hero-1200-ad170f236.jpg 1200w, /assets/generated/img/cta-hero-1600-ad170f236.jpg 1600w" type="image/jpeg" /><img src="/assets/generated/img/cta-hero-800-ad170f236.jpg" alt="Open laptop with a podcasting microphone in foreground" width="6322" height="4215" /></picture>
 </div>
@@ -310,7 +309,7 @@
             <a class="navbar-brand" href="/">
                 <img src="/assets/img/dovetail-from-prx-stacked.svg" alt="Dovetail from PRX" aria-label="Dovetail from PRX" width="268" height="54">
             </a>
-            <p class="mt-3">Dovetail from PRX is made by <a href="https://prx.org"><strong>PRX</strong></a> &copy; 2022</p>
+            <p class="mt-3"><a href="https://prx.org"><strong>PRX</strong></a> &copy; 2022</p>
         </section>
         <section class="col">
           <p class="fw-bold text-uppercase">Company</p>
@@ -318,7 +317,6 @@
             <li><a href="https://www.prx.org">PRX</a></li>
             <li><a href="https://www.prx.org/company/about">About PRX</a></li>
             <li><a href="https://medium.com/public-radio-exchange">PRX Blog</a></li>
-            <li><a href="https://www.prx.org/company/donate">Donate</a></li>
           </ul>
         </section>
         <section class="col">

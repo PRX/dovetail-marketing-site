@@ -5,17 +5,16 @@ description: Dovetail provides producers with a seamless podcast publishing expe
 permalink: /features
 image: /assets/img/og-image.jpg
 ---
-<section class="text-white hero hero-x">
+<section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
-    {% picture img/features-hero.jpg --alt Podcasting studio with microphone in foreground %}</div>
+    {% picture img/hero-features.jpg --alt Podcasting studio with microphone in foreground %}
+    </div>
   </div>
-  <div class="hero-x-content first-element">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h1 class="mb-4 fw-bold">Features</h1>
-        <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
-      </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Features</h1>
+      <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
     </div>
   </div>
 </section>
@@ -40,7 +39,7 @@ image: /assets/img/og-image.jpg
     <div class="hero-content container col-xxl-8">
       <div class="row">
         <div class="icon-svg quote-mark d-flex  justify-content-center col-4">
-          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" />
+          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" width="100" height="100" />
         </div>
         <div class="hero-content-inner col-8">
           <h2 class="display-6 mb-4">Multiple RSS feeds</h2>
@@ -60,19 +59,19 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="hero hero-x">
+<section class="hero p-5">
   <div class="hero-image">
-    <div>{% picture img/privacy-hero.jpg --alt Headphones on an orange background %}</div>
+    <div>
+    {% picture img/hero-privacy.jpg --alt Headphones %}
+    </div>
   </div>
-  <div class="hero-x-content hero-x-gray pt-5 pb-4">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h2 class="display-6 mb-4">Privacy and Trust</h2>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Privacy and Trust</h1>
         <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
         <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
         <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
         <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
-      </div>
     </div>
   </div>
 </section>

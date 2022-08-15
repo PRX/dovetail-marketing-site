@@ -57,6 +57,9 @@ compress_html:
   # ignore:
   #   envs: all
 
+sass:
+    style: compressed
+
 picture:
   source: "assets"
   output: "assets/generated"

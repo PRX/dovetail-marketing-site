@@ -3,22 +3,21 @@ layout: default
 permalink: /stations
 image: /assets/img/og-image.jpg
 ---
-<section class="text-white hero hero-x">
+<section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
-    {% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
+    {% picture img/hero-stations.jpg --alt Podcasting microphones %}
+    </div>
   </div>
-  <div class="hero-x-content first-element">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
-        <p class="lead fs-4">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
-      </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
+      <p class="lead fs-3">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
     </div>
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -30,63 +29,63 @@ image: /assets/img/og-image.jpg
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-darkblue text-white px-4 py-5" id="icon-grid">
+<section class="bg-darkblue text-white p-5" id="icon-grid">
   <div class="container col-xxl-8">
     <h2 class="mb-3 display-6">Public Media Stations Partnering with PRX</h2>
     <p class="fs-4 mt-2 mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
-    <div id="logoCarouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/gbh.jpeg --alt GBH logo %}
+              {% picture thumbnail img/artwork/gbh.png --alt GBH logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kcrw.png --alt KCRW logo %}
+              {% picture thumbnail img/artwork/kcrw.png --alt KCRW logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kera.png --alt KERA logo %}
+              {% picture thumbnail img/artwork/kera.png --alt KERA logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wamu.png --alt WAMU logo %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wpln.png --alt WPLN logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wunc.png --alt WUNC logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/cpr.png --alt Colorado Public Radio logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/wwno.png --alt WWNO logo %}
+              {% picture thumbnail img/artwork/wamu.png --alt WAMU logo %}
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-             {% picture img/artwork/wypr.png --alt WYPR logo %}
+              {% picture thumbnail img/artwork/wpln.png --alt WPLN logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/stlpr.png --alt St Louis Public Radio logo %}
+              {% picture thumbnail img/artwork/wunc.png --alt WUNC logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-               {% picture img/artwork/whpr.jpeg --alt WHPR logo %}
+              {% picture thumbnail img/artwork/cpr.png --alt Colorado Public Radio logo %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture img/artwork/kalw.png --alt KALW logo %}
+              {% picture thumbnail img/artwork/wwno.png --alt WWNO logo %}
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3 thumbnail-gallery pb-4">
+            <div class="col d-flex align-items-center justify-content-center">
+             {% picture thumbnail img/artwork/wypr.png --alt WYPR logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/stlpr.png --alt St Louis Public Radio logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+               {% picture thumbnail img/artwork/whpr.png --alt WHPR logo %}
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              {% picture thumbnail img/artwork/kalw.png --alt KALW logo %}
             </div>
           </div>
         </div>
@@ -111,7 +110,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -123,7 +122,7 @@ image: /assets/img/og-image.jpg
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
-        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" />
+        <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>
@@ -163,7 +162,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 cta">
+<aside class="text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

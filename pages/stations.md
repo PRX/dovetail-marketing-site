@@ -3,22 +3,21 @@ layout: default
 permalink: /stations
 image: /assets/img/og-image.jpg
 ---
-<section class="text-white hero hero-x">
+<section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
-    {% picture img/microphone-bg.jpg --alt Podcasting microphones %}</div>
+    {% picture img/hero-stations.jpg --alt Podcasting microphones %}
+    </div>
   </div>
-  <div class="hero-x-content first-element">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
-        <p class="lead fs-4">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
-      </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
+      <p class="lead fs-3">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
     </div>
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -36,7 +35,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-darkblue text-white px-4 py-5" id="icon-grid">
+<section class="bg-darkblue text-white p-5" id="icon-grid">
   <div class="container col-xxl-8">
     <h2 class="mb-3 display-6">Public Media Stations Partnering with PRX</h2>
     <p class="fs-4 mt-2 mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
@@ -111,7 +110,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -163,7 +162,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 cta">
+<aside class="text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

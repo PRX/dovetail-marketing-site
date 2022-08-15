@@ -29,8 +29,8 @@ image: /assets/img/og-image.jpg
         <a href="{{ post.url }}" class="stretched-link" aria-label="continue reading"></a>
       </div>
       {%- if post.heroimage -%}
-      <div class="col-3 p-4 thumbnail d-none d-lg-block">
-        {% picture "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
+      <div class="col-3 p-4 thumbnail d-none d-lg-block blog-thumbnail">
+        {% picture thumbnail "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
       </div>
       {%- endif -%}
     </div>

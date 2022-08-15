@@ -3,27 +3,25 @@ layout: default
 permalink: /
 image: /assets/img/og-image.jpg
 ---
-
-<section class="text-white hero hero-x">
+<section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
-    {% picture img/homepage-hero.jpg --alt Podcasting studio with microphone %}</div>
+    {% picture img/hero-homepage.jpg --alt Podcasting studio with microphone %}
+    </div>
   </div>
-  <div class="hero-x-content first-element">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
-        <div class="d-grid gap-2 d-sm-flex">
-          <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
-        </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
+      <div class="d-grid gap-2 d-sm-flex">
+        <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-x-blue text-white px-4 py-4">
+<section class="bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-3 mt-4 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
+    <p class="fs-3 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
     <p class="fs-4 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -88,7 +86,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-boxes px-4 pt-5 pb-4">
+<section class="bg-boxes p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6">Manage Your Content with Ease</h2>
     <div class="row">
@@ -111,7 +109,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-polka px-4 pt-5 pb-4">
+<section class="bg-polka p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
     <div class="row">
@@ -135,7 +133,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-wavy pt-5 pb-4">
+<section class="bg-wavy p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
     <div class="row">
@@ -158,7 +156,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white px-4 py-5">
+<section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -176,34 +174,34 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="hero hero-x">
+<section class="hero p-5">
   <div class="hero-image">
-    <div>{% picture img/privacy-hero.jpg --alt Headphones on an orange background %}</div>
+    <div>
+    {% picture img/hero-privacy.jpg --alt Headphones on an orange background %}
+    </div>
   </div>
-  <div class="hero-x-content hero-x-gray pt-5 pb-4">
-    <div class="hero-content container col-xxl-8">
-      <div class="hero-content-inner col-md-8">
-        <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
-        <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-        <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
-        <div class="row g-4">
-          <div class="col d-flex align-items-start">
-            <div>
-              <ul>
-                <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
-                <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
-                <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
-              </ul>
-            </div>
+  <div class="hero-content container col-xxl-8">
+    <div class="hero-content-inner">
+      <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
+      <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+      <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
+      <div class="row g-4">
+        <div class="col d-flex align-items-start">
+          <div>
+            <ul>
+              <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
+              <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
+              <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
+            </ul>
           </div>
         </div>
-        <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
       </div>
+      <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 cta">
+<aside class="text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

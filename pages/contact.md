@@ -19,53 +19,52 @@ image: /assets/img/og-image.jpg
 
   <div class="post-content">
     <h2 class="display-6">Tell us a little about yourself...</h2>
-    <form>
+    <form name="contact_form" accept-charset="UTF-8" action="https://g26e6h83r5.execute-api.us-east-1.amazonaws.com/submit" method="POST">
       <div class="form-group">
-        <label for="inputName">Name</label>
-        <input type="text" class="form-control" id="inputName" aria-describedby="inputName" placeholder="Enter your name">
+        <label for="inputName">Name*</label>
+        <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="inputName" placeholder="Enter your name" required>
       </div>
       <div class="form-group">
-        <label for="InputEmail1">Email address</label>
-        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="inputEmail">Email address*</label>
+        <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
         <small class="form-text text-white">We'll never share your email with anyone else.</small>
       </div>
       <div class="form-group">
         <label for="textOrganization">Organization</label>
-        <input type="text" class="form-control" id="inputOrganization" aria-describedby="textOrganization" placeholder="Enter your organization">
+        <input type="text" class="form-control" id="textOrganization" name="textOrganization" aria-describedby="textOrganization" placeholder="Enter your organization">
       </div>
       <div class="form-group">
         <label for="textJobTitle">Job Title</label>
-        <input type="text" class="form-control" id="textJobTitle" aria-describedby="textJobTitle" placeholder="Enter your job title">
+        <input type="text" class="form-control" id="textJobTitle" name="textJobTitle" aria-describedby="textJobTitle" placeholder="Enter your job title">
       </div>
       <div class="form-group">
         <label for="textPhone">Phone Number</label>
-        <input type="text" class="form-control" id="textPhone" aria-describedby="textPhone" placeholder="(xxx)-xxx-xxxx">
+        <input type="text" class="form-control" id="textPhone" name="textPhone" aria-describedby="textPhone" placeholder="(xxx)-xxx-xxxx">
       </div>
       <hr />
       <h2 class="display-6">Tell us about your podcasts...</h2>
       <div class="form-group">
-        <label for="NumberPodcasts">How many podcasts do you currently have?</label>
-        <input type="text" class="form-control" id="NumberPodcasts" aria-describedby="NumberPodcasts" placeholder="Enter number of podcasts">
+        <label for="numberPodcasts">How many podcasts do you currently have?</label>
+        <input type="text" class="form-control" id="numberPodcasts" aria-describedby="numberPodcasts" name="numberPodcasts" placeholder="Enter number of podcasts">
       </div>
       <div class="form-group">
-        <label for="AvgDownloads">What are your average monthly downloads?</label>
-        <input type="text" class="form-control" id="AvgDownloads" aria-describedby="AvgDownloads" placeholder="Enter avg number of downloads">
+        <label for="inputAvgDownloads">What are your average monthly downloads?</label>
+        <input type="text" class="form-control" id="inputAvgDownloads" name="inputAvgDownloads" aria-describedby="inputAvgDownloads" placeholder="Enter avg number of downloads">
       </div>
       <div class="form-group">
-        <label for="Distributor">Who is your current podcast distributor?</label>
-        <input type="text" class="form-control" id="Distributor" aria-describedby="Distributor" placeholder="Enter name">
+        <label for="inputDistributor">Who is your current podcast distributor?</label>
+        <input type="text" class="form-control" id="inputDistributor" name="inputDistributor" aria-describedby="inputDistributor" placeholder="Enter name">
       </div>
       <div class="form-group">
-        <label for="DAI">Are you using dynamic ad insertion for your podcasts?</label>
-        <input type="text" class="form-control" id="DAI" aria-describedby="DAI" placeholder="Enter response">
+        <label for="inputDAI">Are you using dynamic ad insertion for your podcasts?</label>
+        <input type="text" class="form-control" id="inputDAI" name=" inputDAI" aria-describedby="inputDAI" placeholder="Enter response">
       </div>
       <div class="form-group">
-        <label for="howHelp">How can we help you?</label>
-        <textarea class="form-control" id="howHelp" aria-describedby="howHelp" placeholder="Anything else you want to share?"></textarea>
+        <label for="textHelp">How can we help you?</label>
+        <textarea class="form-control" id="textHelp" name="textHelp" aria-describedby="textHelp" placeholder="Anything else you want to share?"></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-
     </div>
   </div>
 </div>

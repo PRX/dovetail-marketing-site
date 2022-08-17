@@ -19,4 +19,7 @@
 <url>
 <loc>/stations</loc>
 </url>
+<url>
+<loc>/success/</loc>
+</url>
 </urlset>

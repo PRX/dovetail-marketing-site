@@ -12,9 +12,13 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
   <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="mb-4 fw-bold">Features</h1>
-      <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-content-inner">
+          <h1 class="mb-4 fw-bold">Features</h1>
+          <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -66,12 +70,16 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
   <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="mb-4 fw-bold">Privacy and Trust</h1>
-        <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-        <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
-        <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
-        <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-content-inner">
+          <h1 class="mb-4 fw-bold">Privacy and Trust</h1>
+          <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+          <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
+          <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
+          <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

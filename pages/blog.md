@@ -5,7 +5,7 @@ description: Thoughts and other resources from the PRX Tech Team
 permalink: /blog
 image: /assets/img/og-image.jpg
 ---
-<header class="post-header bg-black-diagonal text-white lede hero px-4 pb-4 m-0">
+<header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">
   <div class="hero-content container col-xxl-8">
     <div class="hero-content-inner">
       <h1 class="display-5 post-title p-name" itemprop="name headline">Resources</h1>
@@ -15,7 +15,7 @@ image: /assets/img/og-image.jpg
 </header>
 
 <section>
-  <div class="container col-xxl-8 p-4">
+  <div class="container col-xxl-8 p-5">
     {% for post in site.posts %}
     <div class="row g-0 border bg-white rounded overflow-hidden flex-md-row mt-0 mb-4 shadow-sm h-md-250 position-relative">
       <div class="col p-4 d-flex flex-column position-static">

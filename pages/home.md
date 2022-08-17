@@ -10,10 +10,14 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
   <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
-      <div class="d-grid gap-2 d-sm-flex">
-        <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-content-inner">
+          <h1 class="mb-4 fw-bold">Privacy first podcast distribution for <em>professional producers</em></h1>
+          <div class="d-grid gap-2 d-sm-flex">
+            <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -141,8 +145,8 @@ image: /assets/img/og-image.jpg
         <p class="fs-5 mt-2">Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.</p>
         <ul class="mb-4">
           <li><strong>Dynamic Ad Insertion:</strong> Run ads uniquely at any break in a show or paired to “bookend” before and after a story at the time of user download </li>
-          <li><strong>Targeting:</strong> By episode, show, network, vertical, topic/keyword, and geo-location.</li>
-          <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory..</li>
+          <li><strong>Targeting:</strong> By episode, show, network, vertical, topic/keyword, and geo-location</li>
+          <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory</li>
         </ul>
       </div>
       <div class="col-md-6 pb-4">
@@ -181,22 +185,26 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
   <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
-      <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-      <h3 class="mb-4">We never store listener IP addresses. Ever.</h3>
-      <div class="row g-4">
-        <div class="col d-flex align-items-start">
-          <div>
-            <ul>
-              <li>Greater privacy standards increase ad quality and result in higher CPMs </li>
-              <li>Brand safety tools ensure high-quality, on-topic ads for your podcast that don’t seem out of place</li>
-              <li>Our private programmatic ad exchange immediately capitilize on new listeners/unsused inventory</li>
-            </ul>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-content-inner">
+          <h2 class="display-6 mb-4">Built with listener privacy in mind</h2>
+          <p class="fs-5">PRX is taking the lead in establishing standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
+          <p class="fs-5"><strong>Why should you care about privacy?</strong></p>
+          <div class="row g-4">
+            <div class="col d-flex align-items-start">
+              <div>
+                <ul>
+                  <li><strong>Mission:</strong> Trust is a two-way street. Public media's ability to thrive depends on the trust our listeners place in us.  Using personal data without permission violates that trust.</li>
+                  <li><strong>Compliance:</strong> Privacy regulations are strengthening, not weakening.  It is essential for content creators to be ready.</li>
+                  <li><strong>Technology:</strong>  Big tech companies like Apple are taking a stand on privacy and will force others to do the same. PRX is an active leader in building values-based technology on behalf of all of our partners.</li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
         </div>
       </div>
-      <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>
   </div>
 </section>

@@ -53,6 +53,17 @@ ul {
   }
 }
 
+footer.bg-black-diagonal {
+  a {
+    color: $orange;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .blockquote-footer {
   font-size: 1.25rem;
   color: $white;

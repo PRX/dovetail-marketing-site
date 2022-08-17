@@ -12,5 +12,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
-  gem 'jekyll_picture_tag', github: 'erikw/jekyll_picture_tag', branch: 'master'
+  gem 'jekyll_picture_tag', '~> 2.0.4'
 end

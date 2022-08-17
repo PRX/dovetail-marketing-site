@@ -9,7 +9,7 @@ media_queries:
 
 presets:
   default:
-    formats: [webp, original] # Order matters!
+    formats: [avif, webp, original] # Order matters!
     widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
     sizes:
       mobile: calc(100vw - 16px)
@@ -17,14 +17,19 @@ presets:
     size: 1200px
     format_quality:
       webp: 90
+      avif: 90
+      jp2: 90
     link_source: false
     dimension_attributes: true
 
   webp:
     formats: [webp, original]
 
+  avif:
+    formats: [avif, webp, original]
+
   loaded:
-    formats: [webp, original]
+    formats: [avif, webp, original]
     dimension_attributes: true
 
   thumbnail:
@@ -33,7 +38,7 @@ presets:
     widths: [250]
     fallback_width: 250 # The default is 800, which is probably too big.
     size: 250px
-    formats:  [webp, original]
+    formats:  [avif, webp, original]
     dimension_attributes: true
     attributes:
       picture: 'class="thumbnail"'

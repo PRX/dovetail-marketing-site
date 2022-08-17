@@ -10,9 +10,13 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
   <div class="hero-content container col-xxl-8">
-    <div class="hero-content-inner">
-      <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
-      <p class="lead fs-3">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-content-inner">
+          <h1 class="mb-4 fw-bold">Dovetail For Public Media Stations</h1>
+          <p class="lead fs-3">We believe strong public media is amplified by innovative technology, which is a core reason why we built best-in-class tools for podcast publishing, distribution, and advertising, specifically for public media use.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

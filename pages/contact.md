@@ -14,7 +14,7 @@ image: /assets/img/og-image.jpg
   </div>
 </header>
 
-<div class="bg-darkblue p-5 text-white">
+<div class="p-5">
   <div class="container col-xxl-8">
 
   <div class="post-content">
@@ -27,7 +27,7 @@ image: /assets/img/og-image.jpg
       <div class="form-group">
         <label for="inputEmail">Email address*</label>
         <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
-        <small class="form-text text-white">We'll never share your email with anyone else.</small>
+        <small class="form-text">We'll never share your email with anyone else.</small>
       </div>
       <div class="form-group">
         <label for="textOrganization">Organization</label>

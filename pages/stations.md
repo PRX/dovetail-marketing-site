@@ -26,7 +26,7 @@ image: /assets/img/og-image.jpg
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
         <blockquote class="blockquote mt-2">
-          <p class="fs-3">“PRX Dovetail is one way we can contribute to helping public radio to fortify its mission, values, and independence, giving organizations the option to distribute their podcast programming on a trusted platform that is also owned and operated by public media.” </p>
+          <p class="fs-3">“Dovetail is one way we can contribute to helping public radio to fortify its mission, values, and independence, giving organizations the option to distribute their podcast programming on a trusted platform that is also owned and operated by public media.” </p>
         </blockquote>
         <figcaption class="blockquote-footer">
           Kerri Hoffman, CEO of PRX
@@ -134,7 +134,7 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-polka p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Dovetail Pricing for Stations</h2>
+    <h2 class="display-6 mb-3">Pricing for Stations</h2>
     <p class="fs-4 mt-2">PRX is committed to affordability and accessibility. Pricing scales to users’ needs, and users may select either full-service or self-service options. </p>
     <p>We offer several competitive pricing options to fit the needs of organization of all sizes:</p>
     <ul>

@@ -58,8 +58,8 @@ image: /assets/img/og-image.jpg
 <section class="bg-wavy p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Real-time data to help you understand your audience</h2>
-    <p class="lead">One of the biggest pain points in podcasting is accessing data and metrics that inform strategic goals. Dovetail by PRX provides a solution.  empowers podcast producers with essential knowledge in real-time.</p>
-    <p>Analyze metrics by geography, device, and podcast app, to learn where, how, and when audiences are listening to your programming.</p>
+    <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
+    <p>Analyze metrics by geography, device, and podcast app, to learn where, how, and when audiences are listening to your programming in real-time.</p>
   </div>
 </section>
 

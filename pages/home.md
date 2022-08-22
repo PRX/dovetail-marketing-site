@@ -25,8 +25,8 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-3 mb-4">Dovetail helps producers grow, monetize, and sustain their podcasts through <strong>Dynamic Ad Insertion</strong> to help producers succeed in today’s open podcast ecosystem.</p>
-    <p class="fs-4 mb-4">Over 260 podcasts are leveraging Dovetail to grow audience and revenue, for an average of 70 million downloads per month.</p>
+    <p class="fs-3 mb-4">Dovetail from PRX helps producers grow, monetize, and sustain their podcasts to succeed in today’s open podcast ecosystem.</p>
+    <p class="fs-4 mb-4">Dovetail averages 70 million downloads per month from over 260 podcasts.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -97,7 +97,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6">
         <p class="fs-5 mt-2">Effortlessly upload and describe your work in our content management system, and watch your podcast be delivered to listeners everywhere.</p>
         <ul class="mb-4">
-          <li>Utilize <strong>multiple and flexible feed structures</strong>, including private feeds</li>
+          <li><strong>Multiple Feed Structures</strong>, including private feeds</li>
           <li><strong>Preview audio</strong> with ads stitched in before publishing</li>
           <li>Manage content with <strong>titles, tags, and keywords</strong></li>
         </ul>
@@ -122,7 +122,7 @@ image: /assets/img/og-image.jpg
         <ul class="mb-4">
           <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
           <li><strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats</li>
-          <li><strong>Unique Listener Metrics:</strong> Listener data by geography, device, and podcast app</li>
+          <li><strong>Episode Forecasts:</strong> See into the future with episode-level forecasts</li>
           <li><strong>IAB 2.1 complaint</strong></li>
         </ul>
       </div>
@@ -144,8 +144,8 @@ image: /assets/img/og-image.jpg
       <div class="col-md-6">
         <p class="fs-5 mt-2">Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.</p>
         <ul class="mb-4">
-          <li><strong>Dynamic Ad Insertion:</strong> Run ads uniquely at any break in a show or paired to “bookend” before and after a story at the time of user download </li>
-          <li><strong>Targeting:</strong> By episode, show, network, vertical, topic/keyword, and geo-location</li>
+          <li><strong>Dynamic Ad Insertion:</strong> Run ads at any break in a show or as “bookend” at the time of user download </li>
+          <li><strong>Targeting:</strong> Specify where the ads go by episode, show, network, vertical, topic/keyword, and geo-location</li>
           <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory</li>
         </ul>
       </div>
@@ -160,6 +160,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
+<!-- #Blockquote
 <section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
@@ -177,6 +178,7 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
 </section>
+-->
 
 <section class="hero p-5">
   <div class="hero-image">

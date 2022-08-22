@@ -16,7 +16,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-8">
         <div class="hero-content-inner">
           <h1 class="mb-4 fw-bold">Features</h1>
-          <p class="lead fs-3">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+          <p class="lead fs-4">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
         </div>
       </div>
     </div>
@@ -37,15 +37,15 @@ image: /assets/img/og-image.jpg
 
 <section class="hero hero-no-x text-white">
   <div class="hero-image">
-    <div>{% picture img/multiple-feeds-hero.jpg --alt woman at laptop wearing headphones %}</div>
+    <div>{% picture img/hero-multiple-feeds.jpg --alt woman at laptop wearing headphones %}</div>
   </div>
   <div class="pt-5 pb-4">
     <div class="hero-content container col-xxl-8">
       <div class="row">
-        <div class="icon-svg quote-mark d-flex  justify-content-center col-4">
+        <div class="icon-svg quote-mark d-flex  justify-content-center col-5">
           <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" width="100" height="100" />
         </div>
-        <div class="hero-content-inner col-8">
+        <div class="hero-content-inner col-6 ms-auto">
           <h2 class="display-6 mb-4">Multiple RSS feeds</h2>
           <p class="lead">Create private ad-free feeds or produce bonus content with multiple RSS feeds.</p>
           <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>

@@ -81,12 +81,6 @@ footer.bg-black-diagonal {
   background: repeating-linear-gradient( 45deg, $gray-900, $gray-900 2px, $black 2px, $black 10px );
 }
 
-.bg-blue-diagonal {
-  background-color: $blue;
-  opacity: 1;
-  background: repeating-linear-gradient( 45deg, $ltblue, $ltblue 2px, $blue 2px, $blue 10px );
-}
-
 .bg-x {
   background-color: $gray-100;
   background-image: url('/assets/img/prx-mark-outline-white.svg');
@@ -106,65 +100,18 @@ footer.bg-black-diagonal {
   }
 }
 
+.bg-gray-x {
+  background: url(/assets/img/bg-gray-x.jpg) no-repeat center right;
+  background-color: #eee;
+}
+
 .bg-white {
   background-color: $white;
-
-  p, li {
-    color: $gray-600;
-  }
 }
 
-.bg-gray {
-  background-color: $gray-200;
-}
-
-.bg-cyan {
-  background-color: $cyan;
-}
-
-.bg-ltblue {
-  background: $cyan;
-}
-
-.bg-darkblue {
-  background-color: $dark-blue;
-  opacity: 1;
-  background-image:  radial-gradient($blue 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($blue 1.1500000000000001px, $dark-blue 1.1500000000000001px);
-  background-size: 46px 46px;
-  background-position: 0 0,23px 23px;
-}
-
-.bg-darkgreen {
-  background-color: $dark-green;
-}
-
-.bg-polka {
+.bg-white-x {
+  background: url(/assets/img/bg-white-x.jpg) no-repeat center right;
   background-color: $white;
-  opacity: 1;
-  background-image:  radial-gradient($cyan 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient($cyan 1.1500000000000001px, $white 1.1500000000000001px);
-  background-size: 46px 46px;
-  background-position: 0 0,23px 23px;
-}
-
-.bg-boxes {
-  background-color: $white;
-background-image:  linear-gradient($white 1px, transparent 1px), linear-gradient(to right, $white 1px, $gray-100 1px);
-background-size: 20px 20px;
-}
-
-.bg-wavy {
-  background-color: #fff;
-  opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fff 5px ), repeating-linear-gradient( #e5e5e555, #e5e5e5 );
-}
-
-.bg-zig-zag {
-  background-color: #eee;
-  opacity: 1;
-  background-image:  linear-gradient(135deg, #f5f5f5 25%, transparent 25%), linear-gradient(225deg, #f5f5f5 25%, transparent 25%), linear-gradient(45deg, #f5f5f5 25%, transparent 25%), linear-gradient(315deg, #f5f5f5 25%, #eee 25%);
-  background-position:  5px 0, 5px 0, 0 0, 0 0;
-  background-size: 10px 10px;
-  background-repeat: repeat;
 }
 
 .section-quote {

@@ -90,11 +90,11 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-boxes p-5">
+<section class="bg-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6">Manage Your Content with Ease</h2>
     <div class="row">
       <div class="col-md-6">
+        <h2 class="display-6">Manage Your Content with Ease</h2>
         <p class="fs-5 mt-2">Effortlessly upload and describe your work in our content management system, and watch your podcast be delivered to listeners everywhere.</p>
         <ul class="mb-4">
           <li><strong>Multiple Feed Structures</strong>, including private feeds</li>
@@ -113,11 +113,11 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-polka p-5">
+<section class="bg-gray-x p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
     <div class="row">
       <div class="col-md-6">
+        <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
         <p class="fs-5 mt-2">Use Dovetail’s metrics dashboard to see audience impact by showing all the unique downloads for podcast audio from every platform and player. </p>
         <ul class="mb-4">
           <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
@@ -137,11 +137,11 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-wavy p-5">
+<section class="bg-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
     <div class="row">
       <div class="col-md-6">
+        <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
         <p class="fs-5 mt-2">Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.</p>
         <ul class="mb-4">
           <li><strong>Dynamic Ad Insertion:</strong> Run ads at any break in a show or as “bookend” at the time of user download </li>

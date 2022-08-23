@@ -14,7 +14,7 @@ image: /assets/img/og-image.jpg
   </div>
 </header>
 
-<div class="p-5">
+<div class="p-5 bg-gray-x">
   <div class="container col-xxl-8">
 
   <div class="post-content">

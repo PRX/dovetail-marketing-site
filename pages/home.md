@@ -102,11 +102,9 @@ image: /assets/img/og-image.jpg
           <li>Manage content with <strong>titles, tags, and keywords</strong></li>
         </ul>
       </div>
-      <div class="col-md-6 pb-4">
-        <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
-          <div class="container p-0 product-image">
-            {% picture img/publish-screenshot.jpg --alt Screenshot of publishing episodes in Dovetail from PRX %}
-          </div>
+      <div class="col-md-6 pb-4 d-flex align-items-center">
+        <div class="container p-0 product-image">
+          {% picture img/screenshot-publish.jpg --alt Screenshot of publishing episodes in Dovetail from PRX %}
         </div>
       </div>
     </div>
@@ -126,11 +124,9 @@ image: /assets/img/og-image.jpg
           <li><strong>IAB 2.1 complaint</strong></li>
         </ul>
       </div>
-      <div class="col-md-6 pb-4">
-        <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
-          <div class="container p-0 product-image">
-            {% picture img/metrics-screenshot.jpg --alt Screenshot of podcast analytics in Dovetail from PRX %}
-          </div>
+      <div class="col-md-6 pb-4 d-flex align-items-center">
+        <div class="container p-0 product-image">
+          {% picture img/screenshot-metrics.jpg --alt Screenshot of podcast analytics in Dovetail from PRX %}
         </div>
       </div>
     </div>
@@ -149,11 +145,9 @@ image: /assets/img/og-image.jpg
           <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory</li>
         </ul>
       </div>
-      <div class="col-md-6 pb-4">
-        <div class="overflow-hidden shadow-lg" style="max-height: 50vh;">
-          <div class="container p-0 product-image">
-            {% picture img/availability-screenshot.jpg --alt Screenshot of looking up ad inventory in Dovetail from PRX %}
-          </div>
+      <div class="col-md-6 pb-4 d-flex align-items-center">
+        <div class="container p-0 product-image">
+          {% picture img/screenshot-augury.jpg --alt Screenshot of looking up ad inventory in Dovetail from PRX %}
         </div>
       </div>
     </div>

@@ -55,11 +55,11 @@ ul {
 
 footer.bg-black-diagonal {
   a {
-    color: $orange;
+    color: $gray-200;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $orange;
     }
   }
 }

@@ -23,7 +23,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-boxes p-5">
+<section class="bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3 ">Save time, costs, and resources with dynamic ad insertion</h2>
     <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio, at any break in your show, to any target that exists in the system.</p>
@@ -55,7 +55,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-wavy p-5">
+<section class="bg-white  p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Real-time data to help you understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>

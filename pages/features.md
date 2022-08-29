@@ -26,7 +26,7 @@ image: /assets/img/og-image.jpg
 <section class="bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
-    <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio, at any break in your show.</p>
+    <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio at any break in your show.</p>
     <ul>
       <li>Make money your way by monetizing the whole catalog or just on a single episode.</li>
       <li>Dovetail supports all types of business models and advertising campaigns, from house ads to sponsorship.</li>
@@ -46,7 +46,7 @@ image: /assets/img/og-image.jpg
           <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" width="100" height="100" />
         </div>
         <div class="hero-content-inner col-6 ms-auto">
-          <h2 class="display-6 mb-4">Multiple RSS feeds</h2>
+          <h2 class="display-6 mb-4">Multiple RSS feeds for different content and business models</h2>
           <p class="lead">Create private ad-free feeds or produce bonus content with multiple RSS feeds.</p>
           <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
         </div>
@@ -55,11 +55,20 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white  p-5">
+<section class="bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
     <p>Analyze metrics by geography, device, and podcast app, to learn where, how, and when audiences are listening to your programming in real-time.</p>
+  </div>
+</section>
+
+<section class="bg-gray-x p-5">
+  <div class="container col-xxl-8">
+    <h2 class="display-6 mb-3">Sell with confidence using Ad Inventory Management</h2>
+    <p>Our download forecasts are integral to how campaigns are served. Plan your episodes in our production calendar, and Dovetail predicts downloads by day, country, and ad zone, setting ad inventory levels you can sell against with confidence.</p>
+    <p>Dovetail automatically predicts and adjusts ad distribution for every campaign daily to ensure your orders are completed on time.</p>
+    <p><a href="/2022/07/21/introducing-dovetail-as-product">Learn more about inventory management</a></p>
   </div>
 </section>
 

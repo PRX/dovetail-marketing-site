@@ -25,8 +25,8 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3 ">Save time, costs, and resources with dynamic ad insertion</h2>
-    <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio, at any break in your show, to any target that exists in the system.</p>
+    <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
+    <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio, at any break in your show.</p>
     <ul>
       <li>Make money your way by monetizing the whole catalog or just on a single episode.</li>
       <li>Dovetail supports all types of business models and advertising campaigns, from house ads to sponsorship.</li>
@@ -57,7 +57,7 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-white  p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Real-time data to help you understand your audience</h2>
+    <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
     <p>Analyze metrics by geography, device, and podcast app, to learn where, how, and when audiences are listening to your programming in real-time.</p>
   </div>
@@ -73,10 +73,10 @@ image: /assets/img/og-image.jpg
     <div class="row">
       <div class="col-md-8">
         <div class="hero-content-inner">
-          <h1 class="mb-4 fw-bold">Privacy and Trust</h1>
-          <p class="lead">PRX is taking the lead in establishing high standards that ensure the safety of audiences while maximizing revenue opportunities.</p>
-          <p>We also closely monitor the latest privacy laws and standards in the U.S. and globally, with the understanding that listeners in the U.S. and around the world are tuning into podcasts at an increasing rate.</p>
-          <p>PRX’s privacy standards have become distinct compared to other podcast publishing and distribution options.</p>
+          <h1 class="mb-4 fw-bold">Privacy is a feature, not a limitation</h1>
+          <p class="lead">PRX is a mission-driven and privacy-first technology organization, with data privacy built into everything we create. Nothing is more valuable than the trust of our listeners, supporters, and users.</p>
+          <p>We built Dovetail to uphold the highest standards of privacy in how we serve shows and sponsorship to listeners while still implementing complex, dynamic, and programmatic ad tech.</p>
+          <p>Even as they grow and strengthen, we will remain ahead of privacy laws and regulations around the world, leading rather than implementing the bare minimum.</p>
           <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
         </div>
       </div>

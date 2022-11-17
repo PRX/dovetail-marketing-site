@@ -3,8 +3,8 @@ layout: post
 permalink: /2022/10/07/what-is-dovetail-from-prx
 title: What is Dovetail from PRX?
 author: Brandon Hundt
-image: /assets/img/homepage-hero.jpg
-heroimage: img/homepage-hero.jpg
+image: /assets/img/hero-stations.jpg
+heroimage: img/hero-stations.jpg
 heroimagealt: Podcast studio with microphone in foreground
 excerpt: A privacy-first suite of applications for all your podcasting needs.
 canonical_url: https://medium.com/prxofficial/what-is-dovetail-from-prx-e2d1b7f79c3

@@ -23,7 +23,7 @@ The tech team is proud of our recent work because of the value Metrics brings to
   <em>It’s so important for podcasters to have access to and be able to make the most out of their data. The podcasts we carry on PRX are owned and managed by the users — independent producers, media companies, and public radio stations. We’re so proud that we can offer them a platform along with our guidance and leadership in the industry to help them better understand and make use of their data to grow their reach.</em>
 </blockquote>
 
-<h2>How Metrics Works:</h2>
+## How Metrics Works:
 
 The glue of the PRX publishing platform is <a rel="noopener" href="/prxofficial/on-dovetail-618153c4d67e">Dovetail</a>, an application that seamlessly inserts sponsorship messaging with podcast episodes uploaded into our content management system, Publish. Also inserted into each episode by Dovetail is a pixel tracker that counts when an episode is streamed or downloaded.
 
@@ -35,7 +35,7 @@ I’d like to highlight 5 features of Metrics that empower creators.
 
 <hr>
 
-<h2>1) Near real time data updates and flexible time selection</h2>
+## 1) Near real time data updates and flexible time selection
 
 {% picture img/metrics-body-1.png --alt screenshot of PRX Metrics date selection %}
 
@@ -43,7 +43,7 @@ Our producers can begin to track episode performance as soon as they publish an 
 
 Users can measure episode performance in custom time ranges based on the unique cadence of each show (daily, weekly, seasonality).
 
-<h2>2) Drop day charts</h2>
+## 2) Drop day charts
 
 {% picture img/metrics-body-2.png --alt screenshot of PRX Metrics drop day charts %}
 
@@ -51,19 +51,19 @@ Leveraging real time data, we built a Drop Day chart to help creators see for th
 
 For example, if a producer of a weekly podcast releases a podcast a few hours later than normal (or even a day later,) they can directly see the impact that the publishing delay may have on traffic, positive or negative.
 
-<h2>3) Easily switch between your shows</h2>
+## 3) Easily switch between your shows
 
 {% picture img/metrics-body-3.png --alt show switcher %}
 
 Many of the creators that use our publishing platform produce multiple podcasts, so we’ve provided easy ways to navigate between them.
 
-<h2>4) Aggregated show downloads. You can see a single episode, or compare releases.</h2>
+## 4) Aggregated show downloads. You can see a single episode, or compare releases.
 
 {% picture img/metrics-body-4.png --alt screenshot of PRX Metrics episode list %}
 
 To this point, we’ve focused a lot on tracking individual episodes, but creators can also check data across a series of episode releases and export it to CSV or Google Sheets. Data is also rolled up to easily see how your selected range compares to the all-time stats for a show.
 
-<h2>5) Information about where listeners are located, and the apps they use to hear your show</h2>
+## 5) Information about where listeners are located, and the apps they use to hear your show
 
 {% picture img/metrics-body-2.png --alt screenshot of PRX Metrics apps performance list %}
 

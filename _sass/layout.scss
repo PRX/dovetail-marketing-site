@@ -296,3 +296,20 @@ footer.bg-black-diagonal {
     max-height: 250px;
   }
 }
+
+.card {
+  padding: 0;
+
+  h3, p {
+    font-size: 1.1rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
+
+.card-img-top,
+.card-img-bottom {
+  height: auto;
+}

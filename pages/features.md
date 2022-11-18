@@ -23,7 +23,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="bg-gray-x p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
     <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio at any break in your show.</p>
@@ -35,21 +35,91 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="hero hero-no-x text-white">
-  <div class="hero-image">
-    <div>{% picture img/hero-multiple-feeds.jpg --alt woman at laptop wearing headphones %}</div>
+<section class="bg-white p-5">
+  <div class="container col-xxl-8">
+    <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
+    <p class="lead">Producer tools for episode uploads and feed management</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Multiple Feeds</h3>
+          <p class="mb-0">We support multiple business models</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Private Ad-free feeds</li>
+          <li class="list-group-item">Bonus Content</li>
+          <li class="list-group-item">Subscription service support</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Production Calendar</h3>
+          <p class="mb-0">Maximize your revenues.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Bulk Scheduler</li>
+          <li class="list-group-item">Improved forecast accuracy</li>
+          <li class="list-group-item">Supports production staffs</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Flexible Show Structures</h3>
+          <p class="mb-0">Adjust your show structure on an episode by episode basis.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Add new ad zones</li>
+          <li class="list-group-item">Monetize back catalogs</li>
+          <li class="list-group-item">Ad-free episodes</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Embeddable Player</h3>
+          <p class="mb-0">Easily take your audio with you using the PRX embeddable player.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Web Monetization</li>
+          <li class="list-group-item">Flexible design options</li>
+          <li class="list-group-item">Preview before publishing</li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="pt-5 pb-4">
-    <div class="hero-content container col-xxl-8">
-      <div class="row">
-        <div class="icon-svg quote-mark d-flex  justify-content-center col-5">
-          <img src="/assets/img/rss-outline.svg" alt="RSS Icon" aria-hidden="true" class="" width="100" height="100" />
+</section>
+
+<section class="bg-gray-x p-5">
+  <div class="container col-xxl-8">
+    <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
+    <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Downloads that matter</h3>
+          <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
         </div>
-        <div class="hero-content-inner col-6 ms-auto">
-          <h2 class="display-6 mb-4">Multiple RSS feeds for different content and business models</h2>
-          <p class="lead">Create private ad-free feeds or produce bonus content with multiple RSS feeds.</p>
-          <p class="mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">IAB 2.1 Compliant</li>
+          <li class="list-group-item">Drop date comparison</li>
+          <li class="list-group-item">Analyze across geography, device, and podcast app</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
+        <div class="card-body">
+          <h3>Unique Listener Metrics</h3>
+          <p class="mb-0">Understand how your listener base is growing or shrinking over time.</p>
         </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">IAB 2.1 Compliant</li>
+          <li class="list-group-item">Filter by date</li>
+          <li class="list-group-item">Easily accessed via dashboard</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -57,18 +127,58 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
-    <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
-    <p>Analyze metrics by geography, device, and podcast app, to learn where, how, and when audiences are listening to your programming in real-time.</p>
-  </div>
-</section>
-
-<section class="bg-gray-x p-5">
-  <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Sell with confidence using Ad Inventory Management</h2>
-    <p>Our download forecasts are integral to how campaigns are served. Plan your episodes in our production calendar, and Dovetail predicts downloads by day, country, and ad zone, setting ad inventory levels you can sell against with confidence.</p>
-    <p>Dovetail automatically predicts and adjusts ad distribution for every campaign daily to ensure your orders are completed on time.</p>
-    <p><a href="/2022/07/21/introducing-dovetail-as-product">Learn more about inventory management</a></p>
+    <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="card">
+        {% picture img/dovetail/2-forecast.png 16:9 class="card-img-top" --alt screenshot of a forecast in Dovetail %}
+        <div class="card-body">
+          <h3>Forecasting</h3>
+          <p class="mb-0">Our download forecasts are integral to how campaigns are served.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Download prediction by day, country, and ad zone,  </li>
+          <li class="list-group-item">Sets ad inventory levels</li>
+          <li class="list-group-item">Adjusts daily</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/dovetail/3-flight-form.png 16:9 class="card-img-top" --alt screenshot of campaign and flight entry in Dovetail %}
+        <div class="card-body">
+          <h3>Campaign Management</h3>
+          <p class="mb-0">Quickly add new IOs and segment them as they need.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Flight ads by targets</li>
+          <li class="list-group-item">Modify priorities</li>
+          <li class="list-group-item">Near real time forecasts as you input</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/dovetail/4-avails-search.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
+        <div class="card-body">
+          <h3>Reporting</h3>
+          <p class="mb-0">Look forward and backwards to produce reports</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Search availability across shows</li>
+          <li class="list-group-item">Build your own campaign reports</li>
+          <li class="list-group-item">QA checks so you can have confidence the right ad is going to be served</li>
+        </ul>
+      </div>
+      <div class="card">
+        {% picture img/dovetail/6-category-blocks.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
+        <div class="card-body">
+          <h3>Privacy forward Programmatic</h3>
+          <p class="mb-0">Backfill ad inventory by hooking into privacy forward ad-exchanges</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">VAST tag support in creative library</li>
+          <li class="list-group-item">Brand Safety</li>
+          <li class="list-group-item">Opt-outs</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 

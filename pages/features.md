@@ -40,53 +40,61 @@ image: /assets/img/og-image.jpg
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
     <p class="lead">Producer tools for episode uploads and feed management</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Multiple Feeds</h3>
-          <p class="mb-0">We support multiple business models</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/multiple-feeds.png 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
+          <div class="card-body">
+            <h3>Multiple Feeds</h3>
+            <p class="mb-0">We support multiple business models</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Private Ad-free feeds</li>
+            <li class="list-group-item">Bonus Content</li>
+            <li class="list-group-item">Subscription service support</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Private Ad-free feeds</li>
-          <li class="list-group-item">Bonus Content</li>
-          <li class="list-group-item">Subscription service support</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Production Calendar</h3>
-          <p class="mb-0">Maximize your revenues.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/production-calendar.png 16:9 class="card-img-top" --alt Screenshot of Production Calendar %}
+          <div class="card-body">
+            <h3>Production Calendar</h3>
+            <p class="mb-0">Maximize your revenues.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Bulk Scheduler</li>
+            <li class="list-group-item">Improved forecast accuracy</li>
+            <li class="list-group-item">Supports production staffs</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Bulk Scheduler</li>
-          <li class="list-group-item">Improved forecast accuracy</li>
-          <li class="list-group-item">Supports production staffs</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Flexible Show Structures</h3>
-          <p class="mb-0">Adjust your show structure on an episode by episode basis.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/audio-templates.png 16:9 class="card-img-top" --alt Headphones %}
+          <div class="card-body">
+            <h3>Flexible Show Structures</h3>
+            <p class="mb-0">Adjust your show structure on an episode by episode basis.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Add new ad zones</li>
+            <li class="list-group-item">Monetize back catalogs</li>
+            <li class="list-group-item">Ad-free episodes</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Add new ad zones</li>
-          <li class="list-group-item">Monetize back catalogs</li>
-          <li class="list-group-item">Ad-free episodes</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Embeddable Player</h3>
-          <p class="mb-0">Easily take your audio with you using the PRX embeddable player.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/play.png 16:9 class="card-img-top" --alt Screenshot of the PRX embeddable player %}
+          <div class="card-body">
+            <h3>Embeddable Player</h3>
+            <p class="mb-0">Easily take your audio with you using the PRX embeddable player.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Web Monetization</li>
+            <li class="list-group-item">Flexible design options</li>
+            <li class="list-group-item">Preview before publishing</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Web Monetization</li>
-          <li class="list-group-item">Flexible design options</li>
-          <li class="list-group-item">Preview before publishing</li>
-        </ul>
       </div>
     </div>
   </div>
@@ -97,29 +105,33 @@ image: /assets/img/og-image.jpg
     <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Downloads that matter</h3>
-          <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/downloads.png 16:9 class="card-img-top" --alt Screenshot of Downloads dashboard %}
+          <div class="card-body">
+            <h3>Downloads that matter</h3>
+            <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">IAB 2.1 Compliant</li>
+            <li class="list-group-item">Drop date comparison</li>
+            <li class="list-group-item">Analyze across geography, device, and podcast app</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">IAB 2.1 Compliant</li>
-          <li class="list-group-item">Drop date comparison</li>
-          <li class="list-group-item">Analyze across geography, device, and podcast app</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/hero-privacy.jpg 16:9 class="card-img-top" --alt Headphones %}
-        <div class="card-body">
-          <h3>Unique Listener Metrics</h3>
-          <p class="mb-0">Understand how your listener base is growing or shrinking over time.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/ulm.png 16:9 class="card-img-top" --alt Screenshot of Unique Listener Metrics dashboard %}
+          <div class="card-body">
+            <h3>Unique Listener Metrics</h3>
+            <p class="mb-0">Understand how your listener base is growing or shrinking over time.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">IAB 2.1 Compliant</li>
+            <li class="list-group-item">Filter by date</li>
+            <li class="list-group-item">Easily accessed via dashboard</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">IAB 2.1 Compliant</li>
-          <li class="list-group-item">Filter by date</li>
-          <li class="list-group-item">Easily accessed via dashboard</li>
-        </ul>
       </div>
     </div>
   </div>
@@ -130,53 +142,61 @@ image: /assets/img/og-image.jpg
     <h2 class="display-6 mb-3">Sell with confidence using Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="card">
-        {% picture img/dovetail/2-forecast.png 16:9 class="card-img-top" --alt screenshot of a forecast in Dovetail %}
-        <div class="card-body">
-          <h3>Forecasting</h3>
-          <p class="mb-0">Our download forecasts are integral to how campaigns are served.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/forecast.png 16:9 class="card-img-top" --alt screenshot of a forecast in Dovetail %}
+          <div class="card-body">
+            <h3>Forecasting</h3>
+            <p class="mb-0">Our download forecasts are integral to how campaigns are served.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Download prediction by day, country, and ad zone,  </li>
+            <li class="list-group-item">Sets ad inventory levels</li>
+            <li class="list-group-item">Adjusts daily</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Download prediction by day, country, and ad zone,  </li>
-          <li class="list-group-item">Sets ad inventory levels</li>
-          <li class="list-group-item">Adjusts daily</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/dovetail/3-flight-form.png 16:9 class="card-img-top" --alt screenshot of campaign and flight entry in Dovetail %}
-        <div class="card-body">
-          <h3>Campaign Management</h3>
-          <p class="mb-0">Quickly add new IOs and segment them as they need.</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/campaign-management.png 16:9 class="card-img-top" --alt screenshot of campaign and flight entry in Dovetail %}
+          <div class="card-body">
+            <h3>Campaign Management</h3>
+            <p class="mb-0">Quickly add new IOs and segment them as they need.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Flight ads by targets</li>
+            <li class="list-group-item">Modify priorities</li>
+            <li class="list-group-item">Near real time forecasts as you input</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Flight ads by targets</li>
-          <li class="list-group-item">Modify priorities</li>
-          <li class="list-group-item">Near real time forecasts as you input</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/dovetail/4-avails-search.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
-        <div class="card-body">
-          <h3>Reporting</h3>
-          <p class="mb-0">Look forward and backwards to produce reports</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/reporting.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
+          <div class="card-body">
+            <h3>Reporting</h3>
+            <p class="mb-0">Look forward and backwards to produce reports</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Search availability across shows</li>
+            <li class="list-group-item">Build your own campaign reports</li>
+            <li class="list-group-item">QA checks so you can have confidence the right ad is going to be served</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Search availability across shows</li>
-          <li class="list-group-item">Build your own campaign reports</li>
-          <li class="list-group-item">QA checks so you can have confidence the right ad is going to be served</li>
-        </ul>
       </div>
-      <div class="card">
-        {% picture img/dovetail/6-category-blocks.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
-        <div class="card-body">
-          <h3>Privacy forward Programmatic</h3>
-          <p class="mb-0">Backfill ad inventory by hooking into privacy forward ad-exchanges</p>
+      <div class="col">
+        <div class="card">
+          {% picture img/features/programmatic.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
+          <div class="card-body">
+            <h3>Privacy forward Programmatic</h3>
+            <p class="mb-0">Backfill ad inventory by hooking into privacy forward ad-exchanges</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">VAST tag support in creative library</li>
+            <li class="list-group-item">Brand Safety</li>
+            <li class="list-group-item">Opt-outs</li>
+          </ul>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">VAST tag support in creative library</li>
-          <li class="list-group-item">Brand Safety</li>
-          <li class="list-group-item">Opt-outs</li>
-        </ul>
       </div>
     </div>
   </div>

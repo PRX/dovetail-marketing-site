@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-02T18:11:58+00:00</updated><id>/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-02T19:12:31+00:00</updated><id>/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
 </subtitle><author><name>PRX</name><email>dovetail@prx.org</email></author><entry><title type="html">Dovetail Glossary</title><link href="/2022/12/02/dovetail-glossary" rel="alternate" type="text/html" title="Dovetail Glossary" /><published>2022-12-02T00:00:00+00:00</published><updated>2022-12-02T00:00:00+00:00</updated><id>/2022/12/02/dovetail-glossary</id><content type="html" xml:base="/2022/12/02/dovetail-glossary"><![CDATA[<h2 id="podcast-metrics">Podcast Metrics</h2>
 
 <p><strong>Download:</strong> A podcast episode download. As defined by the <a href="https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf">IAB 2.1 Podcast Measurement guidelines</a>, a listener must download enough of the episode creative file for 1-minute of audio to be counted.</p>
@@ -24,7 +24,7 @@ Example: [Preroll1 Preroll2 Original1 Midroll Original2 Postroll]</p>
 <p><strong>Flight:</strong> One or more creatives plus a set of targeting information to serve with a podcast. Configured with Zones, a date-range, and an Impression goal.
 Ads are fulfilled by reserving Allocations against future Inventory.</p>
 
-<p><strong>Creative:</strong> Refers to the audio file (MP3, WAV, FLAC) or VAST url containing the ad content.</p>
+<p><strong>Creative:</strong> Refers to the audio file (MP3, WAV, FLAC) or VAST URL containing the ad content.</p>
 
 <p><strong>VAST:</strong> An acronym that stands for Video Ad Serving Template. VAST is a way for multiple ad servers to communicate and serve ads, replacing individual ad audio files for a campaign with a VAST URL.</p>
 

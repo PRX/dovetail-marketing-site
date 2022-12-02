@@ -35,7 +35,7 @@ _Example: Preroll (containing both Preroll1 and Preroll2)_
 **Flight:** One or more creatives plus a set of targeting information to serve with a podcast. Configured with Zones, a date-range, and an Impression goal.
 Ads are fulfilled by reserving Allocations against future Inventory.
 
-**Creative:** Refers to the audio file (MP3, WAV, FLAC) or VAST url containing the ad content.
+**Creative:** Refers to the audio file (MP3, WAV, FLAC) or VAST URL containing the ad content.
 
 **VAST:** An acronym that stands for Video Ad Serving Template. VAST is a way for multiple ad servers to communicate and serve ads, replacing individual ad audio files for a campaign with a VAST URL.
 

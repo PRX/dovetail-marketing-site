@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-10-27T20:50:00+00:00</updated><id>/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
-</subtitle><author><name>PRX</name><email>dovetail@prx.org</email></author><entry><title type="html">Introducing Inventory Management in Dovetail from PRX</title><link href="/2022/07/21/introducing-dovetail-as-product" rel="alternate" type="text/html" title="Introducing Inventory Management in Dovetail from PRX" /><published>2022-07-21T00:00:00+00:00</published><updated>2022-07-21T00:00:00+00:00</updated><id>/2022/07/21/introducing-dovetail-as-product</id><content type="html" xml:base="/2022/07/21/introducing-dovetail-as-product"><![CDATA[<p>Over the past year, PRX carefully migrated our podcasts to our latest version of Dovetail - that now includes end to end ad inventory management.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-02T18:11:58+00:00</updated><id>/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
+</subtitle><author><name>PRX</name><email>dovetail@prx.org</email></author><entry><title type="html">Dovetail Glossary</title><link href="/2022/12/02/dovetail-glossary" rel="alternate" type="text/html" title="Dovetail Glossary" /><published>2022-12-02T00:00:00+00:00</published><updated>2022-12-02T00:00:00+00:00</updated><id>/2022/12/02/dovetail-glossary</id><content type="html" xml:base="/2022/12/02/dovetail-glossary"><![CDATA[<h2 id="podcast-metrics">Podcast Metrics</h2>
+
+<p><strong>Download:</strong> A podcast episode download. As defined by the <a href="https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf">IAB 2.1 Podcast Measurement guidelines</a>, a listener must download enough of the episode creative file for 1-minute of audio to be counted.</p>
+
+<p><strong>Impression:</strong> A podcast ad impression. Also defined in the <a href="https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf">IAB 2.1 Podcast Measurement guidelines</a>, the listener must have downloaded all of the bytes in the episode creative file where the ad can be heard to be counted.
+<em>Also see: “Actual”</em></p>
+
+<h2 id="podcast-layouts">Podcast Layouts</h2>
+
+<p><strong>Placements:</strong> The configured layouts of a podcast’s audio segments. Each is made up of a list of Zones. If there are no placements configured for an audio template, vanilla/ad-free audio will be served.
+Example: [Preroll1 Preroll2 Original1 Midroll Original2 Postroll]</p>
+
+<p><strong>Zone:</strong> A single audio segment within an episode, including both original and ad segments.
+<em>Example: House Preroll 2</em></p>
+
+<p><strong>Section:</strong> A grouping of consecutive ad Zones into a single block. May also distinguish between “paid” and “house” ads.
+<em>Example: Preroll (containing both Preroll1 and Preroll2)</em></p>
+
+<h2 id="ad-serving">Ad Serving</h2>
+
+<p><strong>Campaign:</strong> Represents an Inventory Order (IO) for a single advertiser. It can contain many Flights.</p>
+
+<p><strong>Flight:</strong> One or more creatives plus a set of targeting information to serve with a podcast. Configured with Zones, a date-range, and an Impression goal.
+Ads are fulfilled by reserving Allocations against future Inventory.</p>
+
+<p><strong>Creative:</strong> Refers to the audio file (MP3, WAV, FLAC) or VAST url containing the ad content.</p>
+
+<p><strong>VAST:</strong> An acronym that stands for Video Ad Serving Template. VAST is a way for multiple ad servers to communicate and serve ads, replacing individual ad audio files for a campaign with a VAST URL.</p>
+
+<p><strong>Forecast:</strong> The daily forecasted Downloads we expect a podcast to receive in the future. May also be broken out by Episode, Country, State, Keywords, etc.</p>
+
+<p><strong>Inventory:</strong> The daily number of Impressions available for ad Zones to be sold into in the future. (Equal to the Forecast multiplied by the ad Placements - original segment Zones do not get Inventory).</p>
+
+<p><strong>Allocations:</strong> The daily Inventory counts reserved by a Flight. May include additional targeting info such as Episode, Country, State, Keywords, etc.</p>
+
+<p><strong>Availability:</strong> The amount of unreserved Inventory left in the system (subtract the Allocations for whatever days/targeting you’re looking at).</p>
+
+<p><strong>Actuals:</strong> The number of real Impressions a flight has already received.</p>]]></content><author><name>Ryan Cavis</name></author><summary type="html"><![CDATA[Commonly used podcasting terms and definitions used throughout Dovetail from PRX]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/hero-features.jpg" /><media:content medium="image" url="/assets/img/hero-features.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing Inventory Management in Dovetail from PRX</title><link href="/2022/07/21/introducing-dovetail-as-product" rel="alternate" type="text/html" title="Introducing Inventory Management in Dovetail from PRX" /><published>2022-07-21T00:00:00+00:00</published><updated>2022-07-21T00:00:00+00:00</updated><id>/2022/07/21/introducing-dovetail-as-product</id><content type="html" xml:base="/2022/07/21/introducing-dovetail-as-product"><![CDATA[<p>Over the past year, PRX carefully migrated our podcasts to our latest version of Dovetail - that now includes end to end ad inventory management.</p>
 
 <p>Our Advertising Operations (Ad-Ops) team is now able to manage advertising campaigns from front to end in one system, including near real-time forecasts and availability broken down by Geo-targets available as the inventory order (IO) is being inserted.</p>
 

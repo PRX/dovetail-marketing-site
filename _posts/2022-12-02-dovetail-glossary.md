@@ -37,6 +37,8 @@ Ads are fulfilled by reserving Allocations against future Inventory.
 
 **Creative:** Refers to the audio file (MP3, WAV, FLAC) or VAST url containing the ad content.
 
+**VAST:** An acronym that stands for Video Ad Serving Template. VAST is a way for multiple ad servers to communicate and serve ads, replacing individual ad audio files for a campaign with a VAST URL.
+
 **Forecast:** The daily forecasted Downloads we expect a podcast to receive in the future. May also be broken out by Episode, Country, State, Keywords, etc.
 
 **Inventory:** The daily number of Impressions available for ad Zones to be sold into in the future. (Equal to the Forecast multiplied by the ad Placements - original segment Zones do not get Inventory).

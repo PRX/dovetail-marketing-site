@@ -12,9 +12,9 @@ excerpt: Commonly used podcasting terms and definitions used throughout Dovetail
 
 ## Podcast Metrics
 
-**Download:** A podcast episode download. As defined by the [IAB 2.1 Podcast Measurement guidelines](https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf), a listener must download enough of the episode MP3 file for 1-minute of audio to be counted.
+**Download:** A podcast episode download. As defined by the [IAB 2.1 Podcast Measurement guidelines](https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf), a listener must download enough of the episode creative file for 1-minute of audio to be counted.
 
-**Impression:** A podcast ad impression. Also defined in the [IAB 2.1 Podcast Measurement guidelines](https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf), the listener must have downloaded all of the bytes in the episode MP3 file where the ad can be heard to be counted.
+**Impression:** A podcast ad impression. Also defined in the [IAB 2.1 Podcast Measurement guidelines](https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf), the listener must have downloaded all of the bytes in the episode creative file where the ad can be heard to be counted.
 _Also see: “Actual”_
 
 ## Podcast Layouts
@@ -32,9 +32,10 @@ _Example: Preroll (containing both Preroll1 and Preroll2)_
 
 **Campaign:** Represents an Inventory Order (IO) for a single advertiser. It can contain many Flights.
 
-**Flight:** One or more MP3 ads plus a set of targeting information to serve with a podcast. Configured with Zones, a date-range, and an Impression goal.
+**Flight:** One or more creatives plus a set of targeting information to serve with a podcast. Configured with Zones, a date-range, and an Impression goal.
 Ads are fulfilled by reserving Allocations against future Inventory.
-_The ad MP3 files are sometimes referred to as “Creatives”._
+
+**Creative:** Refers to the audio file (MP3, WAV, FLAC) or VAST url containing the ad content.
 
 **Forecast:** The daily forecasted Downloads we expect a podcast to receive in the future. May also be broken out by Episode, Country, State, Keywords, etc.
 

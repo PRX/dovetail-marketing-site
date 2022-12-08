@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://dovetail.prx.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dovetail.prx.org/" rel="alternate" type="text/html" /><updated>2022-12-02T19:38:55+00:00</updated><id>https://dovetail.prx.org/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://dovetail.prx.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dovetail.prx.org/" rel="alternate" type="text/html" /><updated>2022-12-08T17:59:18+00:00</updated><id>https://dovetail.prx.org/feed.xml</id><title type="html">Dovetail from PRX</title><subtitle>Podcast distribution &amp; Privacy forward ad tech platform
 </subtitle><author><name>PRX</name><email>dovetail@prx.org</email></author><entry><title type="html">Dovetail Glossary</title><link href="https://dovetail.prx.org/2022/12/02/dovetail-glossary" rel="alternate" type="text/html" title="Dovetail Glossary" /><published>2022-12-02T00:00:00+00:00</published><updated>2022-12-02T00:00:00+00:00</updated><id>https://dovetail.prx.org/2022/12/02/dovetail-glossary</id><content type="html" xml:base="https://dovetail.prx.org/2022/12/02/dovetail-glossary"><![CDATA[<h2 id="podcast-metrics">Podcast Metrics</h2>
 
 <p><strong>Download:</strong> A podcast episode download. As defined by the <a href="https://iabtechlab.com/wp-content/uploads/2021/03/PodcastMeasurement_v2.1.pdf">IAB 2.1 Podcast Measurement guidelines</a>, a listener must download enough of the episode creative file for 1-minute of audio to be counted.</p>
@@ -36,7 +36,67 @@ Ads are fulfilled by reserving Allocations against future Inventory.</p>
 
 <p><strong>Availability:</strong> The amount of unreserved Inventory left in the system (subtract the Allocations for whatever days/targeting you’re looking at).</p>
 
-<p><strong>Actuals:</strong> The number of real Impressions a flight has already received.</p>]]></content><author><name>Ryan Cavis</name></author><summary type="html"><![CDATA[Commonly used podcasting terms and definitions used throughout Dovetail from PRX]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/hero-features.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/hero-features.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing Inventory Management in Dovetail from PRX</title><link href="https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product" rel="alternate" type="text/html" title="Introducing Inventory Management in Dovetail from PRX" /><published>2022-07-21T00:00:00+00:00</published><updated>2022-07-21T00:00:00+00:00</updated><id>https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product</id><content type="html" xml:base="https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product"><![CDATA[<p>Over the past year, PRX carefully migrated our podcasts to our latest version of Dovetail - that now includes end to end ad inventory management.</p>
+<p><strong>Actuals:</strong> The number of real Impressions a flight has already received.</p>]]></content><author><name>Ryan Cavis</name></author><summary type="html"><![CDATA[Commonly used podcasting terms and definitions used throughout Dovetail from PRX]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/hero-features.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/hero-features.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is Dovetail from PRX?</title><link href="https://dovetail.prx.org/2022/10/07/what-is-dovetail-from-prx" rel="alternate" type="text/html" title="What is Dovetail from PRX?" /><published>2022-10-07T00:00:00+00:00</published><updated>2022-10-07T00:00:00+00:00</updated><id>https://dovetail.prx.org/2022/10/07/what-is-dovetail-from-prx</id><content type="html" xml:base="https://dovetail.prx.org/2022/10/07/what-is-dovetail-from-prx"><![CDATA[<p><em>Note: This article was originally posted on <a href="https://medium.com/prxofficial/what-is-dovetail-from-prx-e2d1b7f79c3">PRX’s company blog</a>.</em></p>
+
+<p>PRX is one of the largest podcast distributors — both in terms of the number of shows and downloads per month of each show — in the world. To ensure the reliable delivery of hundreds of thousands of podcast impressions daily, we count on our podcast publishing platform, Dovetail from PRX.</p>
+
+<p><a href="/">Dovetail from PRX</a> is a suite of applications for podcast post-production built on the values and trust of public media. In its everyday context, a dovetail is “a joint formed by one or more tapered projections (tenons) on one piece which interlocks with corresponding notches or recesses (mortises) in another.”</p>
+
+<p>It looks like this:</p>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-1-200-4627c2b70.webp 200w, /assets/generated/img/dt-body-1-323-4627c2b70.webp 323w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-1-200-31d0c317b.png 200w, /assets/generated/img/dt-body-1-323-31d0c317b.png 323w" type="image/png" /><img src="/assets/generated/img/dt-body-1-323-31d0c317b.png" alt="dovetail joint in woodworking" width="323" height="255" /></picture>
+
+<p>In our context, Dovetail refers to the platform’s power to seamlessly stitch together pieces of produced audio, a central feature of post-production needs.</p>
+
+<h2 id="what-does-dovetail-from-prx-do">What does Dovetail from PRX do?</h2>
+
+<p>Dovetail gives producers a smooth podcast publishing experience and the framework to grow, monetize, and sustain their podcast business in today’s open podcast ecosystem. From a birds-eye view, Dovetail does three main things: podcast distribution, data collection, and ad inventory management.</p>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body2-200-bc0641b86.webp 200w, /assets/generated/img/dt-body2-400-bc0641b86.webp 400w, /assets/generated/img/dt-body2-600-bc0641b86.webp 600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body2-200-c8729fbd9.jpeg 200w, /assets/generated/img/dt-body2-400-c8729fbd9.jpeg 400w, /assets/generated/img/dt-body2-600-c8729fbd9.jpeg 600w" type="image/jpeg" /><img src="/assets/generated/img/dt-body2-600-c8729fbd9.jpeg" alt="screenshot of Dovetail episode form" width="600" height="400" /></picture>
+
+<h2 id="podcast-distribution-made-easy">Podcast distribution made easy</h2>
+
+<p>We’ve designed the content management and podcast feed hosting features to empower producers with the flexibility and support they need to publish, manage, and easily update their podcasts across all podcast platforms.</p>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-3-200-7cbb99ee9.webp 200w, /assets/generated/img/dt-body-3-400-7cbb99ee9.webp 400w, /assets/generated/img/dt-body-3-720-7cbb99ee9.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-3-200-74a8dcfa0.png 200w, /assets/generated/img/dt-body-3-400-74a8dcfa0.png 400w, /assets/generated/img/dt-body-3-720-74a8dcfa0.png 720w" type="image/png" /><img src="/assets/generated/img/dt-body-3-720-74a8dcfa0.png" alt="GBH, KCRW, KERA, WAMU are all public media stations on Dovetail" width="720" height="253" /></picture>
+
+<p>Dovetail hosts more than 260 podcasts:</p>
+
+<ul>
+  <li>
+    <p>Major public media organizations and stations trust PRX’s platform to publish their podcasts, such as PBS, GBH, KERA, WAMU, WUNC, KCRW, KUOW, and WPLN.</p>
+  </li>
+  <li>
+    <p>Many of the radio programs that PRX brings to the airwaves are also some of the biggest podcasts, relying on our podcast distribution technology: “Snap Judgment,” “The Moth Radio Hour,” “Reveal,” “Latino USA,” and more. You may also be familiar with podcasts part of Radiotopia from PRX, like “Ear Hustle,” “Song Exploder,” “The Stoop,” “Radio Diaries,” “The Heart,” and “The Kitchen Sisters Present.”</p>
+  </li>
+  <li>
+    <p>Remarkable audio producers beyond public media — including indie creators and mission-oriented creators — also rely on PRX’s distribution technology: TED, the Smithsonian, The Boston Globe, Religion of Sports, The Metropolitan Museum of Art, Project Brazen, and many more.</p>
+  </li>
+</ul>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-4-200-c5e40bc2e.webp 200w, /assets/generated/img/dt-body-4-400-c5e40bc2e.webp 400w, /assets/generated/img/dt-body-4-600-c5e40bc2e.webp 600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-4-200-b15f8df6b.jpeg 200w, /assets/generated/img/dt-body-4-400-b15f8df6b.jpeg 400w, /assets/generated/img/dt-body-4-600-b15f8df6b.jpeg 600w" type="image/jpeg" /><img src="/assets/generated/img/dt-body-4-600-b15f8df6b.jpeg" alt="screenshot of metrics by media market in Dovetail" width="600" height="400" /></picture>
+
+<h2 id="data-that-leads-to-strategic-decisions">Data that leads to strategic decisions</h2>
+
+<p>Through Dovetail’s near real-time data and inventory forecasting features, producers have the information they need to make decisions about their audiences and revenue opportunities.</p>
+
+<p>With the metrics Dovetail provides, producers will understand their podcasts’ performance downloads by applications and devices and their audience size by country, state, or metro. This data is available to keep within our portal or export to your own systems.</p>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-5-200-9c588b9a4.webp 200w, /assets/generated/img/dt-body-5-400-9c588b9a4.webp 400w, /assets/generated/img/dt-body-5-600-9c588b9a4.webp 600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dt-body-5-200-ba345e9ca.jpeg 200w, /assets/generated/img/dt-body-5-400-ba345e9ca.jpeg 400w, /assets/generated/img/dt-body-5-600-ba345e9ca.jpeg 600w" type="image/jpeg" /><img src="/assets/generated/img/dt-body-5-600-ba345e9ca.jpeg" alt="screenshot of searching for availability in Dovetail" width="600" height="400" /></picture>
+
+<h2 id="harness-the-full-potential-of-monetization">Harness the full potential of monetization</h2>
+
+<p>Dovetail gives producers the confidence to sell inventory and the assurance of reaching their impressions. The impression forecast feature predicts an episode’s performance based on the show’s historical drop data. With Dovetail, sales teams can easily understand a podcast’s availability and sell-through rate at any given time in the future — ensuring all inventory is accounted for and used.</p>
+
+<p>Producers save time, costs, and resources while also maximizing profits by hosting their podcasts on Dovetail. Our dynamic ad insertion technology easily attaches sponsorship messages into produced audio to create what listeners experience as a final, polished episode. Gone are the days of only selling ad inventory on upcoming episodes; with Dovetail’s dynamic ad insertion, timely sponsorship messages can be added to every episode in a portfolio and tailored to a specific audience.</p>
+
+<h2 id="scale-your-podcast-without-compromising-listeners-privacy">Scale your podcast without compromising listeners’ privacy</h2>
+
+<p>Privacy is one of the platform’s defining characteristics. Trust is a two-way street, and public media’s ability to thrive depends on our listeners’ trust in us. Sharing and misusing personal data, like IP addresses, and tracking people’s internet activity without permission violates that trust.</p>
+
+<p>In another post, we’ll go into all the technical details of how Dovetail is at the forefront of security. Still, we’ll leave you with this: privacy regulations are strengthening, not weakening. Content creators need to be ready for how that can impact their ad sales and revenue.</p>
+
+<p>If you already publish podcasts or are exploring podcasting, we hope you will consider Dovetail for your podcast distribution needs.</p>]]></content><author><name>Brandon Hundt</name></author><summary type="html"><![CDATA[A privacy-first suite of applications for all your podcasting needs.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/hero-stations.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/hero-stations.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing Inventory Management in Dovetail from PRX</title><link href="https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product" rel="alternate" type="text/html" title="Introducing Inventory Management in Dovetail from PRX" /><published>2022-07-21T00:00:00+00:00</published><updated>2022-07-21T00:00:00+00:00</updated><id>https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product</id><content type="html" xml:base="https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product"><![CDATA[<p>Over the past year, PRX carefully migrated our podcasts to our latest version of Dovetail - that now includes end to end ad inventory management.</p>
 
 <p>Our Advertising Operations (Ad-Ops) team is now able to manage advertising campaigns from front to end in one system, including near real-time forecasts and availability broken down by Geo-targets available as the inventory order (IO) is being inserted.</p>
 
@@ -130,4 +190,64 @@ Ads are fulfilled by reserving Allocations against future Inventory.</p>
 <picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dovetail/5-vast-200-dc6f5422d.webp 200w, /assets/generated/img/dovetail/5-vast-400-dc6f5422d.webp 400w, /assets/generated/img/dovetail/5-vast-800-dc6f5422d.webp 800w, /assets/generated/img/dovetail/5-vast-1200-dc6f5422d.webp 1200w, /assets/generated/img/dovetail/5-vast-1600-dc6f5422d.webp 1600w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/dovetail/5-vast-200-78c163ab9.png 200w, /assets/generated/img/dovetail/5-vast-400-78c163ab9.png 400w, /assets/generated/img/dovetail/5-vast-800-78c163ab9.png 800w, /assets/generated/img/dovetail/5-vast-1200-78c163ab9.png 1200w, /assets/generated/img/dovetail/5-vast-1600-78c163ab9.png 1600w" type="image/png" /><img src="/assets/generated/img/dovetail/5-vast-800-78c163ab9.png" alt="screenshot of a VAST creative in Dovetail" width="1688" height="580" /></picture>
 
 <h2 id="self-service-dovetail">Self-Service Dovetail</h2>
-<p>We made a bet that our Ad-Ops team handles the same use cases that Ad-Ops teams across podcasting and outside of PRX come across on a near daily basis. This is a professional tool for professionals that respect user privacy and helps grow producer revenue. This may be the tool you need to grow your shows. If so, feel free to reach out us.</p>]]></content><author><name>Brandon Hundt</name></author><summary type="html"><![CDATA[Understand your inventory with best in class inventory management.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/homepage-hero.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/homepage-hero.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>We made a bet that our Ad-Ops team handles the same use cases that Ad-Ops teams across podcasting and outside of PRX come across on a near daily basis. This is a professional tool for professionals that respect user privacy and helps grow producer revenue. This may be the tool you need to grow your shows. If so, feel free to reach out us.</p>]]></content><author><name>Brandon Hundt</name></author><summary type="html"><![CDATA[Understand your inventory with best in class inventory management.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/homepage-hero.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/homepage-hero.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Five features of PRX Metrics we want you to know about</title><link href="https://dovetail.prx.org/2019/09/06/five-features-of-prx-metrics-we-want-to-you-to-know-about" rel="alternate" type="text/html" title="Five features of PRX Metrics we want you to know about" /><published>2019-09-06T00:00:00+00:00</published><updated>2019-09-06T00:00:00+00:00</updated><id>https://dovetail.prx.org/2019/09/06/five-features-of-prx-metrics-we-want-to-you-to-know-about</id><content type="html" xml:base="https://dovetail.prx.org/2019/09/06/five-features-of-prx-metrics-we-want-to-you-to-know-about"><![CDATA[<p><em>Note: This article was originally posted on <a href="https://medium.com/prxofficial/five-features-of-prx-metrics-we-want-to-you-to-know-about-f3aceb15b47b">PRX’s company blog</a>.</em></p>
+
+<p>PRX’s <a href="https://www.prx.org/services/publishing-platform">publishing platform</a> is at the heart of our mission to serve audio creators. It allows producers to easily add new content and distribute it across an ever increasing list of listening apps and technologies (like smart speakers.)</p>
+
+<p>In the past year, we’ve been working hard to further deliver on this mission by adding new features to Metrics, our in-house data platform that allows producers to see the impact of and audience for their stories. It shows all the unique downloads for podcast audio, from every platform and player, so that producers can realize their vision, take measurable risks, and make more meaningful media.</p>
+
+<p>The tech team is proud of our recent work because of the value Metrics brings to producers. Here’s what Sandi Barr, PRX Senior Software Engineer and Metrics Champion™ says:</p>
+
+<blockquote>
+  <em>It’s so important for podcasters to have access to and be able to make the most out of their data. The podcasts we carry on PRX are owned and managed by the users — independent producers, media companies, and public radio stations. We’re so proud that we can offer them a platform along with our guidance and leadership in the industry to help them better understand and make use of their data to grow their reach.</em>
+</blockquote>
+
+<h2 id="how-metrics-works">How Metrics Works:</h2>
+
+<p>The glue of the PRX publishing platform is <a rel="noopener" href="/prxofficial/on-dovetail-618153c4d67e">Dovetail</a>, an application that seamlessly inserts sponsorship messaging with podcast episodes uploaded into our content management system, Publish. Also inserted into each episode by Dovetail is a pixel tracker that counts when an episode is streamed or downloaded.</p>
+
+<p>Dovetail then provides the data in its API to Metrics, which displays it in a frontend built using Angular.</p>
+
+<p>Note: PRX strongly believes in user privacy.<strong> </strong>All the pixel tracker collects are a count of the download, a timestamp, the user-agent reported from the app itself, and a portion of the IP address to report location.<strong> None of this can directly tie back to a single listener, meaning the listener is fully anonymous to our publishing platform.</strong> <strong>All we know is that somebody listened, not who.</strong> Furthermore, we do not collect any information on what other podcasts people may be listening to. What they listen to is their business, not ours.</p>
+
+<p>I’d like to highlight 5 features of Metrics that empower creators.</p>
+
+<hr />
+
+<h2 id="1-near-real-time-data-updates-and-flexible-time-selection">1) Near real time data updates and flexible time selection</h2>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-1-200-19febdfa2.webp 200w, /assets/generated/img/metrics-body-1-400-19febdfa2.webp 400w, /assets/generated/img/metrics-body-1-720-19febdfa2.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-1-200-8a4ea7ec2.png 200w, /assets/generated/img/metrics-body-1-400-8a4ea7ec2.png 400w, /assets/generated/img/metrics-body-1-720-8a4ea7ec2.png 720w" type="image/png" /><img src="/assets/generated/img/metrics-body-1-720-8a4ea7ec2.png" alt="screenshot of PRX Metrics date selection" width="720" height="374" /></picture>
+
+<p>Our producers can begin to track episode performance as soon as they publish an episode. Metrics has the latest data within minutes of a new listen being recorded by Dovetail, allowing producers to receive live updates of traffic on an episode.</p>
+
+<p>Users can measure episode performance in custom time ranges based on the unique cadence of each show (daily, weekly, seasonality).</p>
+
+<h2 id="2-drop-day-charts">2) Drop day charts</h2>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-2-200-78c55a2c2.webp 200w, /assets/generated/img/metrics-body-2-400-78c55a2c2.webp 400w, /assets/generated/img/metrics-body-2-720-78c55a2c2.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-2-200-6f536a087.png 200w, /assets/generated/img/metrics-body-2-400-6f536a087.png 400w, /assets/generated/img/metrics-body-2-720-6f536a087.png 720w" type="image/png" /><img src="/assets/generated/img/metrics-body-2-720-6f536a087.png" alt="screenshot of PRX Metrics drop day charts" width="720" height="247" /></picture>
+
+<p>Leveraging real time data, we built a Drop Day chart to help creators see for themselves how episodes compared to one another in the hours and days following an episode drop. This allows producers to better understand the timing of releasing podcast episodes.</p>
+
+<p>For example, if a producer of a weekly podcast releases a podcast a few hours later than normal (or even a day later,) they can directly see the impact that the publishing delay may have on traffic, positive or negative.</p>
+
+<h2 id="3-easily-switch-between-your-shows">3) Easily switch between your shows</h2>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-3-200-34ef858d5.webp 200w, /assets/generated/img/metrics-body-3-400-34ef858d5.webp 400w, /assets/generated/img/metrics-body-3-720-34ef858d5.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-3-200-a94042fd7.png 200w, /assets/generated/img/metrics-body-3-400-a94042fd7.png 400w, /assets/generated/img/metrics-body-3-720-a94042fd7.png 720w" type="image/png" /><img src="/assets/generated/img/metrics-body-3-720-a94042fd7.png" alt="show switcher" width="720" height="180" /></picture>
+
+<p>Many of the creators that use our publishing platform produce multiple podcasts, so we’ve provided easy ways to navigate between them.</p>
+
+<h2 id="4-aggregated-show-downloads-you-can-see-a-single-episode-or-compare-releases">4) Aggregated show downloads. You can see a single episode, or compare releases.</h2>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-4-200-56b09cb18.webp 200w, /assets/generated/img/metrics-body-4-400-56b09cb18.webp 400w, /assets/generated/img/metrics-body-4-720-56b09cb18.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-4-200-c1eb8ea6a.png 200w, /assets/generated/img/metrics-body-4-400-c1eb8ea6a.png 400w, /assets/generated/img/metrics-body-4-720-c1eb8ea6a.png 720w" type="image/png" /><img src="/assets/generated/img/metrics-body-4-720-c1eb8ea6a.png" alt="screenshot of PRX Metrics episode list" width="720" height="339" /></picture>
+
+<p>To this point, we’ve focused a lot on tracking individual episodes, but creators can also check data across a series of episode releases and export it to CSV or Google Sheets. Data is also rolled up to easily see how your selected range compares to the all-time stats for a show.</p>
+
+<h2 id="5-information-about-where-listeners-are-located-and-the-apps-they-use-to-hear-your-show">5) Information about where listeners are located, and the apps they use to hear your show</h2>
+
+<picture><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-2-200-78c55a2c2.webp 200w, /assets/generated/img/metrics-body-2-400-78c55a2c2.webp 400w, /assets/generated/img/metrics-body-2-720-78c55a2c2.webp 720w" type="image/webp" /><source sizes="(max-width: 480px) calc(100vw - 16px), (max-width: 768) 80vw, 1200px" srcset="/assets/generated/img/metrics-body-2-200-6f536a087.png 200w, /assets/generated/img/metrics-body-2-400-6f536a087.png 400w, /assets/generated/img/metrics-body-2-720-6f536a087.png 720w" type="image/png" /><img src="/assets/generated/img/metrics-body-2-720-6f536a087.png" alt="screenshot of PRX Metrics apps performance list" width="720" height="247" /></picture>
+
+<p>Previously, I mentioned how Dovetail’s pixel tracker collects some non-personally identifiable data. We report this to producers using Metrics through maps, charts and tables. Producers can look up listenership by country or metro area (DSM), as well as by device and the podcast app used — assuming the podcast app provides a user-agent we can use to track. This gives producers useful information to make marketing decisions regarding ad spend and promotion opportunities.</p>
+
+<hr />
+
+<p>To conclude, many folks played a part in the development of Metrics, but I’d like to single out three for a shout out: the aforementioned Sandi Barr, Technical Lead Ryan Cavis, and Director of Design Chris Kalafarski. 🌮 Tacos all around.</p>]]></content><author><name>Brandon Hundt</name></author><summary type="html"><![CDATA[PRX’s Metrics platform empowers audio producers with download and audience data]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dovetail.prx.org/assets/img/metrics-post-1.jpg" /><media:content medium="image" url="https://dovetail.prx.org/assets/img/metrics-post-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

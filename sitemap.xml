@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://dovetail.prx.org/2019/09/06/five-features-of-prx-metrics-we-want-to-you-to-know-about</loc>
+<lastmod>2019-09-06T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://dovetail.prx.org/2022/07/21/introducing-dovetail-as-product</loc>
 <lastmod>2022-07-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dovetail.prx.org/2022/10/07/what-is-dovetail-from-prx</loc>
+<lastmod>2022-10-07T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://dovetail.prx.org/2022/12/02/dovetail-glossary</loc>

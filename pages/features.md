@@ -45,7 +45,7 @@ image: /assets/img/og-image.jpg
           {% picture img/features/multiple-feeds.png 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
           <div class="card-body">
             <h3>Multiple Feeds</h3>
-            <p class="mb-0">We support multiple business models</p>
+            <p class="mb-0">Customize RSS feeds for your audience to support multiple business models.</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Private Ad-free feeds</li>
@@ -59,12 +59,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/production-calendar.png 16:9 class="card-img-top" --alt Screenshot of Production Calendar %}
           <div class="card-body">
             <h3>Production Calendar</h3>
-            <p class="mb-0">Maximize your revenues.</p>
+            <p class="mb-0">Maximize your revenues by planning your episode drops/seasons ahead of time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Bulk Scheduler</li>
+            <li class="list-group-item">Bulk Episode Scheduler</li>
             <li class="list-group-item">Improved forecast accuracy</li>
-            <li class="list-group-item">Supports production staffs</li>
+            <li class="list-group-item">Clearly communicates upcoming episodes</li>
           </ul>
         </div>
       </div>
@@ -124,12 +124,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/ulm.png 16:9 class="card-img-top" --alt Screenshot of Unique Listener Metrics dashboard %}
           <div class="card-body">
             <h3>Unique Listener Metrics</h3>
-            <p class="mb-0">Understand how your listener base is growing or shrinking over time.</p>
+            <p class="mb-0">Understand how your listener base changes over time.</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">IAB 2.1 Compliant</li>
-            <li class="list-group-item">Filter by date</li>
-            <li class="list-group-item">Easily accessed via dashboard</li>
+            <li class="list-group-item">7 vs 30 day windows</li>
+            <li class="list-group-item">Rolling-vs-calendar rollups</li>
           </ul>
         </div>
       </div>
@@ -139,7 +139,7 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Sell with confidence using Ad Inventory Management</h2>
+    <h2 class="display-6 mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
@@ -147,10 +147,10 @@ image: /assets/img/og-image.jpg
           {% picture img/features/forecast.png 16:9 class="card-img-top" --alt screenshot of a forecast in Dovetail %}
           <div class="card-body">
             <h3>Forecasting</h3>
-            <p class="mb-0">Our download forecasts are integral to how campaigns are served.</p>
+            <p class="mb-0">An accurate download forecast is integral to fulfilling your sales and campaign goals.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Download prediction by day, country, and ad zone,  </li>
+            <li class="list-group-item">Download prediction by day, episode, keyword, device, app, zone, country, subdiv, metro, state/province/territory</li>
             <li class="list-group-item">Sets ad inventory levels</li>
             <li class="list-group-item">Adjusts daily</li>
           </ul>
@@ -161,12 +161,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/campaign-management.png 16:9 class="card-img-top" --alt screenshot of campaign and flight entry in Dovetail %}
           <div class="card-body">
             <h3>Campaign Management</h3>
-            <p class="mb-0">Quickly add new IOs and segment them as they need.</p>
+            <p class="mb-0">Quickly add new IOs and segment them as needed.</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Flight ads by targets</li>
             <li class="list-group-item">Modify priorities</li>
-            <li class="list-group-item">Near real time forecasts as you input</li>
+            <li class="list-group-item">Near real time availability as you input</li>
           </ul>
         </div>
       </div>
@@ -175,12 +175,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/reporting.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
           <div class="card-body">
             <h3>Reporting</h3>
-            <p class="mb-0">Look forward and backwards to produce reports</p>
+            <p class="mb-0">Reports on forecasted inventory as well as historical performance.</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Search availability across shows</li>
             <li class="list-group-item">Build your own campaign reports</li>
-            <li class="list-group-item">QA checks so you can have confidence the right ad is going to be served</li>
+            <li class="list-group-item">Simulate 100 download requests, to ensure you know what combinations of ads will be served on an episode</li>
           </ul>
         </div>
       </div>
@@ -189,12 +189,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/programmatic.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
           <div class="card-body">
             <h3>Privacy forward Programmatic</h3>
-            <p class="mb-0">Backfill ad inventory by hooking into privacy forward ad-exchanges</p>
+            <p class="mb-0">Fill remnant ad inventory by hooking into privacy forward ad-exchanges</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">VAST tag support in creative library</li>
             <li class="list-group-item">Brand Safety</li>
-            <li class="list-group-item">Opt-outs</li>
+            <!--<li class="list-group-item">Allow listeners to Opt-out of participating in privacy exchange</li>-->
           </ul>
         </div>
       </div>

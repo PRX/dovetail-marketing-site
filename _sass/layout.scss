@@ -287,6 +287,11 @@ footer.bg-black-diagonal {
     font-weight: bold;
     color: $blue;
   }
+
+  blockquote {
+    padding: 0 0 0 1rem;
+    border-left: 3px solid $orange;
+  }
 }
 
 .blog-thumbnail {

@@ -211,7 +211,7 @@ image: /assets/img/og-image.jpg
   </div>
   <div class="hero-content container col-xxl-8 text-center py-4">
     <div class="hero-content-inner">
-      <h2 class="display-6 pt-4">Ensure your podcast keeps it independence</h2>
+      <h2 class="display-6 pt-4">Ensure your podcast keeps its independence</h2>
       <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>

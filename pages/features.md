@@ -90,7 +90,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Easily take your audio with you using the PRX embeddable player.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/2022/12/19/dovetail-now-supports-web-monetization-podcasting">Web Monetization</a></li>
+            <li class="list-group-item"><a href="/2023/01/03/dovetail-now-supports-web-monetization-podcasting">Web Monetization</a></li>
             <li class="list-group-item">Flexible design options</li>
             <li class="list-group-item">Preview before publishing</li>
           </ul>

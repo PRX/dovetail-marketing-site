@@ -6,13 +6,13 @@ author: Andrew Kuklewicz
 image: /assets/img/web-mon-hero.png
 heroimage: img/web-mon-hero.png
 heroimagealt: Stylized Web Monetization icon
-excerpt: Micropayments are a privacy safe alternative for unlocking additional producer revenues. We share how they work and how Dovetail supports them.
+excerpt: Micropayments are a privacy safe alternative for unlocking additional producer revenue. We share how they work and how Dovetail supports them.
 
 ---
 
 At PRX, we’ve been working on supporting micropayments for podcasting using [Web Monetization](https://webmonetization.org/). Web Monetization is a way to reward creators with real-time micropayments for their work while protecting privacy and supporting an open web. We see this as part of our larger goals to protect listener privacy and an open podcasting ecosystem.
 
-With help from [Grant for The Web](https://www.grantfortheweb.org/), PRX built support for Web Monetization into our platform, and we are working with key creators to experiment with using these payments on their shows and websites, like [_Song Exploder_](https://songexploder.net/).
+With help from [Grant for The Web](https://www.grantfortheweb.org/), PRX built support for Web Monetization into our platform, and we are working with key creators to experiment with using these payments on their shows and websites, like "[_Song Exploder_](https://songexploder.net/)."
 
 ## Micropayments
 
@@ -20,7 +20,7 @@ In podcasting, and the internet in general, there are many ways to monetize: spo
 
 A still nascent form of monetization is micropayments. With micropayments, people sign up to reward creators based on their attention, and then creators receive a stream of payments when someone reads, views, or listens to their work online on a platform that enables payments. Micropayments are already happening with [Podcasting 2.0’s Value 4 Value](https://podcastindex.org/podcast/value4value), and many podcasters (> 10,000) have adopted micropayments using [Bitcoin over the Lightning network](https://podnews.net/article/how-to-earn-bitcoin-from-your-podcast).
 
-But, for all the potential, the trade-off with micropayments is the technical and behavioral challenge of getting people to adopt the technology. To effectively adopt micropayments, you need consumers to sign up and enable payments, a way to know when content is consumed, and an affordable means to send payments. Ideally, all of this would be enabled to work on any website, anywhere, and not be limited by currency or vendor, and everyone would use it.
+But, for all the potential, the trade-off with micropayments is the technical and behavioral challenge of getting people to adopt the technology. To effectively adopt micropayments, you need consumers to sign up and enable payments, a way to know when content is consumed, *and* an affordable means to send payments. Ideally, all of this would be enabled to work on any website, anywhere, and not be limited by currency or vendor, and everyone would use it.
 
 ## Web Monetization
 
@@ -32,7 +32,7 @@ Even with all these technical advantages, there is still the behavioral challeng
 
 ## Getting Started for Creators and Audiences
 
-For creators to get started, they need an online wallet, like an [Uphold](https://webmonetization.org/docs/uphold/) account, to receive money via the protocol that handles micropayments (i.e., [Interledger](https://interledger.org/developer-tools/get-started/overview/)).
+For creators to get started, they need an online wallet, like an [Uphold](https://webmonetization.org/docs/uphold/) account, to receive money via the protocol that handles micropayments (i.e. [Interledger](https://interledger.org/developer-tools/get-started/overview/)).
 
 With a wallet, they get a public address for receiving payments, something like the `@First-Lastname` addresses Venmo and similar (proprietary) services provide. Public addresses for Web Monetization are called [Payment Pointer](https://webmonetization.org/docs/ilp-wallets/#payment-pointers), and look something like `$ilp.uphold.com/ABC3DefGHijk`.
 
@@ -44,7 +44,7 @@ Wallets and memberships are the two hands reaching out to make Web Monetization 
 
 ## Web Monetization with Dovetail
 
-For podcasters using [Dovetail from PRX](/), it’s simple to get started with Web Monetization (and all explained in this help article).
+For podcasters using [Dovetail from PRX](/), it’s simple to get started with Web Monetization (and all explained in [this help article](https://help.prx.org/hc/en-us/articles/9901810244251-How-can-I-set-up-micropayments-for-my-podcast-)).
 
 On any podcast in Dovetail, a producer can paste in a payment pointer address, hit save, and the feed will be updated to include the address and enable monetization:
 
@@ -52,24 +52,22 @@ On any podcast in Dovetail, a producer can paste in a payment pointer address, h
  %}
 
 ### A Web Monetized Podcast Player
-Adding the payment pointer to the feed is essential, but we also need podcast players to be Web Monetization enabled and make use of it. PRX also supports an open-source web player for podcasts, so we added support for web monetization in our own player, the very one used already by many of our podcasters like on [_Song Exploder_](https://songexploder.net/) and [_Book Exploder_](https://bookexploder.com/).
+Adding the payment pointer to the feed is essential, but we also need podcast players to be Web Monetization enabled and make use of it. PRX also supports an open-source web player for podcasts, so we added support for web monetization in our own player, the very one used already by many of our podcasters like on "[_Song Exploder_](https://songexploder.net/)" and "[_Book Exploder_](https://bookexploder.com/)."
 
-Now, when someone using web monetization listens to an episode on the _Book Exploder_ website, they will send payments while they listen, with the dollar sign icon showing that monetization is happening:
+Now, when someone using web monetization listens to an episode on the [_Book Exploder_](https://bookexploder.com/episodes/james-mcbride) website, they will send payments while they listen, with the dollar sign icon showing that monetization is happening:
 
 {% picture img/web-mon-2.png --alt An example PRX Player showing the monetization dollar sign in the bottom right corner
  %}
-
-An example PRX Player showing the monetization dollar sign in the bottom right corner
 
 Clicking on the dollar sign icon shows a visualization for the streaming payments, and how much money has been sent while listening:
 
 {% picture img/web-mon-3.png --alt The player showing payments streaming from the listener to the creator during playback %}
 
-To make this work, Dovetail adds the payment pointer in a special tag in the RSS feed for the player to use to stream payments during playback. But we didn’t want to update the feed in a way that only works for PRX, we built on the work at the Podcast Index defining monetization in RSS, and further on how the folks at Castopod built support for Web Monetization. The result is a Podcasting 2.0 proposal for a standard way to use web monetization for podcasting that should work for any podcast host, and can be adopted by any podcast website or web player.
+To make this work, Dovetail adds the payment pointer in a special tag in the RSS feed for the player to use to stream payments during playback. But we didn’t want to update the feed in a way that only works for PRX, we built on the work at the [Podcast Index defining monetization](https://github.com/Podcastindex-org/podcast-namespace/issues/132) in RSS, and further on how the folks at [Castopod built support for Web Monetization](https://blog.castopod.org/castopod-supports-web-monetization/). The result is a [Podcasting 2.0 proposal for a standard way to use web monetization for podcasting](https://github.com/Podcastindex-org/podcast-namespace/pull/409) that should work for any podcast host, and can be adopted by any podcast website or web player.
 
-This is important, because when you believe in standards, it means working to support and bolster the work and inventions of others. As a practical result, it also means what we’ve built is interoperable, so with help from the team at Castopod, Castopod hosted podcasts can also receive payments from the open source PRX player.
+This is important, because when you believe in standards, it means working to support and bolster the work and inventions of others. As a practical result, it also means what we’ve built is interoperable, so with help from the team at [Castopod](https://blog.castopod.org/castopod-supports-web-monetization/), Castopod hosted podcasts can also receive payments from the open source PRX player.
 
-For example, this Castopod hosted show _Les Poésies d’Héloïse_ can use the PRX embeddable player to receive web monetized payments, just exactly like one hosted on Dovetail:
+For example, this Castopod hosted show "[Les Poésies d’Héloïse](https://lespoesiesdheloise.fr/@heloise)" can use the [PRX embeddable player](https://play.prx.org/e?uf=https://lespoesiesdheloise.fr/@heloise/feed.xml) to receive web monetized payments, just exactly like one hosted on Dovetail:
 
 {% picture img/web-mon-4.png --alt A Castopod podcast with streaming payments in the PRX player %}
 

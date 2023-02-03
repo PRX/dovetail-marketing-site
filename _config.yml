@@ -65,3 +65,8 @@ picture:
   source: "assets"
   output: "assets/generated"
   suppress_warnings: true
+
+jekyll_admin:
+  hidden_links:
+    - datafiles
+    - configuration

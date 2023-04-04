@@ -19,7 +19,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - run: sudo apt-get install -y libvips42 ruby-vips libvips-dev
+      - run: sudo apt-get update && sudo apt-get install -y libvips42 ruby-vips libvips-dev
       - uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true

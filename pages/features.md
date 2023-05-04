@@ -5,6 +5,7 @@ description: Dovetail provides producers with a seamless podcast publishing expe
 permalink: /features
 image: /assets/img/og-image.jpg
 ---
+
 <section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
@@ -113,7 +114,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">IAB 2.1 Compliant</li>
+            <li class="list-group-item">IAB 2.1 Certified</li>
             <li class="list-group-item">Drop date comparison</li>
             <li class="list-group-item">Analyze across geography, device, and podcast app</li>
           </ul>
@@ -127,7 +128,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Understand how your listener base changes over time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">IAB 2.1 Compliant</li>
+            <li class="list-group-item">IAB 2.1 Certified</li>
             <li class="list-group-item">7 vs 30 day windows</li>
             <li class="list-group-item">Rolling-vs-calendar rollups</li>
           </ul>

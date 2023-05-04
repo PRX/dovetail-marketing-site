@@ -3,6 +3,7 @@ layout: default
 permalink: /
 image: /assets/img/og-image.jpg
 ---
+
 <section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
@@ -121,7 +122,7 @@ image: /assets/img/og-image.jpg
           <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
           <li><strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats</li>
           <li><strong>Episode Forecasts:</strong> See into the future with episode-level forecasts</li>
-          <li><strong>IAB 2.1 complaint</strong></li>
+          <li><strong>IAB 2.1 certified</strong></li>
         </ul>
       </div>
       <div class="col-md-6 pb-4 d-flex align-items-center">

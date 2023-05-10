@@ -114,7 +114,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">IAB 2.1 Certified</li>
+            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.1 Certified</a></li>
             <li class="list-group-item">Drop date comparison</li>
             <li class="list-group-item">Analyze across geography, device, and podcast app</li>
           </ul>
@@ -128,7 +128,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Understand how your listener base changes over time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">IAB 2.1 Certified</li>
+            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.1 Certified</a></li>
             <li class="list-group-item">7 vs 30 day windows</li>
             <li class="list-group-item">Rolling-vs-calendar rollups</li>
           </ul>

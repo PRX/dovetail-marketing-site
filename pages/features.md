@@ -46,7 +46,7 @@ image: /assets/img/og-image.jpg
           {% picture img/features/multiple-feeds.png 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
           <div class="card-body">
             <h3>Multiple Feeds</h3>
-            <p class="mb-0">Customize RSS feeds for your audience to support multiple business models.</p>
+            <p class="mb-0">Customize RSS feeds for your audience to support multiple business models. <a href="/2023/07/06/dovetail-multiple-feeds">Learn More</a></p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Private Ad-free feeds</li>

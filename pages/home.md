@@ -155,25 +155,23 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<!-- #Blockquote
 <section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
-      <figure class="col-md-8 mb-0 pb-0">
+      <figure class="col-md-9 col-12 mb-0 pb-0">
         <blockquote class="blockquote mt-2">
-          <p class="display-6">A well-known quote, contained in a blockquote element.</p>
+          <p class="fs-3">&ldquo;Dovetail has really allowed us to streamline podcast operations from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!&rdquo;</p>
         </blockquote>
         <figcaption class="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Whitney Baker, Digital Platforms Manager for WUNC
         </figcaption>
       </figure>
-      <div class="quote-mark icon-svg d-flex justify-content-center col-4">
+      <div class="quote-mark icon-svg d-md-flex justify-content-center col-md-3 d-sm-none">
         <img src="/assets/img/quote.svg" alt="quotation mark" aria-hidden="true" class="" width="100" height="79" />
       </div>
     </div>
   </div>
 </section>
--->
 
 <section class="hero p-5">
   <div class="hero-image">

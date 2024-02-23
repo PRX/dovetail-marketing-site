@@ -32,7 +32,7 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
+              {% picture thumbnail img/artwork/inthedark.webp --alt In the Dark from Conde Nast %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
@@ -64,7 +64,7 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/projectbrazen.png --alt Project Brazen Originals %}
+              {% picture thumbnail img/artwork/welcome-nightvale.png --alt Project Brazen Originals %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/smithsonian.png --alt Sidedoor from Smithsonian %}

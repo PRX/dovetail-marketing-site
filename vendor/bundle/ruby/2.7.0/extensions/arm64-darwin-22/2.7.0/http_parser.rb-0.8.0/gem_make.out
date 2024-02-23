@@ -1,0 +1,17 @@
+current directory: /Users/brandonhundt/sites/dovetail-marketing-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/brandonhundt/.asdf/installs/ruby/2.7.6/bin/ruby -I /Users/brandonhundt/.asdf/installs/ruby/2.7.6/lib/ruby/2.7.0 -r ./siteconf20231110-38675-zphczl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/brandonhundt/sites/dovetail-marketing-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/brandonhundt/sites/dovetail-marketing-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/brandonhundt/sites/dovetail-marketing-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20231110-38675-1velszk

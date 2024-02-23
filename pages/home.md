@@ -26,8 +26,7 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-3 mb-4">Dovetail from PRX helps producers grow, monetize, and sustain their podcasts to succeed in today’s open podcast ecosystem.</p>
-    <p class="fs-4 mb-4">Dovetail averages 70 million downloads per month from over 260 podcasts.</p>
+    <p class="fs-4 mb-4">Dovetail from PRX supports 272 podcasts and enables 80 different organizations — including 27 public media stations — to expand audience, monetize content, and ensure long-term sustainability of their podcasts, all while upholding a steadfast commitment to privacy.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -105,7 +104,7 @@ image: /assets/img/og-image.jpg
       </div>
       <div class="col-md-6 pb-4 d-flex align-items-center">
         <div class="container p-0 product-image">
-          {% picture img/screenshot-publish.jpg --alt Screenshot of publishing episodes in Dovetail from PRX %}
+          {% picture img/screenshot-feeder.jpg --alt Screenshot of publishing dashboard in Dovetail from PRX %}
         </div>
       </div>
     </div>
@@ -155,16 +154,15 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<!-- #Blockquote
 <section class="bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
         <blockquote class="blockquote mt-2">
-          <p class="display-6">A well-known quote, contained in a blockquote element.</p>
+          <p class="fs-4">“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
         </blockquote>
         <figcaption class="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Whitney Baker, Digital Platforms Manager WUNC
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
@@ -173,7 +171,6 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
 </section>
--->
 
 <section class="hero p-5">
   <div class="hero-image">

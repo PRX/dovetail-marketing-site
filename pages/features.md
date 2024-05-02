@@ -40,10 +40,21 @@ image: /assets/img/og-image.jpg
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
     <p class="lead">Producer tools for episode uploads and feed management</p>
+    <div class="row">
+      <div class="col-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <div style="--aspect-ratio: 16/9;">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LEQqdVBt460?si=dXHtMaQV0h6EMVlb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card">
-          {% picture img/features/multiple-feeds.png 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
+          {% picture img/screenshot-feeder-feeds.jpg 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
           <div class="card-body">
             <h3>Multiple Feeds</h3>
             <p class="mb-0">Customize RSS feeds for your audience to support multiple business models. <a href="/2023/07/06/dovetail-multiple-feeds">Learn More</a></p>
@@ -57,7 +68,7 @@ image: /assets/img/og-image.jpg
       </div>
       <div class="col">
         <div class="card">
-          {% picture img/features/production-calendar.png 16:9 class="card-img-top" --alt Screenshot of Production Calendar %}
+          {% picture img/screenshot-feeder-calendar.jpg 16:9 class="card-img-top" --alt Screenshot of Production Calendar %}
           <div class="card-body">
             <h3>Production Calendar</h3>
             <p class="mb-0">Maximize your revenues by planning your episode drops/seasons ahead of time.</p>
@@ -71,7 +82,7 @@ image: /assets/img/og-image.jpg
       </div>
       <div class="col">
         <div class="card">
-          {% picture img/features/audio-templates.png 16:9 class="card-img-top" --alt Headphones %}
+          {% picture img/screenshot-feeder-structure.jpg 16:9 class="card-img-top" --alt Headphones %}
           <div class="card-body">
             <h3>Flexible Show Structures</h3>
             <p class="mb-0">Adjust your show structure on an episode by episode basis.</p>
@@ -85,7 +96,7 @@ image: /assets/img/og-image.jpg
       </div>
       <div class="col">
         <div class="card">
-          {% picture img/features/play.png 16:9 class="card-img-top" --alt Screenshot of the PRX embeddable player %}
+          {% picture img/screenshot-feeder-player.jpg 16:9 class="card-img-top" --alt Screenshot of the PRX embeddable player %}
           <div class="card-body">
             <h3>Embeddable Player</h3>
             <p class="mb-0">Easily take your audio with you using the PRX embeddable player.</p>

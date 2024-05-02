@@ -26,7 +26,7 @@ image: /assets/img/og-image.jpg
 
 <section class="bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-4 mb-4">Dovetail from PRX supports 272 podcasts and enables 80 different organizations — including 27 public media stations — to expand audience, monetize content, and ensure long-term sustainability of their podcasts, all while upholding a steadfast commitment to privacy.</p>
+    <p class="fs-4 mb-4">Dovetail from PRX supports over 270 podcasts and enables over 80 different organizations — to expand audience, monetize content, and ensure long-term sustainability of their podcasts, all while upholding a steadfast commitment to privacy.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

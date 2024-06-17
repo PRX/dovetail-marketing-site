@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Success
-description: We have received your inquiry
-permalink: /success/
+description: Thank you, we have received your inquiry.
+permalink: /success
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">

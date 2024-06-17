@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 description: We want to know how we can help you with your podcasting needs.
-permalink: /contact/
+permalink: /contact
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">

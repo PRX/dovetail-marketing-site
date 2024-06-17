@@ -39,6 +39,7 @@
 
 <!-- JavaScript files -->
 <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
 
 <!-- Plausible Analytics -->
 <script defer data-domain="dovetail.prx.org" src="https://plausible.io/js/plausible.js"></script>
@@ -137,6 +138,7 @@
         <label for="textHelp">How can we help you?</label>
         <textarea class="form-control" id="textHelp" name="textHelp" aria-describedby="textHelp" placeholder="Anything else you want to share?"></textarea>
       </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAct7yXHEJttOvFy"></div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>

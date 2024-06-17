@@ -39,7 +39,10 @@
 <loc>https://dovetail.prx.org/blog</loc>
 </url>
 <url>
-<loc>https://dovetail.prx.org/contact/</loc>
+<loc>https://dovetail.prx.org/contact-success</loc>
+</url>
+<url>
+<loc>https://dovetail.prx.org/contact</loc>
 </url>
 <url>
 <loc>https://dovetail.prx.org/features</loc>
@@ -51,6 +54,6 @@
 <loc>https://dovetail.prx.org/stations</loc>
 </url>
 <url>
-<loc>https://dovetail.prx.org/success/</loc>
+<loc>https://dovetail.prx.org/success</loc>
 </url>
 </urlset>

@@ -20,21 +20,23 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $font-display-base;
   font-weight: bold;
+  text-wrap: balance;
+  margin-bottom: 1rem;
 
   &.post-title {
     font-weight: bold;
   }
 
   &.display-6 {
-    font-family: $font-family-base;
     font-weight: normal;
   }
 }
 
 strong,
 .fw-bold {
-  font-family: $font-family-base;
+  //font-family: $font-family-base;
 }
 
 ul {
@@ -77,6 +79,10 @@ footer .thumbnail-image {
 .post-content .thumbnail-image {
   max-width: 250px;
   height: auto;
+}
+
+blockquote {
+  font-family: $font-display-base;
 }
 
 .blockquote-footer {

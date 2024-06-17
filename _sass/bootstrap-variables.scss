@@ -1,7 +1,9 @@
 // custom bootstrap variables overrides
 // NOTE: this file gets included _before_ the default bootstrap variables
 // https://github.com/twbs/bootstrap-rubygem/blob/master/assets/stylesheets/bootstrap/_variables.scss
-$font-family-base: 'montserrat', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
+$font-display-base: 'montserrat', 'Roboto', sans-serif;
+
 
 $white: #fff;
 $black: #000;

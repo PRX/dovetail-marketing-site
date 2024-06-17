@@ -63,6 +63,7 @@ image: /assets/img/og-image.jpg
         <label for="textHelp">How can we help you?</label>
         <textarea class="form-control" id="textHelp" name="textHelp" aria-describedby="textHelp" placeholder="Anything else you want to share?"></textarea>
       </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAct7yXHEJttOvFy"></div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>

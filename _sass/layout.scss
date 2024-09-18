@@ -389,3 +389,29 @@ footer .thumbnail-image {
     height: 100%;
   }  
 }
+
+.post-card {
+  &:hover {
+    opacity: 0.8;
+  }
+
+  .card-body {
+    z-index: 1;
+    padding: 3rem;
+  }
+}
+
+.card-img-top {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.post-content {
+  p,
+  img,
+  iframe {
+    margin-bottom: 1.5rem;
+  }
+}

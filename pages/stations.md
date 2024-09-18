@@ -21,7 +21,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white p-5">
+<section class="section bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -39,7 +39,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-gray-x p-5" id="icon-grid">
+<section class="section bg-gray-x p-5" id="icon-grid">
   <div class="container col-xxl-8">
     <h2 class="mb-3 display-6">Public Media Stations Partnering with PRX</h2>
     <p class="fs-4 mt-2 mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
@@ -106,7 +106,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Self-Service Podcast Distribution for Stations</h2>
     <p class="fs-4 mt-2">Whether you already publish podcasts or are just exploring podcasting, consider Dovetail for your podcast distribution needs.</p>
@@ -114,7 +114,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white p-5">
+<section class="section bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -132,7 +132,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Pricing for Stations</h2>
     <p class="fs-4 mt-2">PRX is committed to affordability and accessibility. Pricing scales to users’ needs, and users may select either full-service or self-service options. </p>
@@ -157,7 +157,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-gray-x p-5">
+<section class="section bg-gray-x p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Dovetail is built on public media trust and values</h2>
     <p class="fs-4 mt-2">For public media to retain its mission, values, and independence, it’s crucial that we continue to ‘own the rails.’ As a trusted public media organization and technology innovator, PRX can help.</p>
@@ -168,7 +168,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero p-5 m-0 cta">
+<aside class="section text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

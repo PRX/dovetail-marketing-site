@@ -24,7 +24,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-gray p-5">
+<section class="section bg-gray p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
     <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio at any break in your show.</p>
@@ -36,7 +36,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
     <p class="lead">Producer tools for episode uploads and feed management</p>
@@ -112,7 +112,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-gray p-5">
+<section class="section bg-gray p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
@@ -149,7 +149,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
@@ -214,7 +214,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="hero p-5">
+<section class="section hero p-5">
   <div class="hero-image">
     <div>
     {% picture img/hero-privacy.jpg --alt Headphones %}
@@ -235,7 +235,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero px-4 m-0 cta">
+<aside class="section text-white hero px-4 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

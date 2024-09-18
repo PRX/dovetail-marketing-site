@@ -43,65 +43,87 @@ image: /assets/img/og-image.jpg
   <div class="container col-xxl-8">
     <h2 class="mb-3 display-6">Public Media Stations Partnering with PRX</h2>
     <p class="fs-4 mt-2 mb-4">Major public media organizations and stations trust PRX’s platform to publish their podcasts.</p>
-    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/gbh.png --alt GBH logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/kcrw.png --alt KCRW logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/kera.png --alt KERA logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/wamu.png --alt WAMU logo %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/wpln.png --alt WPLN logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/wunc.png --alt WUNC logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/cpr.png --alt Colorado Public Radio logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/wwno.png --alt WWNO logo %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-             {% picture thumbnail img/artwork/wypr.png --alt WYPR logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/stlpr.png --alt St Louis Public Radio logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-               {% picture thumbnail img/artwork/whpr.png --alt WHPR logo %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/kalw.png --alt KALW logo %}
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <div class="row g-3">
+      {% include show-tile.html
+        logo="img/artwork/gbh.png"
+        name="GBH"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/kcrw.png"
+        name="KCRW"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/kera.png"
+        name="KERA"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wamu.png"
+        name="WAMU"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wpln.png"
+        name="WPLN"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wunc.png"
+        name="WUNC"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/cpr.png"
+        name="Colorado Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wwno.png"
+        name="WWNO"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wypr.png"
+        name="WYPR"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/stlpr.png"
+        name="St Louis Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/whpr.png"
+        name="WHPR"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/kalw.png"
+        name="KALW"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/kuer.jpg"
+        name="KUER"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wnin.jpg"
+        name="WNIN"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/woul.jpg"
+        name="Louisville Public Media"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wvpr.jpg"
+        name="West Virginia Public"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wyoming.jpg"
+        name="Wyoming Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wkms.jpg"
+        name="WKMS"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/etpbs.jpg"
+        name="East Tennessee PBS"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/ipr.jpg"
+        name="Indiana Public Radio"
+      %}
     </div>
   </div>
 </section>

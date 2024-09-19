@@ -124,6 +124,62 @@ image: /assets/img/og-image.jpg
         logo="img/artwork/ipr.jpg"
         name="Indiana Public Radio"
       %}
+      {% include show-tile.html
+        logo="img/artwork/kuaf.jpg"
+        name="KUAF"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/marfa.jpg"
+        name="Marfa Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/nepm.jpg"
+        name="New England Public Media"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/pp.jpg"
+        name="Prairie Public"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wcve.jpg"
+        name="Virginia Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wfiu.jpg"
+        name="WFIU"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wfmt.jpg"
+        name="WFMT"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wfyi.jpg"
+        name="WFYI"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wnet.jpg"
+        name="The WNET Group"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wpr.jpg"
+        name="Wisconsin Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/wxpn.jpg"
+        name="WXPN"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/scpr.jpg"
+        name="South Carolina Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/kansas.jpg"
+        name="Kansas Public Radio"
+      %}
+      {% include show-tile.html
+        logo="img/artwork/whyy.jpg"
+        name="WHYY"
+      %}
     </div>
   </div>
 </section>

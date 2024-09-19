@@ -80,9 +80,15 @@ footer.bg-black-diagonal {
   }
 }
 
-footer .thumbnail-image {
-  max-width: 100px;
-  height: auto;
+footer {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  .thumbnail-image {
+    max-width: 100px;
+    height: auto;
+  }
 }
 
 .post-content .thumbnail-image {

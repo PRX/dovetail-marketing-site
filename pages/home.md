@@ -24,7 +24,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue text-white p-5">
+<section class="section bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
     <p class="fs-4 mb-4">Dovetail from PRX supports over 270 podcasts and enables over 80 different organizations — to expand audience, monetize content, and ensure long-term sustainability of their podcasts, all while upholding a steadfast commitment to privacy.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
@@ -90,7 +90,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -111,7 +111,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-gray-x p-5">
+<section class="section bg-gray-x p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -154,7 +154,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue section-quote text-white p-5">
+<section class="section bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -172,7 +172,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="hero p-5">
+<section class="section hero p-5">
   <div class="hero-image">
     <div>
     {% picture img/hero-privacy.jpg --alt Headphones on an orange background %}
@@ -203,7 +203,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero p-5 m-0 cta">
+<aside class="section text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>

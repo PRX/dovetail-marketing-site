@@ -17,22 +17,22 @@ image: /assets/img/og-image.jpg
 <section>
   <div class="container col-xxl-8 p-5">
     {% for post in site.posts %}
-    <div class="row g-0 border bg-white rounded overflow-hidden flex-md-row mt-0 mb-4 shadow-sm h-md-250 position-relative">
-      <div class="col p-4 d-flex flex-column position-static">
-        <h2>{{ post.title }}</h2>
-        <p class="card-text mb-4">{{ post.excerpt }}</p>
+    <div class="card post-card mb-4">
+      {%- if post.heroimage -%}
+      <figure class="hero-image post mb-0">
+        {% picture "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
+      </figure>  
+      {%- endif -%}
+      <div class="card-body text-light">
+        <h2 class="mb-3">{{ post.title }}</h2>
+        <p class="card-text mb-3 fs-6">{{ post.excerpt }}</p>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="mb-1 text-muted">
+        <div class="card-text fs-6">
           {%- if post.author -%}{{ post.author }} •&nbsp;{%- endif -%}
           <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: date_format }}</time>
         </div>
         <a href="{{ post.url }}" class="stretched-link" aria-label="continue reading"></a>
       </div>
-      {%- if post.heroimage -%}
-      <div class="col-3 p-4 thumbnail d-none d-lg-block blog-thumbnail">
-        {% picture thumbnail "{{ post.heroimage }}" --alt {{ post.heroimagealt }} %}
-      </div>
-      {%- endif -%}
     </div>
     {% endfor %}
   </div>

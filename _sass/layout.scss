@@ -37,6 +37,19 @@ strong,
   font-family: $font-family-base;
 }
 
+.page-wrapper {
+  position: relative;
+}
+
+.banner {
+  background-color: $dark-blue;
+
+  p {
+    font-size: .875em; 
+    color: $white;
+  }
+}
+
 ul {
   li {
     margin-bottom: 0.5rem;

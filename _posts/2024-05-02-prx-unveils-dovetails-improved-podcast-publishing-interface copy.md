@@ -8,6 +8,7 @@ image: /assets/img/feeder/hero-feeder2.jpg
 heroimage: /img/feeder/hero-feeder2.jpg
 heroimagealt: Podcasting studio with microphone in foreground
 excerpt: New features of PRX’s podcast publishing platform include audio segmentation, ad breaks, and a customizable embed player
+cta: cta-demo.html
 ---
 
 [Dovetail](https://dovetail.prx.org/) — PRX’s podcast publishing and monetization platform — is now even more user-friendly, featuring a revamped publishing interface loaded with exciting new capabilities. We’ve heeded the valuable feedback from our users, including producers and audio engineers, and we’re thrilled to announce this update designed to make podcasting with Dovetail an increasingly seamless and efficient experience.

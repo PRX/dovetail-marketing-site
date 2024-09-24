@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /2024/09/24/prx-receives-grant-from-cpb-pilot-framework-supporting-digital-audio-podcast-technology-for-public-media
-canonical: /2024/09/24/prx-receives-grant-from-cpb-pilot-framework-supporting-digital-audio-podcast-technology-for-public-media
+permalink: /2024/09/24/prx-receives-grant-from-prx-digital-audio-pilot-framework-supporting-digital-audio-podcast-technology-for-public-media
+canonical: /2024/09/24/prx-receives-grant-from-prx-digital-audio-pilot-framework-supporting-digital-audio-podcast-technology-for-public-media
 title: PRX Receives Grant from CPB to Pilot A Framework Supporting Digital Audio and Podcast Technology for the Public Media System
 image: /assets/img/homepage-hero.jpg
 heroimage: img/homepage-hero.jpg

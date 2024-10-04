@@ -14,7 +14,7 @@ image: /assets/img/og-image.jpg
     <div class="row">
       <div class="col-md-8">
         <div class="hero-content-inner">
-          <h1 class="mb-4 fw-bold">The professional publishing and monetization platform for your podcasting journey</h1>
+          <h1 class="mb-4 fw-bold">The podcast publishing and monetization platform for professionals</h1>
           <div class="d-grid gap-2 d-sm-flex">
             <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
           </div>

@@ -11,7 +11,7 @@ cta: cta-pilot.html
 
 ---
 
-*Boston, MA (October 7, 2024)*–– [The Corporation for Public Broadcasting](https://cpb.org/) (CPB) awarded a $359,600 grant to public media distributor [PRX](http://www.prx.org) for a pilot that will enable free access to Dovetail for 30 public media stations. Dovetail is PRX’s digital platform that currently supports hundreds of podcasts, including more than 150 from stations nationwide.. Public media stations that participate in the pilot will test Dovetail’s impact on audience engagement and station revenue. 
+*Boston, MA (October 7, 2024)*–– [The Corporation for Public Broadcasting](https://cpb.org/) (CPB) awarded a $359,600 grant to public media distributor [PRX](http://www.prx.org) for a pilot that will enable free access to Dovetail for 30 public media stations. Dovetail is PRX’s digital platform that currently supports hundreds of podcasts, including more than 150 from stations nationwide. Public media stations that participate in the pilot will test Dovetail’s impact on audience engagement and station revenue. 
 
 [Dovetail from PRX](/) enables public media stations and content producers to deliver audio content to audiences across all on-demand podcast platforms, provide real-time audience data and metrics, manage dynamic ad delivery, identify underwriting and fundraising opportunities, and integrate easily with existing technology. 
 

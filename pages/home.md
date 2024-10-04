@@ -14,7 +14,7 @@ image: /assets/img/og-image.jpg
     <div class="row">
       <div class="col-md-8">
         <div class="hero-content-inner">
-          <h1 class="mb-4 fw-bold">A publishing and monetization platform for all your podcasting needs</h1>
+          <h1 class="mb-4 fw-bold">The professional publishing and monetization platform for your podcasting journey</h1>
           <div class="d-grid gap-2 d-sm-flex">
             <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
           </div>
@@ -26,7 +26,7 @@ image: /assets/img/og-image.jpg
 
 <section class="section bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-4 mb-4">Elevate your podcasting journey with Dovetail from PRX: the all in one, privacy-forward platform that empowers you to create, monetize and share your content on your terms.</p>
+    <p class="fs-4 mb-4">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

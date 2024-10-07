@@ -7,6 +7,7 @@ image: /assets/img/og-image.jpg
 heroimage: /img/image-multiple-feeds.jpg
 heroimagealt: Podcasting studio with microphone in foreground
 excerpt: Simplify podcast distribution and create new avenues for growth with PRX’s podcast publishing and monetization platform, Dovetail.
+cta: cta-demo.html
 ---
 
 We recently shared an update that [Dovetail from PRX](/) — our best-in-class podcast publishing platform — is [IAB Podcast Measurement 2.1 Certified](/2023/05/09/dovetail-iab-certified). We’ve also [previously shared](https://medium.com/prxofficial/prx-bolsters-its-dovetail-podcast-publishing-platform-increasing-services-available-to-public-64aae9c91709) Dovetail’s capabilities to empower producers with trusted post-production tools for content management, real-time data and analytics, and scalable dynamic advertising.

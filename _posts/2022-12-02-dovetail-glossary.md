@@ -7,6 +7,7 @@ image: /assets/img/hero-features.jpg
 heroimage: /img/hero-features.jpg
 heroimagealt: Podcasting studio with microphone in foreground
 excerpt: Commonly used podcasting terms and definitions used throughout Dovetail from PRX
+cta: cta-demo.html
 
 ---
 

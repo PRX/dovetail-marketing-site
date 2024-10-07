@@ -7,6 +7,7 @@ image: /assets/img/homepage-hero.jpg
 heroimage: img/homepage-hero.jpg
 heroimagealt: Podcast studio with microphone in foreground
 excerpt: Understand your inventory with best in class inventory management.
+cta: cta-demo.html
 ---
 
 Over the past year, PRX carefully migrated our podcasts to our latest version of Dovetail - that now includes end to end ad inventory management.

@@ -8,6 +8,7 @@ heroimage: img/metrics-post-1.jpg
 heroimagealt: Podcast studio with microphone in foreground
 excerpt: PRX’s Metrics platform empowers audio producers with download and audience data
 canonical_url: https://medium.com/prxofficial/five-features-of-prx-metrics-we-want-to-you-to-know-about-f3aceb15b47b
+cta: cta-demo.html
 
 ---
 

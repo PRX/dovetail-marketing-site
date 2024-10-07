@@ -7,6 +7,7 @@ image: /assets/img/web-mon-hero.png
 heroimage: img/web-mon-hero.png
 heroimagealt: Stylized Web Monetization icon
 excerpt: Micropayments are a privacy safe alternative for unlocking additional producer revenue. We share how they work and how Dovetail supports them.
+cta: cta-demo.html
 
 ---
 

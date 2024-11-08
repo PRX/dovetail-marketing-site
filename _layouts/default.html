@@ -18,8 +18,11 @@ layout: table_wrapper
 </head>
 
 <body>
-    {% include navbar.html %}
-    {{ content }}
-    {% include footer.html %}
+    {% include banner.html %}
+    <div class="page-wrapper">
+        {% include navbar.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
 </body>
 </html>

@@ -3,6 +3,7 @@ layout: default
 permalink: /
 image: /assets/img/og-image.jpg
 ---
+
 <section class="text-white lede hero px-5 pb-5 m-0">
   <div class="hero-image">
     <div>
@@ -13,7 +14,7 @@ image: /assets/img/og-image.jpg
     <div class="row">
       <div class="col-md-8">
         <div class="hero-content-inner">
-          <h1 class="mb-4 fw-bold">A privacy-first suite of applications for all your podcasting needs</h1>
+          <h1 class="mb-4 fw-bold">The podcast publishing and monetization platform for professionals</h1>
           <div class="d-grid gap-2 d-sm-flex">
             <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
           </div>
@@ -23,16 +24,15 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-x-blue text-white p-5">
+<section class="section bg-x-blue text-white p-5">
   <div class="container col-xxl-8">
-    <p class="fs-3 mb-4">Dovetail from PRX helps producers grow, monetize, and sustain their podcasts to succeed in today’s open podcast ecosystem.</p>
-    <p class="fs-4 mb-4">Dovetail averages 70 million downloads per month from over 260 podcasts.</p>
+    <p class="fs-4 mb-4">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
     <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/Crushed-Podcast-Art1.jpeg --alt Crushed from Religion of Sports %}
+              {% picture thumbnail img/artwork/inthedark.jpg --alt In the Dark from Conde Nast %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
@@ -51,7 +51,7 @@ image: /assets/img/og-image.jpg
               {% picture thumbnail img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/themoth.png --alt The Moth %}
+              {% picture thumbnail img/artwork/normal-gossip.png --alt Normal Gossip %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/SnapPRX.png --alt Snap Judgement %}
@@ -64,7 +64,7 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/projectbrazen.png --alt Project Brazen Originals %}
+              {% picture thumbnail img/artwork/welcome-nightvale.png --alt Welcome to Nightvale %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/smithsonian.png --alt Sidedoor from Smithsonian %}
@@ -90,7 +90,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -104,14 +104,14 @@ image: /assets/img/og-image.jpg
       </div>
       <div class="col-md-6 pb-4 d-flex align-items-center">
         <div class="container p-0 product-image">
-          {% picture img/screenshot-publish.jpg --alt Screenshot of publishing episodes in Dovetail from PRX %}
+          {% picture img/screenshot-feeder.jpg --alt Screenshot of publishing dashboard in Dovetail from PRX %}
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-gray-x p-5">
+<section class="section bg-gray-x p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -121,7 +121,7 @@ image: /assets/img/og-image.jpg
           <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
           <li><strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats</li>
           <li><strong>Episode Forecasts:</strong> See into the future with episode-level forecasts</li>
-          <li><strong>IAB 2.1 complaint</strong></li>
+          <li><strong>IAB 2.1 certified</strong></li>
         </ul>
       </div>
       <div class="col-md-6 pb-4 d-flex align-items-center">
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="bg-white p-5">
+<section class="section bg-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -154,16 +154,15 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<!-- #Blockquote
-<section class="bg-x-blue section-quote text-white p-5">
+<section class="section bg-x-blue section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
         <blockquote class="blockquote mt-2">
-          <p class="display-6">A well-known quote, contained in a blockquote element.</p>
+          <p class="fs-4">“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
         </blockquote>
         <figcaption class="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Whitney Baker, Digital Platforms Manager WUNC
         </figcaption>
       </figure>
       <div class="quote-mark icon-svg d-flex justify-content-center col-4">
@@ -172,9 +171,8 @@ image: /assets/img/og-image.jpg
     </div>
   </div>
 </section>
--->
 
-<section class="hero p-5">
+<section class="section hero p-5">
   <div class="hero-image">
     <div>
     {% picture img/hero-privacy.jpg --alt Headphones on an orange background %}
@@ -205,13 +203,13 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<aside class="text-white hero p-5 m-0 cta">
+<aside class="section text-white hero p-5 m-0 cta">
   <div class="hero-image">
     <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
   </div>
   <div class="hero-content container col-xxl-8 text-center py-4">
     <div class="hero-content-inner">
-      <h2 class="display-6 pt-4">Ensure your podcast keeps it independence</h2>
+      <h2 class="display-6 pt-4">Ensure your podcast keeps its independence</h2>
       <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>

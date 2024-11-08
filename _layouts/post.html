@@ -9,11 +9,11 @@ layout: default
     </div>
     {%- endif -%}
 
-    <div class="hero-content container col-xxl-6">
+    <div class="hero-content container col-xxl-8">
       <div class="hero-content-inner">
         <h1 class="display-5 post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
         {%- if page.excerpt -%}
-        <p class="lead fs-3">{{ page.excerpt }}</p>
+        <p class="lead fs-4">{{ page.excerpt }}</p>
         {%- endif -%}
         <p class="post-meta fs-6">
           {%- if page.author -%}
@@ -40,7 +40,7 @@ layout: default
   </header>
 
   <div class="post-content e-content bg-white" itemprop="articleBody">
-    <div class="container col-xxl-6 p-4">
+    <div class="container col-xxl-8 p-4">
       {{ content }}
     </div>
   </div>
@@ -48,15 +48,4 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<aside class="text-white hero cta px-4 m-0">
-  <div class="hero-image">
-    <div>{% picture img/cta-hero.jpg --alt Open laptop with a podcasting microphone in foreground %}</div>
-  </div>
-  <div class="hero-content container col-xxl-6 text-center">
-    <div class="hero-content-inner">
-      <h2 class="display-6 fw-bold">Interested in a demo?</h2>
-      <p class="fs-3 mt-2 mb-4">Reach out today</p>
-      <p class="text-center"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
-    </div>
-  </div>
-</aside>
+{% include {{ page.cta }} %}

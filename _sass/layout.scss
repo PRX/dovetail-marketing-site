@@ -1,7 +1,7 @@
-$x-half-path: 'M905.335 600.029L1192.36 312.754C1197.02 308.093 1199.64 301.76 1199.64 295.166C1199.64 288.572 1197.02 282.239 1192.36 277.579L922.908 7.89153C918.251 3.22536 911.924 0.601532 905.335 0.601532C898.747 0.601532 892.419 3.22536 887.763 7.89153L600.737 295.166L600.108 294.536L313.082 7.29C308.426 2.62383 302.098 0 295.51 0C288.921 0 282.594 2.62383 277.937 7.29L8.48388 276.977C3.82175 281.638 1.2002 287.971 1.2002 294.565C1.2002 301.159 3.82175 307.492 8.48388 312.152L296.111 600.029L8.48388 887.905C3.82175 892.565 1.2002 898.899 1.2002 905.493C1.2002 912.087 3.82175 918.42 8.48388 923.08L277.937 1192.71C282.594 1197.38 288.921 1200 295.51 1200C302.098 1200 308.426 1197.38 313.082 1192.71L516.109 989.507C516.109 989.507 522.663 864.846 376.417 680.434L600.68 904.862L887.763 1192.17C892.419 1196.83 898.747 1199.46 905.335 1199.46C911.924 1199.46 918.251 1196.83 922.908 1192.17L1192.36 922.479C1197.02 917.818 1199.64 911.485 1199.64 904.891C1199.64 898.297 1197.02 891.964 1192.36 887.303L905.335 600.029Z';
+$x-half-path: "M905.335 600.029L1192.36 312.754C1197.02 308.093 1199.64 301.76 1199.64 295.166C1199.64 288.572 1197.02 282.239 1192.36 277.579L922.908 7.89153C918.251 3.22536 911.924 0.601532 905.335 0.601532C898.747 0.601532 892.419 3.22536 887.763 7.89153L600.737 295.166L600.108 294.536L313.082 7.29C308.426 2.62383 302.098 0 295.51 0C288.921 0 282.594 2.62383 277.937 7.29L8.48388 276.977C3.82175 281.638 1.2002 287.971 1.2002 294.565C1.2002 301.159 3.82175 307.492 8.48388 312.152L296.111 600.029L8.48388 887.905C3.82175 892.565 1.2002 898.899 1.2002 905.493C1.2002 912.087 3.82175 918.42 8.48388 923.08L277.937 1192.71C282.594 1197.38 288.921 1200 295.51 1200C302.098 1200 308.426 1197.38 313.082 1192.71L516.109 989.507C516.109 989.507 522.663 864.846 376.417 680.434L600.68 904.862L887.763 1192.17C892.419 1196.83 898.747 1199.46 905.335 1199.46C911.924 1199.46 918.251 1196.83 922.908 1192.17L1192.36 922.479C1197.02 917.818 1199.64 911.485 1199.64 904.891C1199.64 898.297 1197.02 891.964 1192.36 887.303L905.335 600.029Z";
 
 body {
-  background: $gray-200;
+  background: $white;
   font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
@@ -14,33 +14,62 @@ a:visited {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-header-base;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+
+  &.post-title {
+    font-weight: bold;
+  }
 
   &.display-6 {
     font-family: $font-family-base;
-    font-weight: normal;
-  }
-
-  &.fw-bold {
-    font-family: $font-header-base;
+    font-weight: bold;
   }
 }
 
 strong,
 .fw-bold {
-  font-family: $font-header-base;
+  font-family: $font-family-base;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.banner {
+  background-color: black;
+
+  p {
+    font-size: .875em; 
+    color: $white;
+  }
 }
 
 ul {
   li {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .text-white {
   a {
-  color: $ltblue;
+    color: $ltblue;
 
     &.btn-primary {
       color: $black;
@@ -64,6 +93,22 @@ footer.bg-black-diagonal {
   }
 }
 
+footer {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  .thumbnail-image {
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+.post-content .thumbnail-image {
+  max-width: 250px;
+  height: auto;
+}
+
 .blockquote-footer {
   font-size: 1.25rem;
   color: $white;
@@ -78,18 +123,24 @@ footer.bg-black-diagonal {
 .bg-black-diagonal {
   background-color: $black;
   opacity: 1;
-  background: repeating-linear-gradient( 45deg, $gray-900, $gray-900 2px, $black 2px, $black 10px );
+  background: repeating-linear-gradient(
+    45deg,
+    $gray-900,
+    $gray-900 2px,
+    $black 2px,
+    $black 10px
+  );
 }
 
 .bg-x {
   background-color: $gray-100;
-  background-image: url('/assets/img/prx-mark-outline-white.svg');
+  background-image: url("/assets/img/prx-mark-outline-white.svg");
   background-repeat: repeat;
 }
 
 .bg-x-blue {
   background-color: $blue;
-  background-image: url('/assets/img/prx-mark-outline-blue.svg');
+  background-image: url("/assets/img/prx-mark-outline-blue.svg");
   background-repeat: repeat;
 
   &.text-white {
@@ -100,9 +151,13 @@ footer.bg-black-diagonal {
   }
 }
 
+.bg-gray {
+  background: $ltblue-rgba;
+}
+
 .bg-gray-x {
-  background: url(/assets/img/bg-gray-x.jpg) no-repeat center right;
-  background-color: #eee;
+  background: url(/assets/img/bg-x-half.svg) no-repeat center right;
+  background-color: $ltblue-rgba;
 }
 
 .bg-white {
@@ -135,7 +190,7 @@ footer.bg-black-diagonal {
   overflow: hidden;
 
   &.lede {
-      padding-top: 10rem;
+    padding-top: 10rem;
   }
 
   .hero-x-content {
@@ -145,8 +200,13 @@ footer.bg-black-diagonal {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 0;
-    background: rgb(0,58,87);
-    background: linear-gradient(90deg, rgba(0,58,87,1) 0%, rgba(0,114,163,0.5) 50%, rgba(0,114,163,0) 100%);
+    background: rgb(0, 58, 87);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 58, 87, 1) 0%,
+      rgba(0, 114, 163, 0.5) 50%,
+      rgba(0, 114, 163, 0) 100%
+    );
 
     .hero-content-inner {
       z-index: 5;
@@ -161,15 +221,19 @@ footer.bg-black-diagonal {
   &.cta,
   &.hero-no-x {
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
       position: absolute;
       width: 100%;
       height: 100%;
-      background: rgb(0,114,163);
-      background: linear-gradient(90deg, rgba(0,114,163,.8) 0%, rgba(0,114,163,0.4) 100%);
+      background: rgb(0, 114, 163);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 114, 163, 0.8) 0%,
+        rgba(0, 114, 163, 0.4) 100%
+      );
     }
   }
 }
@@ -210,15 +274,19 @@ footer.bg-black-diagonal {
 
   &.post {
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
       position: absolute;
       width: 100%;
       height: 100%;
-      background: rgb(0,114,163);
-      background: linear-gradient(90deg, rgba(0,114,163,.8) 0%, rgba(0,114,163,0.4) 100%);
+      background: rgb(0, 114, 163);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 114, 163, 0.8) 0%,
+        rgba(0, 114, 163, 0.4) 100%
+      );
     }
   }
 }
@@ -231,8 +299,8 @@ footer.bg-black-diagonal {
   grid-column: 1 / -1;
   align-content: end;
 
-  padding-right: .75rem;
-  padding-left: .75rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 
   .hero-content-inner {
     display: flex;
@@ -268,7 +336,8 @@ footer.bg-black-diagonal {
 }
 
 .post-content {
-  h2, h3 {
+  h2,
+  h3 {
     margin: 2rem 0 1rem;
   }
 
@@ -279,13 +348,20 @@ footer.bg-black-diagonal {
   }
 
   .hero-image {
-    img {margin-bottom: 0;}
+    img {
+      margin-bottom: 0;
+    }
   }
 
   a {
-    font-family: $font-header-base;
+    font-family: $font-family-base;
     font-weight: bold;
     color: $blue;
+  }
+
+  blockquote {
+    padding: 0 0 0 1rem;
+    border-left: 3px solid $orange;
   }
 }
 
@@ -294,5 +370,72 @@ footer.bg-black-diagonal {
     object-fit: cover;
     max-width: 250px;
     max-height: 250px;
+  }
+}
+
+.card {
+  padding: 0;
+
+  h3,
+  p {
+    font-size: 1.1rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
+
+.card-img-top,
+.card-img-bottom {
+  height: auto;
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {  
+  height: auto;
+} 
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }  
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }  
+}
+
+.post-card {
+  &:hover {
+    opacity: 0.8;
+  }
+
+  .card-body {
+    z-index: 1;
+    padding: 3rem;
+  }
+}
+
+.card-img-top {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.post-content {
+  p,
+  img,
+  iframe {
+    margin-bottom: 1.5rem;
   }
 }

@@ -1,8 +1,7 @@
 // custom bootstrap variables overrides
 // NOTE: this file gets included _before_ the default bootstrap variables
 // https://github.com/twbs/bootstrap-rubygem/blob/master/assets/stylesheets/bootstrap/_variables.scss
-$font-family-base: 'montserratregular', sans-serif;
-$font-header-base: 'montserratbold', sans-serif;
+$font-family-base: 'montserrat', sans-serif;
 
 $white: #fff;
 $black: #000;
@@ -31,6 +30,7 @@ $teal: #20c997;
 $cyan: #0dcaf0;
 $dark-blue: #003A57;
 $dark-green: #0A7176;
+$ltblue-rgba: rgba(140,210,244,0.2);
 
 $primary: $blue;
 $secondary: $gray-700;
@@ -75,3 +75,5 @@ $form-floating-input-padding-t: $input-btn-padding-y;
 $form-floating-input-padding-b: $input-btn-padding-y;
 $form-floating-label-opacity: 1;
 $form-floating-label-transform: scale(.85) translateY(-1.75rem) translateX(.15rem);
+
+$btn-border-radius: 25px;

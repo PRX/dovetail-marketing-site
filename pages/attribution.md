@@ -2,7 +2,7 @@
 layout: page
 title: Attribution
 description: At PRX, we heavily leverage open source tools and like to give credit when credit is due.
-permalink: /attribution/
+permalink: /attribution
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">

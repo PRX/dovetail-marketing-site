@@ -2,7 +2,7 @@
 layout: page
 title: Opt Out of Programmatic Ad Targeting
 description: You may opt out targeted programmatic advertising by any show on Dovetail.
-permalink: /opt-out/
+permalink: /opt-out
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">

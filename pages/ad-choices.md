@@ -2,7 +2,7 @@
 layout: default
 title: Privacy and Ad Choices
 description: Dovetail's privacy policy and your ad choices
-permalink: /ad-choices/
+permalink: /ad-choices
 image: /assets/img/og-image.jpg
 ---
 <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">

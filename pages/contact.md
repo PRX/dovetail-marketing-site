@@ -19,7 +19,11 @@ image: /assets/img/og-image.jpg
 
   <div class="post-content">
     <h2 class="display-6">Tell us a little about yourself...</h2>
+    {% if jekyll.environment == 'production' -%}
+    <form name="contact_form" accept-charset="UTF-8" action="https://g26e6h83r5.execute-api.us-east-1.amazonaws.com/v1/submit" method="POST">
+    {%- else -%}
     <form name="contact_form" accept-charset="UTF-8" action="https://dsmt2m9oj5.execute-api.us-east-1.amazonaws.com/v1/submit" method="POST">
+    {%- endif %}
       <div class="form-group">
         <label for="inputName">Name*</label>
         <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="inputName" placeholder="Enter your name" required>
@@ -64,6 +68,7 @@ image: /assets/img/og-image.jpg
         <textarea class="form-control" id="textHelp" name="textHelp" aria-describedby="textHelp" placeholder="Anything else you want to share?"></textarea>
       </div>
       <div class="cf-turnstile" data-sitekey="0x4AAAAAAAct7yXHEJttOvFy"></div>
+      <input type="hidden" id="messageType" name="messageType" value="contact" />
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>

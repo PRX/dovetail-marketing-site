@@ -7,23 +7,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Attribution | Dovetail from PRX</title>
+<title>Opt Out of Programmatic Ad Targeting | Dovetail from PRX</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Attribution" />
+<meta property="og:title" content="Opt Out of Programmatic Ad Targeting" />
 <meta name="author" content="PRX" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="At PRX, we heavily leverage open source tools and like to give credit when credit is due." />
-<meta property="og:description" content="At PRX, we heavily leverage open source tools and like to give credit when credit is due." />
-<link rel="canonical" href="https://dovetail.prx.org/attribution/" />
-<meta property="og:url" content="https://dovetail.prx.org/attribution/" />
+<meta name="description" content="You may opt out targeted programmatic advertising by any show on Dovetail." />
+<meta property="og:description" content="You may opt out targeted programmatic advertising by any show on Dovetail." />
+<link rel="canonical" href="https://dovetail.prx.org/opt-out" />
+<meta property="og:url" content="https://dovetail.prx.org/opt-out" />
 <meta property="og:site_name" content="Dovetail from PRX" />
 <meta property="og:image" content="https://dovetail.prx.org/assets/img/og-image.jpg" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://dovetail.prx.org/assets/img/og-image.jpg" />
-<meta property="twitter:title" content="Attribution" />
+<meta property="twitter:title" content="Opt Out of Programmatic Ad Targeting" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"PRX"},"description":"At PRX, we heavily leverage open source tools and like to give credit when credit is due.","headline":"Attribution","image":"https://dovetail.prx.org/assets/img/og-image.jpg","url":"https://dovetail.prx.org/attribution/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"PRX"},"description":"You may opt out targeted programmatic advertising by any show on Dovetail.","headline":"Opt Out of Programmatic Ad Targeting","image":"https://dovetail.prx.org/assets/img/og-image.jpg","url":"https://dovetail.prx.org/opt-out"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link type="application/atom+xml" rel="alternate" href="https://dovetail.prx.org/feed.xml" title="Dovetail from PRX" /><link rel=icon type=image/png href=https://media.prx.org/favicon-16x16.png sizes=16x16>
@@ -90,20 +90,52 @@
     <header class="post-header bg-black-diagonal text-white lede hero px-5 pb-5 m-0">
   <div class="hero-content container col-xxl-8">
     <div class="hero-content-inner">
-      <h1 class="display-5 post-title p-name" itemprop="name headline">Attribution</h1>
-      <p class="lead fs-4">At PRX, we heavily leverage open source tools and like to give credit when credit is due.</p>
+      <h1 class="display-5 post-title p-name" itemprop="name headline">Opt Out of Programmatic Targeting</h1>
     </div>
   </div>
 </header>
 
 <div class="p-5 bg-gray-x">
   <div class="container col-xxl-8">
-    <div class="post-content">
-      <h2>MaxMind</h2>
-      <p>This product includes GeoLite2 Data created by MaxMind, available from <a href="https://www.maxmind.com">https://www.maxmind.com</a>.</p>
+
+  <div class="post-content">
+    <p>You can opt out of your IP address being used for targeting in programmatic advertising in all shows hosted on Dovetail by filling out the form below.</p>
+    <p>Opting out will not remove advertising, it does mean ads won't be targeted based on your IP address.</p>
+    <p>This will only opt out the IP you are currently using; you will need to opt out each different IP, such as home and business IP addresses.</p>
+    <p>All requests are reviewed by actual humans before being enacted, so please allow 2 weeks for them to take effect.</p>
+    <p>We will opt out residential/static IP addresses indefinitely.<br />
+    Mobile and transient addresses, since these are shared and change frequently, will be opted out for at least 60 days.</p>
+    
+    <hr />
+    <form name="opt_out_form" accept-charset="UTF-8" action="https://g26e6h83r5.execute-api.us-east-1.amazonaws.com/v1/submit" method="POST">
+      <div class="form-group">
+        <label for="inputEmail">Email address*</label>
+        <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="" />
+        <small class="form-text">Your email is required for verification purposes and, if necessary, to communicate with you about your opt out. We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="optOutIp">IP Address*</label>
+        <input type="text" class="form-control" id="optOutIp" name="optOutIp" aria-describedby="optOutIp" required="" />
+        <small class="form-text">We have retrieved your IP above, but you can also <a href="https://whatismyipaddress.com/" target="_blank">look up your IP here</a>. Once you submit the form, the IP address will be reviewed and then excluded. We'll never share your IP, and only use it for this opt out.</small>
+      </div>
+      <div class="form-group">
+        <label for="textHelp">Comment</label>
+        <textarea class="form-control" id="textHelp" name="textHelp" aria-describedby="textHelp" placeholder="Anything else you want to share?"></textarea>
+      </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAct7yXHEJttOvFy"></div>
+      <input type="hidden" id="messageType" name="messageType" value="optOut" />
+      <button type="submit" class="btn btn-primary">Submit Opt Out</button>
+    </form>
     </div>
   </div>
 </div>
+
+<script>
+  function getIP(data) { document.getElementById("optOutIp").setAttribute('value', data.ip); }
+</script>
+
+<script type="application/javascript" src="https://api64.ipify.org?format=jsonp&amp;callback=getIP"></script>
+
 
 </article>
 

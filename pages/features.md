@@ -39,7 +39,8 @@ image: /assets/img/og-image.jpg
 <section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
-    <p class="lead">Producer tools for episode uploads and feed management</p>
+    <p class="lead">Easy to use producer tools for episode uploads and RSS feed management. Publish once and your episode is available wherever podcasts are found.
+</p>
     <div class="row">
       <div class="col-12 mb-4">
         <div class="card">

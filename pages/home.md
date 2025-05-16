@@ -48,7 +48,7 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
+              {% picture thumbnail img/artwork/hyperfixed_ART-FINAL.png --alt Hyperfixed %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/normal-gossip.png --alt Normal Gossip %}

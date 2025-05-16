@@ -24,7 +24,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-gray p-5">
+<section class="section bg-prx-200 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
     <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio at any break in your show.</p>
@@ -36,11 +36,10 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-prx-100 p-5">
+<section class="section bg-gray-x p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
-    <p class="lead">Easy to use producer tools for episode uploads and RSS feed management. Publish once and your episode is available wherever podcasts are found.
-</p>
+    <p class="lead">Easy to use producer tools for episode uploads and RSS feed management. Publish once and your episode is available wherever podcasts are found.</p>
     <div class="row">
       <div class="col-12 mb-4">
         <div class="card">
@@ -114,7 +113,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-gray p-5">
+<section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
     <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
@@ -151,7 +150,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-prx-100 p-5">
+<section class="section bg-prx-200 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
@@ -219,19 +218,18 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-gray p-5">
+<section class="section bg-prx-300 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Integrations that support your workflows</h2>
     <p class="lead">One size fits all approaches to podcasting don't work for everyone. We've worked with partners to integrate Dovetail with many other tools in the podcast tech ecosystem.</p>
     <ul>
-      <li>Dovetail WordPress Plugin</li>
+      <li>Apple Subscriptions via Delegated Delivery</li>
       <li>Boostr CRM</li>
-      <li>Apple Subscriptions (Delegated Delivery)</li>
       <li>Megaphone</li>
+      <li>WordPress Plugin</li>
     </ul>
   </div>
 </section>
-
 
 <section class="section hero p-5">
   <div class="hero-image">

@@ -36,7 +36,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
     <p class="lead">Producer tools for episode uploads and feed management</p>
@@ -62,7 +62,8 @@ image: /assets/img/og-image.jpg
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Private Ad-free feeds</li>
             <li class="list-group-item">Bonus Content</li>
-            <li class="list-group-item">Subscription service support</li>
+            <li class="list-group-item">Easily set up feeds for subscription services like Supercast, Supporting Cast, and Patreon</li>
+            <li class="list-group-item">Integration with Apple Delegated Delivery</li>
           </ul>
         </div>
       </div>
@@ -125,7 +126,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Learn where, how, and when audiences are listening to your programming in real-time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.1 Certified</a></li>
+            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.2 Certified</a></li>
             <li class="list-group-item">Drop date comparison</li>
             <li class="list-group-item">Analyze across geography, device, and podcast app</li>
           </ul>
@@ -139,7 +140,7 @@ image: /assets/img/og-image.jpg
             <p class="mb-0">Understand how your listener base changes over time.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.1 Certified</a></li>
+            <li class="list-group-item"><a href="/2023/05/09/dovetail-iab-certified">IAB 2.2 Certified</a></li>
             <li class="list-group-item">7 vs 30 day windows</li>
             <li class="list-group-item">Rolling-vs-calendar rollups</li>
           </ul>
@@ -149,7 +150,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
@@ -164,6 +165,7 @@ image: /assets/img/og-image.jpg
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Download prediction by day, episode, keyword, device, app, zone, country, subdiv, metro, state/province/territory</li>
             <li class="list-group-item">Sets ad inventory levels</li>
+            <li class="list-group-item">Set the mode that works best for your podcast, including Static and our Machine Learning model</li>
             <li class="list-group-item">Adjusts daily</li>
           </ul>
         </div>
@@ -179,6 +181,8 @@ image: /assets/img/og-image.jpg
             <li class="list-group-item">Flight ads by targets</li>
             <li class="list-group-item">Modify priorities</li>
             <li class="list-group-item">Near real time availability as you input</li>
+            <li class="list-group-item">Run of Network campaigns</li>
+            <li class="list-group-item">Boostr CRM Integration</li>
           </ul>
         </div>
       </div>
@@ -187,12 +191,12 @@ image: /assets/img/og-image.jpg
           {% picture img/features/reporting.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
           <div class="card-body">
             <h3>Reporting</h3>
-            <p class="mb-0">Reports on forecasted inventory as well as historical performance.</p>
+            <p class="mb-0">Reports on forecasted inventory as well as historical performance &mdash; so you can have the confidence to sell across your entire back catalog.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Search availability across shows</li>
+            <li class="list-group-item">Search availability across shows and networks</li>
             <li class="list-group-item">Build your own campaign reports</li>
-            <li class="list-group-item">Simulate 100 download requests, to ensure you know what combinations of ads will be served on an episode</li>
+            <li class="list-group-item">Peace of mind by through understanding the combinations of ads may be served on an episode</li>
           </ul>
         </div>
       </div>
@@ -200,19 +204,33 @@ image: /assets/img/og-image.jpg
         <div class="card">
           {% picture img/features/programmatic.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
           <div class="card-body">
-            <h3>Privacy forward Programmatic</h3>
+            <h3>Privacy by Default Programmatic</h3>
             <p class="mb-0">Fill remnant ad inventory by hooking into privacy forward ad-exchanges</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">VAST tag support in creative library</li>
             <li class="list-group-item">Brand Safety</li>
-            <!--<li class="list-group-item">Allow listeners to Opt-out of participating in privacy exchange</li>-->
+            <li class="list-group-item">Allow listeners to Opt-out of participating in privacy exchange</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="section bg-gray p-5">
+  <div class="container col-xxl-8">
+    <h2 class="display-6 mb-3">Integrations that support your workflows</h2>
+    <p class="lead">One size fits all approaches to podcasting don't work for everyone. We've worked with partners to integrate Dovetail with many other tools in the podcast tech ecosystem.</p>
+    <ul>
+      <li>Dovetail WordPress Plugin</li>
+      <li>Boostr CRM</li>
+      <li>Apple Subscriptions (Delegated Delivery)</li>
+      <li>Megaphone</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="section hero p-5">
   <div class="hero-image">

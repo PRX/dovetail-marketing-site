@@ -9,6 +9,7 @@ heroimagealt: Podcasting studio with microphone in foreground
 excerpt: Dovetail is the best-in-class, trusted podcast publishing and monetization platform developed by public media organization PRX.
 cta: cta-demo.html
 ---
+<p>Update: As of May 15, 2025 Dovetail from PRX is now IAB 2.2 Certified.</p>
 
 <p><em>Note: This press release was originally posted on <a href="https://medium.com/prxofficial/dovetail-from-prx-is-iab-podcast-measurement-2-1-certified-a24d2ed43b2e">PRX’s company blog</a>.</em></p>
 

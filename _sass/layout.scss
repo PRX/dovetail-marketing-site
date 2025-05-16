@@ -102,6 +102,13 @@ footer {
     max-width: 100px;
     height: auto;
   }
+
+  .iab-badge {
+    img {
+      width: 120px;
+      border-radius: 3px;
+    }
+  }
 }
 
 .post-content .thumbnail-image {
@@ -151,22 +158,34 @@ footer {
   }
 }
 
+.bg-prx-100 {
+  background: $light-blue-100;
+}
+
+.bg-prx-200 {
+  background: $light-blue-200;
+}
+
+.bg-prx-300 {
+  background: $light-blue-300;
+}
+
 .bg-gray {
-  background: $ltblue-rgba;
+  background: $light-blue-200;
 }
 
 .bg-gray-x {
   background: url(/assets/img/bg-x-half.svg) no-repeat center right;
-  background-color: $ltblue-rgba;
+  background-color: $light-blue-200;
 }
 
 .bg-white {
-  background-color: $white;
+  background-color: $light-blue-100;
 }
 
 .bg-white-x {
   background: url(/assets/img/bg-white-x.jpg) no-repeat center right;
-  background-color: $white;
+  background-color: $light-blue-100;
 }
 
 .section-quote {

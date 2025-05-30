@@ -48,7 +48,7 @@ image: /assets/img/og-image.jpg
         <div class="carousel-item">
           <div class="row g-3 thumbnail-gallery pb-4">
             <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/TED-talks-daily.jpg --alt TED Talks Daily %}
+              {% picture thumbnail img/artwork/hyperfixed_ART-FINAL.png --alt Hyperfixed %}
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               {% picture thumbnail img/artwork/normal-gossip.png --alt Normal Gossip %}
@@ -90,7 +90,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">
@@ -121,7 +121,7 @@ image: /assets/img/og-image.jpg
           <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
           <li><strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats</li>
           <li><strong>Episode Forecasts:</strong> See into the future with episode-level forecasts</li>
-          <li><strong>IAB 2.1 certified</strong></li>
+          <li><strong>IAB 2.2 certified</strong></li>
         </ul>
       </div>
       <div class="col-md-6 pb-4 d-flex align-items-center">
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-100 p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <div class="col-md-6">

@@ -207,6 +207,7 @@ footer {
   padding: 0;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 
   &.lede {
     padding-top: 10rem;

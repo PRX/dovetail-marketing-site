@@ -24,69 +24,10 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-x-blue text-white p-5">
-  <div class="container col-xxl-8">
+<section class="section bg-x-blue text-white m-0 p-0 position-relative overflow-hidden">
+  {% include components/show-tiles.html %}
+  <div class="container col-xxl-8 position-relative">
     <p class="fs-4 mb-4">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
-    <div id="logoCarouselControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/inthedark.jpg --alt In the Dark from Conde Nast %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/Frontline+Dispatch.jpg --alt The Frontline Dispatch %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/reveal-podcast.jpg --alt Reveal podcast %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/LUSA+x+PRX+for+Amazon.png --alt Latino USA %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/hyperfixed_ART-FINAL.png --alt Hyperfixed %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/normal-gossip.png --alt Normal Gossip %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/SnapPRX.png --alt Snap Judgement %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/song-exploder.png --alt Song Exploder %}
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-3 thumbnail-gallery pb-4">
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/welcome-nightvale.png --alt Welcome to Nightvale %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/smithsonian.png --alt Sidedoor from Smithsonian %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/loveletters.png --alt Love Letters from Boston Globe %}
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-              {% picture thumbnail img/artwork/Ear-hustle-podcast.jpg --alt Ear Hustle %}
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#logoCarouselControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
   </div>
 </section>
 

@@ -1,0 +1,5 @@
+<div class="brand-logos">
+  {% for brand in site.data.brand_logos %}
+    {%- include components/brand-logo.html image=brand.image brand-name=brand.name -%}
+  {% endfor %}
+</div>

@@ -1,0 +1,66 @@
+[
+  {
+    "image": "/assets/img/brands/aspen-institute.svg",
+    "name": "Aspen Ideas Festival"
+  },
+  {
+    "image": "/assets/img/brands/ben-and-jerrys.svg",
+    "name": "Ben & Jerry's"
+  },
+  {
+    "image": "/assets/img/brands/carnegie-hall.svg",
+    "name": "Carnegie Hall"
+  },
+  {
+    "image": "/assets/img/brands/chicago-public-library.svg",
+    "name": "Chicago Public Library"
+  },
+  {
+    "image": "/assets/img/brands/conde-nast.svg",
+    "name": "Conde Nast"
+  },
+  {
+    "image": "/assets/img/brands/GBH.svg",
+    "name": "GBH"
+  },
+  {
+    "image": "/assets/img/brands/nybg.svg",
+    "name": "New York Botanical Gardens"
+  },
+  {
+    "image": "/assets/img/brands/PBS-kids.svg",
+    "name": "PBS Kids"
+  },
+  {
+    "image": "/assets/img/brands/PBS.svg",
+    "name": "PBS"
+  },
+  {
+    "image": "/assets/img/brands/peabody.svg",
+    "name": "Peabody Awards"
+  },
+  {
+    "image": "/assets/img/brands/PRX.svg",
+    "name": "PRX"
+  },
+  {
+    "image": "/assets/img/brands/quanta.svg",
+    "name": "Quanta Magazine"
+  },
+  {
+    "image": "/assets/img/brands/radiotopia.svg",
+    "name": "Radiotopia"
+  },
+  {
+    "image": "/assets/img/brands/science-news.svg",
+    "name": "Science News"
+  },
+  {
+    "image": "/assets/img/brands/stanford.svg",
+    "name": "Stanford University"
+  },
+  {
+    "image": "/assets/img/brands/whyy.svg",
+    "name": "WHYY"
+  }
+]

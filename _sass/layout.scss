@@ -21,20 +21,15 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  font-family: $font-family-header;
 
   &.post-title {
     font-weight: bold;
   }
 
   &.display-6 {
-    font-family: $font-family-base;
     font-weight: bold;
   }
-}
-
-strong,
-.fw-bold {
-  font-family: $font-family-base;
 }
 
 .page-wrapper {
@@ -42,7 +37,7 @@ strong,
 }
 
 .banner {
-  background-color: black;
+  background-color: $black;
 
   p {
     font-size: .875em; 
@@ -62,9 +57,21 @@ img {
 }
 
 .section {
-  min-height: 80vh;
+  /*min-height: 80vh;*/
   display: flex;
   align-items: center;
+}
+
+.prx-100vh {
+  min-height: 100vh;
+}
+
+.prx-90vh {
+  min-height: 90vh;
+}
+
+.prx-70vh {
+  min-height: 70vh;
 }
 
 .text-white {
@@ -145,6 +152,22 @@ footer {
   background-repeat: repeat;
 }
 
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
 .bg-x-blue {
   background-color: $blue;
   background-image: url("/assets/img/prx-mark-outline-blue.svg");
@@ -181,6 +204,14 @@ footer {
 
 .bg-white {
   background-color: $light-blue-100;
+}
+
+.bg-navy {
+  background-color: $navy;
+}
+
+.bg-black {
+  background-color: #222;
 }
 
 .bg-white-x {

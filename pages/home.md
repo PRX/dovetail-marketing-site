@@ -4,18 +4,17 @@ permalink: /
 image: /assets/img/og-image.jpg
 ---
 
-<section class="section prx-70vh text-white m-0 p-0 position-relative overflow-hidden">
+<section class="section top text-white position-relative overflow-hidden">
   {% include components/show-tiles.html %}
-  <div class="container col-xxl-8 position-relative p-4">
-    <h1 class="mb-4 h2 mt-4 fw-bold">The podcast publishing and monetization platform for professionals</h1>
-    <p class="mb-4">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
-    <div class="d-grid gap-2 d-sm-flex">
-      <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Let's Talk</a>
+  <div class="container col-xxl-9 position-relative p-4">
+    <h1 class="mb-4 mt-4">The podcast publishing and monetization platform for professionals</h1>
+    <p class="pe-4 fs-6">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
+    <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4"><nobr>Let's Talk</nobr></a>
     </div>
   </div>
 </section>
 
-<div class="section bg-navy m-0 p-4 text-white">
+<div class="section bg-navy m-0 p-0 text-white">
   <div class="container">
     {% include components/brand-logos.html %}
   </div>

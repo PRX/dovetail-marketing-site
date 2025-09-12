@@ -1,322 +1,422 @@
 [
   {
-    "image": "img/shows/the-world.png",
-    "name": "The World"
+    "image": "img/shows/the-political-scene-the-new-yorker.png",
+    "name": "The Political Scene | The New Yorker"
   },
   {
-    "image": "img/shows/Ear-Hustle.png",
-    "name": "Ear Hustle"
+    "image": "img/shows/snap-judgment.png",
+    "name": "Snap Judgment"
   },
   {
-    "image": "img/shows/Shoot+the+Messenger+.jpg",
-    "name": "Shoot the Messenger"
+    "image": "img/shows/sleep-with-me.jpg",
+    "name": "Sleep With Me"
   },
   {
-    "image": "img/shows/Everything+is+Alive.png",
-    "name": "Everything is Alive"
+    "image": "img/shows/the-run-through-with-vogue.png",
+    "name": "The Run-Through with Vogue"
   },
   {
-    "image": "img/shows/Sleep-with-me-podcast.jpg",
-    "name": "Sleep with Me"
-  },
-  {
-    "image": "img/shows/headshot_song_exploder.png",
-    "name": "Song Exploder"
-  },
-  {
-    "image": "img/shows/Over+the+Road.png",
-    "name": "Over the Road"
-  },
-  {
-    "image": "img/shows/Cancion+Exploder+-+no+pennant.png",
-    "name": "Cancion Exploder"
-  },
-  {
-    "image": "img/shows/nightvale-2.png",
-    "name": "Welcome to Nightvale"
-  },
-  {
-    "image": "img/shows/The+Memory+Palace.png",
-    "name": "The Memory Palace"
-  },
-  {
-    "image": "img/shows/Mortified.png",
-    "name": "The Mortified Podcast"
-  },
-  {
-    "image": "img/shows/Passenger+List+with+black+pennant.png",
-    "name": "Passenger List"
-  },
-  {
-    "image": "img/shows/science_of_happiness.jpg",
-    "name": "The Science of Happiness"
-  },
-  {
-    "image": "img/shows/SIDEDOOR-podcast.png",
-    "name": "Sidedoor"
-  },
-  {
-    "image": "img/shows/portraits-smithsonian.png",
-    "name": "Portraits from Smithsonian"
-  },
-  {
-    "image": "img/shows/things_that_go_boom.png",
-    "name": "Things That Go Boom"
-  },
-  {
-    "image": "img/shows/The+West+Wing+Weekly.png",
-    "name": "West Wing Weekly"
-  },
-  {
-    "image": "img/shows/worklife.png",
-    "name": "WorkLife with Adam Grant"
-  },
-  {
-    "image": "img/shows/The+Heart.png",
-    "name": "The Heart"
-  },
-  {
-    "image": "img/shows/Scene-on-radio-podcast.png",
-    "name": "Scene on Radio"
-  },
-  {
-    "image": "img/shows/This+Day+in+Esoteric+Political+History.png",
-    "name": "This Day in Esoteric Political History"
-  },
-  {
-    "image": "img/shows/blackberryjams.jpeg",
-    "name": "Blackberry Jams"
-  },
-  {
-    "image": "img/shows/JATBM.jpg",
-    "name": "Judas and the Black Messiah"
-  },
-  {
-    "image": "img/shows/the-mother-jones-podcast.png",
-    "name": "The Mother Jones Podcast"
-  },
-  {
-    "image": "img/shows/bite-podcast.jpeg",
-    "name": "Bite"
-  },
-  {
-    "image": "img/shows/cocktails_cancer.png",
-    "name": "Cocktails &amp; Cancer with MJ and Dani"
-  },
-  {
-    "image": "img/shows/37Graus-podcast.png",
-    "name": "37 Graus"
-  },
-  {
-    "image": "img/shows/de_eso_no_se_habla.png",
-    "name": "De Eso No Se Habla"
-  },
-  {
-    "image": "img/shows/un_periodico_de_ayer.jpg",
-    "name": "Un periódico de ayer"
-  },
-  {
-    "image": "img/shows/how_to_drive.png",
-    "name": "Who Taught You How To Drive?!"
-  },
-  {
-    "image": "img/shows/AdultISH.png",
-    "name": "Adult ISH"
-  },
-  {
-    "image": "img/shows/The+Kitchen+Sisters+Present.png",
-    "name": "The Kitchen Sisters Present"
-  },
-  {
-    "image": "img/shows/Radio+Diaries.png",
-    "name": "Radio Diaries"
-  },
-  {
-    "image": "img/shows/Benjamen+Walkers+Theory+of+Everything.png",
-    "name": "Benjamen Walker’s Theory of Everything"
-  },
-  {
-    "image": "img/shows/The+Truth.png",
-    "name": "The Truth"
-  },
-  {
-    "image": "img/shows/good-morning-nightvale.jpeg",
-    "name": "Good Morning Night Vale"
-  },
-  {
-    "image": "img/shows/convos-w-people-who-hate-me.jpeg",
-    "name": "Conversations with People Who Hate Me"
-  },
-  {
-    "image": "img/shows/TheMountainGoats-podcast.jpg",
-    "name": "I Only Listen to the Mountain Goats"
-  },
-  {
-    "image": "img/shows/Alice-isnt-dead-podcast.png",
-    "name": "Alice Isn’t Dead"
-  },
-  {
-    "image": "img/shows/dreamboy-podcast.jpeg",
-    "name": "Dreamboy"
-  },
-  {
-    "image": "img/shows/inflection-point-podcast.jpg",
-    "name": "Inflection Point with Lauren Schiller"
-  },
-  {
-    "image": "img/shows/Out-of-the-blocks-podcast.jpg",
-    "name": "Out of the Blocks"
-  },
-  {
-    "image": "img/shows/Que-pasa-midwest-podcast.jpg",
-    "name": "¿Qué Pasa, Midwest?"
-  },
-  {
-    "image": "img/shows/Us-and-them-podcast.jpeg",
-    "name": "Us &amp; Them"
-  },
-  {
-    "image": "img/shows/TheAgitatorsPodcast.jpg",
-    "name": "The Agitators"
-  },
-  {
-    "image": "img/shows/Detours-ShowLogo1.jpg",
-    "name": "DETOURS"
-  },
-  {
-    "image": "img/shows/kelly-corrigan-wonders.jpg",
-    "name": "Kelly Corrigan Wonders"
-  },
-  {
-    "image": "img/shows/nova_now.png",
-    "name": "NOVA Now"
-  },
-  {
-    "image": "img/shows/Mr_80_Percent-podcast.jpg",
-    "name": "Mr. 80 Percent"
-  },
-  {
-    "image": "img/shows/1_8W0aqaeoJRtqbLg3l6VZRg.jpeg",
-    "name": "We Imagine Us"
-  },
-  {
-    "image": "img/shows/1_ge05mMZVFGaTqPjrXoy4mA.jpeg",
-    "name": "How God Works with David DeSteno"
-  },
-  {
-    "image": "img/shows/_FAT_LEONARD_COVER_ART_FINAL_UPDATE+copy.jpeg",
-    "name": "Project Brazen Originals: Fat Leonard"
-  },
-  {
-    "image": "img/shows/and-nothing-less-podcast.png",
-    "name": "And Nothing Less"
-  },
-  {
-    "image": "img/shows/AirSpace_podcast_tile.png",
-    "name": "AirSpace"
-  },
-  {
-    "image": "img/shows/Appearances.png",
-    "name": "Appearances"
-  },
-  {
-    "image": "img/shows/Bottom-of-the-map-podcast.jpg",
-    "name": "Bottom of the Map"
-  },
-  {
-    "image": "img/shows/portofentry.jpeg",
-    "name": "Port of Entry"
-  },
-  {
-    "image": "img/shows/Versify-podcast.jpg",
-    "name": "Versify"
-  },
-  {
-    "image": "img/shows/sick-podcast.jpg",
-    "name": "Sick"
-  },
-  {
-    "image": "img/shows/1465314818936.jpeg",
-    "name": "Within the Wires"
-  },
-  {
-    "image": "img/shows/PoundedPodcastLogo-3.jpg",
-    "name": "Pounded in the Butt by My Own Podcast"
-  },
-  {
-    "image": "img/shows/The+Stoop.png",
-    "name": "The Stoop"
-  },
-  {
-    "image": "img/shows/Black_in_Appalachia_.jpg",
-    "name": "Black in Appalachia"
-  },
-  {
-    "image": "img/shows/through-the-cracks-podcast.jpg",
-    "name": "Through the Cracks"
-  },
-  {
-    "image": "img/shows/HomeCooking-new-pennant.jpg",
-    "name": "Home Cooking"
-  },
-  {
-    "image": "img/shows/Subscription_Cover-Lost_in_Sports.png",
-    "name": "Subscription_Cover-Lost_in_Sports.png"
-  },
-  {
-    "image": "img/shows/ThisIsDating_PodcastTile_R1.jpeg",
-    "name": "ThisIsDating_PodcastTile_R1.jpeg"
-  },
-  {
-    "image": "img/shows/Shole+Country.png",
-    "name": "S***hole Country"
-  },
-  {
-    "image": "img/shows/Patagonia_Podcast.jpg",
-    "name": "Patagonia Stories"
-  },
-  {
-    "image": "img/shows/Bot+Love.png",
-    "name": "Bot Love"
-  },
-  {
-    "image": "img/shows/Altered_States-Cover_1A.jpg",
-    "name": "Altered States"
-  },
-  {
-    "image": "img/shows/Arthur_Podcast_Logo_CR9553_F2.png",
-    "name": "Arthur Podcast"
-  },
-  {
-    "image": "img/shows/hyperfixed+ART-FINAL.png",
+    "image": "img/shows/hyperfixed.jpg",
     "name": "Hyperfixed"
   },
   {
-    "image": "img/shows/LFMO.jpeg",
-    "name": "Live from Mt Olympus"
+    "image": "img/shows/critics-at-large-the-new-yorker.jpg",
+    "name": "Critics at Large | The New Yorker"
   },
   {
-    "image": "img/shows/molly_denalijpg.jpg",
+    "image": "img/shows/normal-gossip.jpg",
+    "name": "Normal Gossip"
+  },
+  {
+    "image": "img/shows/in-the-dark.png",
+    "name": "In The Dark"
+  },
+  {
+    "image": "img/shows/the-arthur-podcast.jpg",
+    "name": "The Arthur Podcast"
+  },
+  {
+    "image": "img/shows/but-why-a-podcast-for-curious-kids.png",
+    "name": "But Why: A Podcast for Curious Kids"
+  },
+  {
+    "image": "img/shows/the-science-of-happiness.jpg",
+    "name": "The Science of Happiness"
+  },
+  {
+    "image": "img/shows/song-exploder.jpg",
+    "name": "Song Exploder"
+  },
+  {
+    "image": "img/shows/reveal.jpg",
+    "name": "Reveal"
+  },
+  {
+    "image": "img/shows/lever-time.jpg",
+    "name": "Lever Time"
+  },
+  {
+    "image": "img/shows/little-gold-men-by-vanity-fair.jpg",
+    "name": "Little Gold Men by Vanity Fair"
+  },
+  {
+    "image": "img/shows/the-quanta-podcast.jpg",
+    "name": "The Quanta Podcast"
+  },
+  {
+    "image": "img/shows/the-world.jpg",
+    "name": "The World"
+  },
+  {
+    "image": "img/shows/women-who-travel-cond-nast-traveler.png",
+    "name": "Women Who Travel | Condé Nast Traveler"
+  },
+  {
+    "image": "img/shows/cozy-critters.png",
+    "name": "Cozy Critters"
+  },
+  {
+    "image": "img/shows/this-day.png",
+    "name": "This Day"
+  },
+  {
+    "image": "img/shows/the-new-yorker-the-writer-s-voice-new-fiction-from-the-new-yorker.png",
+    "name": "The New Yorker: The Writer's Voice - New Fiction from The New Yorker"
+  },
+  {
+    "image": "img/shows/kera-s-think.jpg",
+    "name": "KERA's Think"
+  },
+  {
+    "image": "img/shows/embodied.png",
+    "name": "Embodied"
+  },
+  {
+    "image": "img/shows/lost-women-of-science.jpeg",
+    "name": "Lost Women of Science"
+  },
+  {
+    "image": "img/shows/ear-hustle.png",
+    "name": "Ear Hustle"
+  },
+  {
+    "image": "img/shows/the-new-yorker-fiction.png",
+    "name": "The New Yorker: Fiction"
+  },
+  {
+    "image": "img/shows/the-memory-palace.png",
+    "name": "the memory palace"
+  },
+  {
+    "image": "img/shows/colorado-today.jpg",
+    "name": "Colorado Today"
+  },
+  {
+    "image": "img/shows/work-it-out-wombats-podcast.jpg",
+    "name": "Work It Out Wombats! Podcast"
+  },
+  {
+    "image": "img/shows/airspace.png",
+    "name": "AirSpace"
+  },
+  {
+    "image": "img/shows/christopher-kimball-s-milk-street-radio.jpg",
+    "name": "Christopher Kimball’s Milk Street Radio"
+  },
+  {
+    "image": "img/shows/the-west-wing-weekly.png",
+    "name": "The West Wing Weekly"
+  },
+  {
+    "image": "img/shows/uncanny-valley-wired.jpg",
+    "name": "Uncanny Valley | WIRED"
+  },
+  {
+    "image": "img/shows/articles-of-interest.png",
+    "name": "Articles of Interest"
+  },
+  {
+    "image": "img/shows/boston-public-radio-podcast.jpeg",
+    "name": "Boston Public Radio Podcast"
+  },
+  {
+    "image": "img/shows/long-shadow.jpg",
+    "name": "Long Shadow"
+  },
+  {
+    "image": "img/shows/the-pulse.jpg",
+    "name": "The Pulse"
+  },
+  {
+    "image": "img/shows/home-cooking.jpg",
+    "name": "Home Cooking"
+  },
+  {
+    "image": "img/shows/pinkalicious-peterrific.png",
+    "name": "Pinkalicious & Peterrific"
+  },
+  {
+    "image": "img/shows/left-right-center.png",
+    "name": "Left, Right & Center"
+  },
+  {
+    "image": "img/shows/molly-of-denali.png",
     "name": "Molly of Denali"
   },
   {
-    "image": "img/shows/PAGE_FLIPPERS_ART.png",
-    "name": "Page Flippers Take on the World"
+    "image": "img/shows/eye-on-the-sky.jpg",
+    "name": "Eye On The Sky"
   },
   {
-    "image": "img/shows/PinkPodcast.png",
-    "name": "Pinkalicious &amp; Peterrific Podcast"
+    "image": "img/shows/skeptoid.png",
+    "name": "Skeptoid"
   },
   {
-    "image": "img/shows/PT_Tile_v04_240703.jpg",
-    "name": "Peak Travel"
+    "image": "img/shows/sea-change.png",
+    "name": "Sea Change"
   },
   {
-    "image": "img/shows/Show_Cover_ThePlateShow_3.jpg",
-    "name": "The Plate Show"
+    "image": "img/shows/shift.png",
+    "name": "SHIFT"
   },
   {
-    "image": "img/shows/State+of+Play+-+Show+Cover.jpg",
-    "name": "State of Play"
+    "image": "img/shows/click-here.png",
+    "name": "Click Here"
+  },
+  {
+    "image": "img/shows/proxy-with-yowei-shaw.jpg",
+    "name": "Proxy with Yowei Shaw"
+  },
+  {
+    "image": "img/shows/colorado-matters.jpg",
+    "name": "Colorado Matters"
+  },
+  {
+    "image": "img/shows/brave-little-state.png",
+    "name": "Brave Little State"
+  },
+  {
+    "image": "img/shows/to-the-best-of-our-knowledge.png",
+    "name": "To The Best Of Our Knowledge"
+  },
+  {
+    "image": "img/shows/the-world-latest-stories.jpg",
+    "name": "The World: Latest Stories"
+  },
+  {
+    "image": "img/shows/scene-on-radio.png",
+    "name": "Scene on Radio"
+  },
+  {
+    "image": "img/shows/live-from-mount-olympus.jpeg",
+    "name": "Live from Mount Olympus"
+  },
+  {
+    "image": "img/shows/dovetail-demo-podcast.jpg",
+    "name": "Dovetail Demo Podcast"
+  },
+  {
+    "image": "img/shows/sidedoor.png",
+    "name": "Sidedoor"
+  },
+  {
+    "image": "img/shows/scratch-win.jpg",
+    "name": "Scratch & Win"
+  },
+  {
+    "image": "img/shows/the-paris-review.png",
+    "name": "The Paris Review"
+  },
+  {
+    "image": "img/shows/suave.png",
+    "name": "Suave"
+  },
+  {
+    "image": "img/shows/radiotopia-presents-we-re-doing-the-wiz.jpg",
+    "name": "Radiotopia Presents: We're Doing the Wiz"
+  },
+  {
+    "image": "img/shows/the-joy-of-why.jpg",
+    "name": "The Joy of Why"
+  },
+  {
+    "image": "img/shows/bon-app-tit.jpg",
+    "name": "Bon Appétit"
+  },
+  {
+    "image": "img/shows/the-politics-hour-with-kojo-nnamdi.png",
+    "name": "The Politics Hour with Kojo Nnamdi"
+  },
+  {
+    "image": "img/shows/antiques-roadshow-detours.jpg",
+    "name": "Antiques Roadshow Detours"
+  },
+  {
+    "image": "img/shows/rapp-on-jazz.jpg",
+    "name": "Rapp on Jazz"
+  },
+  {
+    "image": "img/shows/us-them.jpg",
+    "name": "Us & Them"
+  },
+  {
+    "image": "img/shows/never-post.png",
+    "name": "Never Post"
+  },
+  {
+    "image": "img/shows/vermont-edition.png",
+    "name": "Vermont Edition"
+  },
+  {
+    "image": "img/shows/12-years-that-shook-the-world.png",
+    "name": "12 Years That Shook the World"
+  },
+  {
+    "image": "img/shows/the-frequency.png",
+    "name": "The Frequency"
+  },
+  {
+    "image": "img/shows/the-mortified-podcast.png",
+    "name": "The Mortified Podcast"
+  },
+  {
+    "image": "img/shows/everything-is-alive.png",
+    "name": "Everything is Alive"
+  },
+  {
+    "image": "img/shows/nova-presents.jpg",
+    "name": "NOVA Presents"
+  },
+  {
+    "image": "img/shows/this-is-nashville.jpg",
+    "name": "This Is Nashville"
+  },
+  {
+    "image": "img/shows/the-bay-blend.png",
+    "name": "The Bay Blend"
+  },
+  {
+    "image": "img/shows/food-we-need-to-talk.png",
+    "name": "Food, We Need To Talk"
+  },
+  {
+    "image": "img/shows/bedtime-stories-to-bore-you-asleep-from-sleep-with-me.png",
+    "name": "Bedtime Stories to Bore You Asleep from Sleep With Me"
+  },
+  {
+    "image": "img/shows/city-arts-lectures.jpg",
+    "name": "City Arts & Lectures"
+  },
+  {
+    "image": "img/shows/points-north.png",
+    "name": "Points North"
+  },
+  {
+    "image": "img/shows/the-moth.jpg",
+    "name": "The Moth"
+  },
+  {
+    "image": "img/shows/the-recipe-with-kenji-and-deb.png",
+    "name": "The Recipe with Kenji and Deb"
+  },
+  {
+    "image": "img/shows/the-heart.jpg",
+    "name": "The Heart"
+  },
+  {
+    "image": "img/shows/lyla-s-loopcast.jpg",
+    "name": "Lyla's Loopcast"
+  },
+  {
+    "image": "img/shows/passenger-list.png",
+    "name": "Passenger List"
+  },
+  {
+    "image": "img/shows/nashvillager.png",
+    "name": "NashVillager"
+  },
+  {
+    "image": "img/shows/aspen-ideas-to-go.jpg",
+    "name": "Aspen Ideas to Go"
+  },
+  {
+    "image": "img/shows/pursuit-the-founders-guide-to-happiness.jpg",
+    "name": "Pursuit: The Founders' Guide To Happiness"
+  },
+  {
+    "image": "img/shows/special-sauce-with-ed-levine.jpg",
+    "name": "Special Sauce with Ed Levine"
+  },
+  {
+    "image": "img/shows/the-new-yorker-poetry.png",
+    "name": "The New Yorker: Poetry"
+  },
+  {
+    "image": "img/shows/teachable-moments.png",
+    "name": "Teachable Moments"
+  },
+  {
+    "image": "img/shows/keyshawn-solves-it.jpg",
+    "name": "Keyshawn Solves It"
+  },
+  {
+    "image": "img/shows/eons-surviving-deep-time.png",
+    "name": "Eons: Surviving Deep Time"
+  },
+  {
+    "image": "img/shows/up-from-dust.jpg",
+    "name": "Up From Dust"
+  },
+  {
+    "image": "img/shows/how-god-works-the-science-behind-spirituality.jpg",
+    "name": "How God Works: The Science Behind Spirituality"
+  },
+  {
+    "image": "img/shows/chutzpod.jpeg",
+    "name": "Chutzpod!"
+  },
+  {
+    "image": "img/shows/radio-diaries.png",
+    "name": "Radio Diaries"
+  },
+  {
+    "image": "img/shows/masterpiece-studio.jpg",
+    "name": "MASTERPIECE Studio"
+  },
+  {
+    "image": "img/shows/louisiana-considered.jpg",
+    "name": "Louisiana Considered"
+  },
+  {
+    "image": "img/shows/the-modern-west.png",
+    "name": "The Modern West"
+  },
+  {
+    "image": "img/shows/the-culture-show-podcast.png",
+    "name": "The Culture Show Podcast"
+  },
+  {
+    "image": "img/shows/the-kitchen-sisters-present.png",
+    "name": "The Kitchen Sisters Present"
+  },
+  {
+    "image": "img/shows/parentdata-with-emily-oster.jpg",
+    "name": "ParentData with Emily Oster"
+  },
+  {
+    "image": "img/shows/ooh-you-re-in-trouble.png",
+    "name": "Ooh You're In Trouble"
+  },
+  {
+    "image": "img/shows/sound-school-podcast.png",
+    "name": "Sound School Podcast"
+  },
+  {
+    "image": "img/shows/movement-with-meklit-hadero.png",
+    "name": "Movement with Meklit Hadero"
+  },
+  {
+    "image": "img/shows/the-fabulous-413.jpg",
+    "name": "The Fabulous 413"
   }
 ]

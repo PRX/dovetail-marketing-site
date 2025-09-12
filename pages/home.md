@@ -4,7 +4,7 @@ permalink: /
 image: /assets/img/og-image.jpg
 ---
 
-<section class="section top text-white position-relative overflow-hidden">
+<section class="section top text-white">
   {% include components/show-tiles.html %}
   <div class="container col-xxl-9 position-relative p-4">
     <h1 class="mb-4 mt-4">The podcast publishing and monetization platform for professionals</h1>
@@ -20,107 +20,33 @@ image: /assets/img/og-image.jpg
   </div>
 </div>
 
-<div class="blocks">
-  <div class="row">
-    <section class="col-12 col-md-6 bg-blue">
-      <div class="container">
-        <div class="row">
-          <div class="pb-4 d-flex align-items-center">
-            <div class="container p-0 product-image">
-              {% picture img/screenshot-feeder.jpg --alt Screenshot of publishing dashboard in Dovetail from PRX %}
-            </div>
-          </div>
-          <h2 class="display-6">Manage Your Content with Ease</h2>
-          <p class="fs-5 mt-2">Effortlessly upload and describe your work in our content management system, and watch your podcast be delivered to listeners everywhere.</p>
-          <ul class="mb-4">
-            <li><strong>Multiple Feed Structures</strong>, including private feeds</li>
-            <li><strong>Preview audio</strong> with ads stitched in before publishing</li>
-            <li>Manage content with <strong>titles, tags, and keywords</strong></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="col-12 col-md-6 bg-cyan">
-      <div class="container col-xxl-8">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="display-6 lh-1 mb-3">Metrics that Matter</h2>
-            <p class="fs-5 mt-2">Use Dovetail’s metrics dashboard to see audience impact by showing all the unique downloads for podcast audio from every platform and player. </p>
-            <ul class="mb-4">
-              <li><strong>Near Real-Time Updates:</strong> data available within minutes of a new download</li>
-              <li><strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats</li>
-              <li><strong>Episode Forecasts:</strong> See into the future with episode-level forecasts</li>
-              <li><strong>IAB 2.2 certified</strong></li>
-            </ul>
-          </div>
-          <div class="col-md-6 pb-4 d-flex align-items-center">
-            <div class="container p-0 product-image">
-              {% picture img/screenshot-metrics.jpg --alt Screenshot of podcast analytics in Dovetail from PRX %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="col-12 col-md-6 bg-orange">
-      <div class="container col-xxl-8">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="display-6 lh-1 mb-3">Exceptional Ad Inventory Management</h2>
-            <p class="fs-5 mt-2">Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.</p>
-            <ul class="mb-4">
-              <li><strong>Dynamic Ad Insertion:</strong> Run ads at any break in a show or as “bookend” at the time of user download </li>
-              <li><strong>Targeting:</strong> Specify where the ads go by episode, show, network, vertical, topic/keyword, and geo-location</li>
-              <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory</li>
-            </ul>
-          </div>
-          <div class="col-md-6 pb-4 d-flex align-items-center">
-            <div class="container p-0 product-image">
-              {% picture img/screenshot-augury.jpg --alt Screenshot of looking up ad inventory in Dovetail from PRX %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="col-12 col-md-6 bg-purple">
-      <div class="container col-xxl-8">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="display-6 lh-1 mb-3">Cross Promo Exchange</h2>
-            <p class="fs-5 mt-2">content</p>
-            <ul class="mb-4">
-              <li><strong>Dynamic Ad Insertion:</strong> Run ads at any break in a show or as “bookend” at the time of user download </li>
-              <li><strong>Targeting:</strong> Specify where the ads go by episode, show, network, vertical, topic/keyword, and geo-location</li>
-              <li><strong>Real-time availability:</strong>  Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory</li>
-            </ul>
-          </div>
-          <div class="col-md-6 pb-4 d-flex align-items-center">
-            <div class="container p-0 product-image">
-              {% picture img/screenshot-augury.jpg --alt Screenshot of looking up ad inventory in Dovetail from PRX %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
+{% for section in site.data.section_home %}
+  {%- include section-home.html 
+    image=section.image
+    image-alt=section.image-alt 
+    title=section.title
+    tagline=section.tagline
+    features=section.features
+  -%}
+{% endfor %}
 
-<section class="section bg-navy section-quote text-white p-5">
+<section class="section bg-navy section-quote text-white p-5 prx-70vh">
   <div class="container-fluid">
     <div class="row g-4">
       <figure class="col-md-5 mb-0 px-4">
         <blockquote class="blockquote mt-2">
-          <p class="fs-5">“Dovetail has turned out to be more than just a tool for us. Because of the way that you've supported us in the transition, it's helped us strengthen our creator community. We have in-house podcasts, but we also work with teams that operate mostly independently. We're able to offer them so much more now, which has allowed us to expand our podcast network into something more robust. Having a tool that truly meets our needs is the glue.”</p>
+          <p class="fs-6">“Dovetail has turned out to be more than just a tool for us. Because of the way that you've supported us in the transition, it's helped us strengthen our creator community. We have in-house podcasts, but we also work with teams that operate mostly independently. We're able to offer them so much more now, which has allowed us to expand our podcast network into something more robust. Having a tool that truly meets our needs is the glue.”</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption class="blockquote-footer fs-6">
           Shereen Adel, KALW
         </figcaption>
       </figure>
       
       <figure class="col-md-5 mb-0 px-4">
         <blockquote class="blockquote mt-2">
-          <p class="fs-5">“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
+          <p class="fs-6">“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption class="blockquote-footer fs-6">
           Whitney Baker, WUNC
         </figcaption>
       </figure>

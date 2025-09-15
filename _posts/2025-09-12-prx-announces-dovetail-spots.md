@@ -21,6 +21,8 @@ Dovetail Spots will first be available to select public radio stations using Dov
 
 Dovetail from PRX is used by more than 330 public radio podcasts nationwide and numerous more producers of purpose with Pulitzer Prize and Peabody-winning productions heard by millions, including Radiotopia, publications across Condé Nast, and more.
 
+<iframe src="https://www.youtube.com/embed/u7yilTQkuCY?si=IOfFt-mnm2MwKszG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### About PRX
 <small>Celebrating more than 20 years as a nonprofit public media company, PRX works in partnership with leading independent creators, organizations, and stations to bring meaningful audio storytelling into millions of listeners’ lives. PRX is one of the world’s top podcast publishers, public radio distributors, and audio producers, serving as an engine of innovation for public media and podcasting to help shape a vibrant future for creative and journalistic audio. Shows across PRX’s portfolio of broadcast productions, podcast partners, and its Radiotopia podcast network have received recognition from the Peabody Awards, the Tribeca Festival, the International Documentary Association, the National Magazine Awards, and the Pulitzer Prizes. Visit PRX.org for more.</small>
 

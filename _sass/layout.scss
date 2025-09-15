@@ -32,6 +32,20 @@ h6 {
   }
 }
 
+a:link {
+  color: $cyan;
+
+  &:hover {
+    color: $light-blue-200;
+    text-decoration: underline;
+  }
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
 .page-wrapper {
   position: relative;
 }

@@ -21,7 +21,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-x-blue section-quote text-white p-5">
+<section class="section bg-navy section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -184,7 +184,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-200 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Self-Service Podcast Distribution for Stations</h2>
     <p class="fs-4 mt-2">Whether you already publish podcasts or are just exploring podcasting, consider Dovetail for your podcast distribution needs.</p>
@@ -192,7 +192,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-x-blue section-quote text-white p-5">
+<section class="section bg-navy section-quote text-white p-5">
   <div class="container col-xxl-8">
     <div class="row">
       <figure class="col-md-8 mb-0 pb-0">
@@ -210,7 +210,7 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-white p-5">
+<section class="section bg-prx-200 p-5">
   <div class="container col-xxl-8">
     <h2 class="display-6 mb-3">Pricing for Stations</h2>
     <p class="fs-4 mt-2">PRX is committed to affordability and accessibility. Pricing scales to users’ needs, and users may select either full-service or self-service options. </p>

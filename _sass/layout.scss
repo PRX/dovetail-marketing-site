@@ -194,24 +194,26 @@ footer {
 }
 
 .bg-prx-100 {
-  background: $light-blue-100;
+  background: $navy;
+  color: $white;
 }
 
+.bg-gray,
 .bg-prx-200 {
-  background: $light-blue-200;
+  background: $navy-900;
+  color: $white;
 }
 
 .bg-prx-300 {
-  background: $light-blue-300;
-}
-
-.bg-gray {
-  background: $light-blue-200;
+  background: $blue;
+  color: $white;
 }
 
 .bg-gray-x {
   background: url(/assets/img/bg-x-half.svg) no-repeat center right;
-  background-color: $light-blue-300;
+  fill: $navy;
+  background-color: $blue;
+  color: $white;
 }
 
 .bg-white {
@@ -220,6 +222,7 @@ footer {
 
 .bg-navy {
   background-color: $navy;
+  color: $white;
 }
 
 .bg-black {
@@ -438,6 +441,7 @@ footer {
 
 .card {
   padding: 0;
+  background: $navy;
 
   h3,
   p {
@@ -493,6 +497,11 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+
+.list-group-item {
+  background-color: $navy;
+  color: $white;
 }
 
 .post-content {

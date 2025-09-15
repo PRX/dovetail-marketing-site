@@ -1,8 +1,24 @@
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 
   > label {
-    margin-bottom: .25rem;
+    margin-bottom: 0.5rem;
+    color: $white;
+  }
+
+  .form-text {
+    color: $cyan;
+  }
+
+  .form-control {
+    background-color: $navy-900;
+    border-color: $black;
+    color: $white;
+    padding: 1rem;
+   
+    &::placeholder {
+      color: $gray-300;
+    }
   }
 
 }

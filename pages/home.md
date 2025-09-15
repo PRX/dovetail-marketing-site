@@ -20,22 +20,25 @@ image: /assets/img/og-image.jpg
   </div>
 </div>
 
-{% for section in site.data.section_home %}
-  {%- include section-home.html 
-    image=section.image
-    image-alt=section.image-alt 
-    title=section.title
-    tagline=section.tagline
-    features=section.features
-  -%}
-{% endfor %}
+<div class="home-sections">
+  {% for section in site.data.section_home %}
+    {%- include section-home.html 
+      image=section.image
+      image-alt=section.image-alt 
+      title=section.title
+      tagline=section.tagline
+      features=section.features
+    -%}
+  {% endfor %}
+</div>
 
-<section class="section bg-navy section-quote text-white p-5 prx-70vh">
+<section class="section bg-navy section-quote text-white p-4 prx-70vh">
   <div class="container-fluid">
-    <div class="row g-4">
+    <h2 class="display-6 mb-4 text-center">Don't just take our word for it</h2>
+    <div class="row g-5">
       <figure class="col-md-5 mb-0 px-4">
         <blockquote class="blockquote mt-2">
-          <p class="fs-6">“Dovetail has turned out to be more than just a tool for us. Because of the way that you've supported us in the transition, it's helped us strengthen our creator community. We have in-house podcasts, but we also work with teams that operate mostly independently. We're able to offer them so much more now, which has allowed us to expand our podcast network into something more robust. Having a tool that truly meets our needs is the glue.”</p>
+          <p>“Dovetail has turned out to be more than just a tool for us. Because of the way that you've supported us in the transition, it's helped us strengthen our creator community. We have in-house podcasts, but we also work with teams that operate mostly independently. We're able to offer them so much more now, which has allowed us to expand our podcast network into something more robust. Having a tool that truly meets our needs is the glue.”</p>
         </blockquote>
         <figcaption class="blockquote-footer fs-6">
           Shereen Adel, KALW
@@ -44,7 +47,7 @@ image: /assets/img/og-image.jpg
       
       <figure class="col-md-5 mb-0 px-4">
         <blockquote class="blockquote mt-2">
-          <p class="fs-6">“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
+          <p>“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>
         </blockquote>
         <figcaption class="blockquote-footer fs-6">
           Whitney Baker, WUNC

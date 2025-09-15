@@ -1,6 +1,6 @@
 [
   {
-    "image": "img/screenshot-feeder.jpg",
+    "image": "img/screenshots/dt-podcast-dark-home.png",
     "image-alt": "Screenshot of publishing dashboard in Dovetail from PRX",
     "title": "Manage Your Content with Ease",
     "tagline": "Effortlessly upload and describe your work in our content management system, and watch your podcast be delivered to listeners everywhere.",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "image": "img/screenshot-metrics.jpg",
+    "image": "img/screenshots/dt-metrics.png",
     "image-alt": "Screenshot of podcast analytics in Dovetail from PRX",
     "title": "Metrics that Matter",
     "tagline": "Use Dovetail’s metrics dashboard to see audience impact by showing all the unique downloads for podcast audio from every platform and player.",
@@ -22,7 +22,7 @@
     ]
   },
     {
-    "image": "img/screenshot-augury.jpg",
+    "image": "img/screenshots/dt-inventory-dark-collections.png",
     "image-alt": "Screenshot of looking up ad inventory in Dovetail from PRX",
     "title": "Exceptional Ad Inventory Management",
     "tagline": "Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.",
@@ -33,7 +33,7 @@
     ]
   },
     {
-    "image": "img/screenshot-metrics.jpg",
+    "image": "img/screenshots/dt-spots-dash.png",
     "image-alt": "Screenshot of podcast analytics in Dovetail from PRX",
     "title": "Turnkey tools to help grow your audience",
     "tagline": "Seamlessly request and trade promotional spots or custom messages with other podcasts distributed via Dovetail, using Spots, our cross-promotional exchange.",

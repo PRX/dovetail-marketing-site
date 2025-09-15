@@ -71,7 +71,6 @@ img {
 }
 
 .section {
-  /*min-height: 80vh;*/
   display: flex;
   align-items: center;
   position: relative;
@@ -325,6 +324,8 @@ footer {
   bottom: 0;
   z-index: 0;
   position: absolute;
+  background: $navy;
+  background: linear-gradient(90deg,rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 
   div {
     display: block;

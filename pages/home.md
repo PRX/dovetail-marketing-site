@@ -8,8 +8,8 @@ image: /assets/img/og-image.jpg
   {% include components/show-tiles.html %}
   <div class="container col-xxl-9 position-relative p-4">
     <h1 class="mb-4 mt-4">The podcast publishing and monetization platform for professionals</h1>
-    <p class="pe-4 fs-6">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
-    <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4"><nobr>Let's Talk</nobr></a>
+    <p class="mb-6 pe-4 fs-6">Dovetail from PRX is the all-in-one platform trusted by podcasting professionals. We help you expand your audience, monetize content, and ensure long-term sustainability—all while maintaining a steadfast commitment to privacy. From independent creators to industry leaders, Dovetail scales with you, supporting your podcast's journey every step of the way.</p>
+    <a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 mt-2"><nobr>Let's Talk</nobr></a>
     </div>
   </div>
 </section>

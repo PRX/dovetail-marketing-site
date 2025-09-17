@@ -40,3 +40,17 @@ presets:
     attributes:
       picture: 'class="thumbnail"'
       img: 'class="thumbnail-image"'
+  
+  show-tile:
+    formats: [webp, original]
+    widths: [100, 200, 300, 400, 500]
+    fallback_width: 300 # The default is 800, which is probably too big.
+    size: calc(10vw - 0.5rem)
+    sizes:
+      tablet: 100px
+    formats:  [webp, original]
+    dimension_attributes: true
+    format_quality:
+      webp: 100
+      avif: 100
+      jp2: 100

@@ -14,7 +14,7 @@ image: /assets/img/og-image.jpg
   </div>
 </header>
 
-<section>
+<section class="bg-navy">
   <div class="container col-xxl-8 p-5">
     {% for post in site.posts %}
     <div class="card post-card mb-4">

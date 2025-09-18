@@ -17,16 +17,16 @@ image: /assets/img/og-image.jpg
       <div class="col-md-8">
         <div class="hero-content-inner">
           <h1 class="mb-4 fw-bold">Features</h1>
-          <p class="lead fs-4">Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
+          <p>Dovetail provides producers with a seamless podcast publishing experience while optimizing monetization opportunities.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section bg-prx-200 p-5">
+<section class="section bg-navy text-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3 ">Save time and increase revenue with Dynamic Ad Insertion</h2>
+    <h2 class="mb-3">Save time and increase revenue with Dynamic Ad Insertion</h2>
     <p>Dovetail’s dynamic ad insertion feature seamlessly stitches sponsorship messages into produced audio at any break in your show.</p>
     <ul>
       <li>Make money your way by monetizing the whole catalog or just on a single episode.</li>
@@ -38,22 +38,22 @@ image: /assets/img/og-image.jpg
 
 <section class="section bg-gray-x p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Content and Feed Management with ease</h2>
-    <p class="lead">Easy to use producer tools for episode uploads and RSS feed management. Publish once and your episode is available wherever podcasts are found.</p>
+    <h2 class="mb-3">Content and Feed Management with ease</h2>
+    <p>Easy to use producer tools for episode uploads and RSS feed management. Publish once and your episode is available wherever podcasts are found.</p>
     <div class="row">
       <div class="col-12 mb-4">
-        <div class="card">
+        <div class="card text-bg-dark">
           <div class="card-body">
             <div style="--aspect-ratio: 16/9;">
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LEQqdVBt460?si=dXHtMaQV0h6EMVlb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/screenshot-feeder-feeds.jpg 16:9 class="card-img-top" --alt Screenshot of Multiple Feeds form %}
           <div class="card-body">
             <h3>Multiple Feeds</h3>
@@ -68,7 +68,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/screenshot-feeder-calendar.jpg 16:9 class="card-img-top" --alt Screenshot of Production Calendar %}
           <div class="card-body">
             <h3>Production Calendar</h3>
@@ -82,7 +82,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/screenshot-feeder-structure.jpg 16:9 class="card-img-top" --alt Headphones %}
           <div class="card-body">
             <h3>Flexible Show Structures</h3>
@@ -96,7 +96,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/screenshot-feeder-player.jpg 16:9 class="card-img-top" --alt Screenshot of the PRX embeddable player %}
           <div class="card-body">
             <h3>Embeddable Player</h3>
@@ -113,13 +113,13 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-prx-100 p-5">
+<section class="section bg-prx-200 p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Real-time data to understand your audience</h2>
-    <p class="lead">One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
+    <h2 class="mb-3">Real-time data to understand your audience</h2>
+    <p>One of podcasting's biggest pain points is accessing data and metrics that inform strategic goals. Dovetail provides a solution.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/downloads.png 16:9 class="card-img-top" --alt Screenshot of Downloads dashboard %}
           <div class="card-body">
             <h3>Downloads that matter</h3>
@@ -133,7 +133,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/ulm.png 16:9 class="card-img-top" --alt Screenshot of Unique Listener Metrics dashboard %}
           <div class="card-body">
             <h3>Unique Listener Metrics</h3>
@@ -150,13 +150,13 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-<section class="section bg-prx-200 p-5">
+<section class="section bg-prx-300 p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
+    <h2 class="mb-3">Sell with confidence using Predictive Ad Inventory Management</h2>
     <p>Understand your inventory with best in class inventory management. <a href="/2022/07/21/introducing-dovetail-as-product">Learn more in our blog post</a>.</p>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/forecast.png 16:9 class="card-img-top" --alt screenshot of a forecast in Dovetail %}
           <div class="card-body">
             <h3>Forecasting</h3>
@@ -171,7 +171,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/campaign-management.png 16:9 class="card-img-top" --alt screenshot of campaign and flight entry in Dovetail %}
           <div class="card-body">
             <h3>Campaign Management</h3>
@@ -187,7 +187,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/reporting.png 16:9 class="card-img-top" --alt screenshot of availability search in Dovetail %}
           <div class="card-body">
             <h3>Reporting</h3>
@@ -201,7 +201,7 @@ image: /assets/img/og-image.jpg
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-bg-dark">
           {% picture img/features/programmatic.png 16:9 class="card-img-top" --alt Screenshot of category blockers in Dovetail %}
           <div class="card-body">
             <h3>Privacy by Default Programmatic</h3>
@@ -218,10 +218,43 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
+<section class="section bg-prx-200 p-5">
+  <div class="container col-xxl-8">
+    <h2 class="mb-3">Grow your Audience with Dovetail Spots</h2>
+    <p>Easily request cross-promotions from participating shows and watch your audience grow.</p>
+    <div class="row">
+      <div class="col-12 mb-4">
+        <div class="card text-bg-dark">
+          <div class="card-body">
+            <div style="--aspect-ratio: 16/9;">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/u7yilTQkuCY?si=IOfFt-mnm2MwKszG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col-12">
+        <div class="card text-bg-dark">
+          <div class="card-body">
+            <h3>Cross Promotions</h3>
+            <p class="mb-0">Seamlessly request and trade promotional spots or custom messages with other podcasts distributed via Dovetail.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Show Guide</li>
+            <li class="list-group-item">Automated Campaigns</li>
+            <li class="list-group-item">Conversion Tracking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-prx-300 p-5">
   <div class="container col-xxl-8">
-    <h2 class="display-6 mb-3">Integrations that support your workflows</h2>
-    <p class="lead">One size fits all approaches to podcasting don't work for everyone. We've worked with partners to integrate Dovetail with many other tools in the podcast tech ecosystem.</p>
+    <h2 class="mb-3">Integrations that support your workflows</h2>
+    <p>One size fits all approaches to podcasting don't work for everyone. We've worked with partners to integrate Dovetail with many other tools in the podcast tech ecosystem.</p>
     <ul>
       <li>Apple Subscriptions via Delegated Delivery</li>
       <li>Boostr CRM</li>
@@ -242,7 +275,7 @@ image: /assets/img/og-image.jpg
       <div class="col-md-8">
         <div class="hero-content-inner">
           <h1 class="mb-4 fw-bold">Privacy is a feature, not a limitation</h1>
-          <p class="lead">PRX is a mission-driven and privacy-first technology organization, with data privacy built into everything we create. Nothing is more valuable than the trust of our listeners, supporters, and users.</p>
+          <p>PRX is a mission-driven and privacy-first technology organization, with data privacy built into everything we create. Nothing is more valuable than the trust of our listeners, supporters, and users.</p>
           <p>We built Dovetail to uphold the highest standards of privacy in how we serve shows and sponsorship to listeners while still implementing complex, dynamic, and programmatic ad tech.</p>
           <p>Even as they grow and strengthen, we will remain ahead of privacy laws and regulations around the world, leading rather than implementing the bare minimum.</p>
           <p class="mb-4"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
@@ -258,7 +291,7 @@ image: /assets/img/og-image.jpg
   </div>
   <div class="hero-content container col-xxl-8 text-center">
     <div class="hero-content-inner">
-      <h2 class="display-6 fw-bold">Ensure your podcast keeps its independence</h2>
+      <h2 class="fw-bold">Ensure your podcast keeps its independence</h2>
       <p class="fs-3 mt-2 mb-4">Reach out today</p>
       <p class="text-center mt-4 mb-0"><a href="{% link pages/contact.md %}" type="button" class="btn btn-primary px-4 gap-3">Let's Talk</a></p>
     </div>

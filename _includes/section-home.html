@@ -1,0 +1,18 @@
+<section class="section section-home prx-vh-70 p-5"> 
+  <div class="hero-content container">
+    <h2 class="display-6 mb-4 text-center">{{ include.title }}</h2>  
+    <div class="row gx-5">
+      <div class="col-md-6">
+        <p class="fs-5 mt-2">{{ include.tagline }}</p>
+        <ul class="mb-4">
+          {% for feature in include.features %}
+            <li>{{ feature | raw }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="img-special">{% picture {{ include.image }} --alt {{ include.image-alt }} %}</div>
+      </div>   
+    </div>
+  </div>
+</section>

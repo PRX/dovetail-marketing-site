@@ -21,20 +21,29 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  font-family: $font-family-header;
 
   &.post-title {
     font-weight: bold;
   }
 
   &.display-6 {
-    font-family: $font-family-base;
     font-weight: bold;
   }
 }
 
-strong,
-.fw-bold {
-  font-family: $font-family-base;
+a:link {
+  color: $cyan;
+
+  &:hover {
+    color: $light-blue-200;
+    text-decoration: underline;
+  }
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
 }
 
 .page-wrapper {
@@ -42,10 +51,10 @@ strong,
 }
 
 .banner {
-  background-color: black;
+  background-color: $black;
 
   p {
-    font-size: .875em; 
+    font-size: .875em;
     color: $white;
   }
 }
@@ -62,9 +71,32 @@ img {
 }
 
 .section {
-  min-height: 80vh;
   display: flex;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.top {
+  padding: 50px 0 0 0;
+  margin: 0;
+  min-height: 80vh;
+
+  h1 {
+    line-height: 1.35;
+  }
+}
+
+.prx-100vh {
+  min-height: 100vh;
+}
+
+.prx-90vh {
+  min-height: 90vh;
+}
+
+.prx-70vh {
+  min-height: 70vh;
 }
 
 .text-white {
@@ -145,6 +177,22 @@ footer {
   background-repeat: repeat;
 }
 
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
 .bg-x-blue {
   background-color: $blue;
   background-image: url("/assets/img/prx-mark-outline-blue.svg");
@@ -159,28 +207,39 @@ footer {
 }
 
 .bg-prx-100 {
-  background: $light-blue-100;
+  background: $navy;
+  color: $white;
 }
 
+.bg-gray,
 .bg-prx-200 {
-  background: $light-blue-200;
+  background: $navy-900;
+  color: $white;
 }
 
 .bg-prx-300 {
-  background: $light-blue-300;
-}
-
-.bg-gray {
-  background: $light-blue-200;
+  background: $blue;
+  color: $white;
 }
 
 .bg-gray-x {
   background: url(/assets/img/bg-x-half.svg) no-repeat center right;
-  background-color: $light-blue-300;
+  fill: $navy;
+  background-color: $blue;
+  color: $white;
 }
 
 .bg-white {
   background-color: $light-blue-100;
+}
+
+.bg-navy {
+  background-color: $navy;
+  color: $white;
+}
+
+.bg-black {
+  background-color: #222;
 }
 
 .bg-white-x {
@@ -207,6 +266,7 @@ footer {
   padding: 0;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 
   &.lede {
     padding-top: 10rem;
@@ -264,6 +324,8 @@ footer {
   bottom: 0;
   z-index: 0;
   position: absolute;
+  background: $navy;
+  background: linear-gradient(90deg,rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 
   div {
     display: block;
@@ -394,6 +456,7 @@ footer {
 
 .card {
   padding: 0;
+  background: $navy;
 
   h3,
   p {
@@ -413,9 +476,9 @@ footer {
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
 }
-[style*="--aspect-ratio"] > img {  
+[style*="--aspect-ratio"] > img {
   height: auto;
-} 
+}
 @supports (--custom:property) {
   [style*="--aspect-ratio"] {
     position: relative;
@@ -424,13 +487,13 @@ footer {
     content: "";
     display: block;
     padding-bottom: calc(100% / (var(--aspect-ratio)));
-  }  
+  }
   [style*="--aspect-ratio"] > :first-child {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-  }  
+  }
 }
 
 .post-card {
@@ -451,10 +514,20 @@ footer {
   }
 }
 
+.list-group-item {
+  background-color: $navy;
+  color: $white;
+}
+
 .post-content {
   p,
   img,
   iframe {
     margin-bottom: 1.5rem;
   }
+}
+
+figcaption {
+  font-family: $font-family-header;
+  font-weight: bold;
 }

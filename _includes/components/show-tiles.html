@@ -1,0 +1,5 @@
+<div class="show-tiles">
+  {% for logo in site.data.show_logos %}
+    {%- include components/show-tile.html image=logo.image show-name=logo.name -%}
+  {% endfor %}
+</div>

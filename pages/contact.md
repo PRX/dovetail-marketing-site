@@ -9,12 +9,12 @@ image: /assets/img/og-image.jpg
   <div class="hero-content container col-xxl-8">
     <div class="hero-content-inner">
       <h1 class="display-5 post-title p-name" itemprop="name headline">Contact</h1>
-      <p class="lead fs-4">We want to know how we can help you with your podcasting needs. We know forms are boring, but this will help us better understand your podcasting needs.</p>
+      <p class="fs-4">We want to know how we can help you with your podcasting needs. We know forms are boring, but this will help us better understand your podcasting needs.</p>
     </div>
   </div>
 </header>
 
-<div class="p-5 bg-gray-x">
+<div class="p-5 bg-navy text-white">
   <div class="container col-xxl-8">
 
   <div class="post-content">

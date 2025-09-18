@@ -1,0 +1,46 @@
+[
+  {
+    "image": "img/screenshots/dt-podcast-dark-home.png",
+    "image-alt": "Screenshot of publishing dashboard in Dovetail from PRX",
+    "title": "Manage Your Content with Ease",
+    "tagline": "Effortlessly upload and describe your work in our content management system, and watch your podcast be delivered to listeners everywhere.",
+    "features": [
+      "<strong>Multiple Feed Structures</strong>, including private feeds",
+      "<strong>Preview audio</strong> with ads stitched in before publishing",
+      "Manage content with <strong>titles, tags, and keywords</strong>"
+    ]
+  },
+  {
+    "image": "img/screenshots/dt-metrics.png",
+    "image-alt": "Screenshot of podcast analytics in Dovetail from PRX",
+    "title": "Metrics that Matter",
+    "tagline": "Use Dovetail’s metrics dashboard to see audience impact by showing all the unique downloads for podcast audio from every platform and player.",
+    "features": [
+      "<strong>Near Real-Time Updates:</strong> data available within minutes of a new download",
+      "<strong>Granular Data:</strong> Track individual episodes and data across a series of episode releases, with comparisons to all-time stats",
+      "<strong>IAB 2.2 certified</strong>"
+    ]
+  },
+    {
+    "image": "img/screenshots/dt-inventory-dark-collections.png",
+    "image-alt": "Screenshot of looking up ad inventory in Dovetail from PRX",
+    "title": "Exceptional Ad Inventory Management",
+    "tagline": "Our dynamic audio stitching tool seamlessly weaves sponsorship messages and highly produced audio to create high-performance media for monetization.",
+    "features": [
+      "<strong>Dynamic Ad Insertion:</strong> Run ads at any break in a show or as “bookend” at the time of user download",
+      "<strong>Targeting:</strong> Specify where the ads go by episode, show, network, vertical, topic/keyword, and geo-location",
+      "<strong>Real-time availability:</strong> Easily view real-time availability and sell thru rates for your podcasts, quickly unlocking your unused inventory"
+    ]
+  },
+    {
+    "image": "img/screenshots/dt-spots-dash.png",
+    "image-alt": "Screenshot of podcast analytics in Dovetail from PRX",
+    "title": "Turnkey tools to help grow your audience",
+    "tagline": "Seamlessly request and trade promotional spots or custom messages with other podcasts distributed via Dovetail, using Spots, our cross-promotional exchange.",
+    "features": [
+      "<strong>Show Guide:</strong> Easily discover and connect with other Dovetail shows for cross-promotion, with built-in approval workflows",
+      "<strong>Automated Campaigns:</strong> Once a cross-promo swap is approved and creatives are provided, your ad will run automatically, no extra work required",
+      "<strong>Conversion Tracking:</strong> Watch as listeners from other podcasts convert to your audience with real-time analytics"
+    ]
+  }
+]

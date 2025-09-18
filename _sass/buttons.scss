@@ -4,13 +4,20 @@
   border-radius: $btn-border-radius;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:link {
   background: $orange;
   color: $black;
+  box-shadow: 5px -5px 0px 0px $yellow, -5px 5px 0px 0px $cyan;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
 
   &:hover {
-    background: $white;
     color: $black;
+    text-decoration: none;
+    background: $white;
     border-color: $orange;
+    box-shadow: 2px -2px 0px 0px $yellow, -2px 2px 0px 0px $cyan;
+    text-decoration: none;
   }
 }

@@ -1,0 +1,45 @@
+.section-home {
+  --_home--accent--color1: var(--home-image--accent--color1, #{$yellow});
+  --_home--accent--color2: var(--home-image--accent--color2, #{$cyan});
+
+  min-height: 80vh;
+
+  &:first-of-type {
+    background-color: $orange;
+    background: linear-gradient(90deg, $orange-a-40 0%, $orange 100%);
+    color: $navy;
+  }
+
+  &:nth-child(2) {
+    background-color: $yellow;
+    background: linear-gradient(90deg, $yellow 0%, $yellow-a-40 100%);
+    color: $navy;
+    --home-image--accent--color1: #{$orange};
+    --home-image--accent--color2: #{$cyan};
+  }
+
+  &:nth-child(3) {
+    background-color: $blue;
+    background: linear-gradient(90deg, $navy-700 0%, $blue 100%);
+    color: $white;
+    --home-image--accent--color1: #{$cyan};
+    --home-image--accent--color2: #{$orange};
+
+  }
+
+  &:last-of-type {
+    background-color: $cyan;
+    background: linear-gradient(90deg, $cyan-a-40 0%, $cyan 100%);
+    color: $navy;
+    --home-image--accent--color1: #{$yellow};
+    --home-image--accent--color2: #{$orange};
+  }
+}
+
+.img-special {
+  img {
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 10px -10px 0px 0px var(--_home--accent--color1), -10px 10px 0px 0px var(--_home--accent--color2);
+  }
+}

@@ -40,7 +40,7 @@ presets:
     attributes:
       picture: 'class="thumbnail"'
       img: 'class="thumbnail-image"'
-  
+
   show-tile:
     formats: [webp, original]
     widths: [100, 200, 300, 400, 500]

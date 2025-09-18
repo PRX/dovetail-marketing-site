@@ -22,9 +22,9 @@ image: /assets/img/og-image.jpg
 
 <div class="home-sections">
   {% for section in site.data.section_home %}
-    {%- include section-home.html 
+    {%- include section-home.html
       image=section.image
-      image-alt=section.image-alt 
+      image-alt=section.image-alt
       title=section.title
       tagline=section.tagline
       features=section.features
@@ -44,7 +44,7 @@ image: /assets/img/og-image.jpg
           Shereen Adel, KALW
         </figcaption>
       </figure>
-      
+
       <figure class="col-md-5 mb-0 px-4">
         <blockquote class="blockquote mt-2">
           <p>“Dovetail has really allowed us to streamline podcast operations — from production to marketing support and data-driven decision making. PRX’s tools integrate well with other tools across the industry, which has allowed us to build a single process that works well for us where we are right now. And there’s a lot of room to grow!”</p>

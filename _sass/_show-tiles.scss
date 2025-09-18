@@ -30,10 +30,10 @@ $show-tiles--tile-size: minmax($show-tiles--tile-min-size, 1fr);
     position: absolute;
     inset: 0;
     background-image: linear-gradient(
-      to right, 
-      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--edge), transparent) 0%, 
-      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--center), transparent) 33%, 
-      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--center), transparent) 66%, 
+      to right,
+      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--edge), transparent) 0%,
+      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--center), transparent) 33%,
+      color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--center), transparent) 66%,
       color-mix(in oklab, var(--_show-tiles--screen--color) var(--_show-tiles--screen--opacity--edge), transparent) 100%
     );
   }

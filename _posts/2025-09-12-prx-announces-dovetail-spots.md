@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /2025/09/18/prx-announces-dovetail-spots
-canonical: change-to-medium-post
+canonical: https://medium.com/prxofficial/prx-announces-dovetail-spots-enabling-trades-of-promotional-messages-among-shows-ed43f61502b7
 title: PRX Announces Dovetail Spots
 image: /assets/img/og-pilot.jpg
 heroimage: img/hero-pilot.jpg
@@ -11,7 +11,7 @@ cta: cta-demo.html
 
 ---
 
-<em>September 18, 2025</em>––Nonprofit public media organization <a href="https://prx.org">PRX</a> today announced Dovetail Spots, a new feature of <a href="/">Dovetail</a>, the podcast publishing and monetization platform built and operated by PRX. This new function will enable podcasters on Dovetail to seamlessly request and trade promotional spots or custom messages with other podcasts distributed via Dovetail, creating a cross-promotional exchange.
+<em>September 18, 2025</em>––Nonprofit public media organization <a href="https://medium.com/prxofficial/prx-announces-dovetail-spots-enabling-trades-of-promotional-messages-among-shows-ed43f61502b7">PRX</a> today announced Dovetail Spots, a new feature of <a href="/">Dovetail</a>, the podcast publishing and monetization platform built and operated by PRX. This new function will enable podcasters on Dovetail to seamlessly request and trade promotional spots or custom messages with other podcasts distributed via Dovetail, creating a cross-promotional exchange.
 
 Dovetail Spots will also offer podcasters a turnkey approach. When a cross-promotional message request is accepted by a podcast, it will automatically create the campaign and will be reflected in the producer’s inventory dashboard on Dovetail.
 

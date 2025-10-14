@@ -107,9 +107,9 @@ $show-tile--animation-duration--step: $show-tile--animation-duration / ($show-ti
 
 @keyframes show-tile--slide-y {
   from {
-    translate: 0 -100%;
+    transform: translate(0, -100%);
   }
   to {
-    translate: 0 (($show-tiles--rows - 1) * 100%);
+    transform: translate(0, calc((#{$show-tiles--rows} - 1) * 100%));
   }
 }

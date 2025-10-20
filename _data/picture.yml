@@ -54,3 +54,15 @@ presets:
       webp: 100
       avif: 100
       jp2: 100
+
+  badge:
+    base_width: 240 # How wide the 1x image should be.
+    pixel_ratios: [1, 1.5, 2] # Which multipliers to target.
+    widths: [240]
+    fallback_width: 240
+    size: 240px
+    formats:  [webp, original]
+    dimension_attributes: true
+    attributes:
+      picture: 'class="badge"'
+      img: 'class="badge-image"'

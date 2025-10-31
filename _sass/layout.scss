@@ -115,6 +115,8 @@ img {
   }
 }
 
+
+
 footer.bg-black-diagonal {
   a {
     color: $gray-200;
@@ -228,6 +230,14 @@ footer {
   fill: $navy;
   background-color: $blue;
   color: $white;
+
+  .post-content a {
+    color: $light-blue-300;
+
+    &:hover {
+      color: $cyan;
+    }
+  }
 }
 
 .bg-white {

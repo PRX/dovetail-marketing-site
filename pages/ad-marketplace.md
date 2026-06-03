@@ -53,43 +53,51 @@ image: /assets/img/og-image.jpg
   </div>
 </section>
 
-
 <div class="p-5 bg-navy text-white">
   <div class="container col-xxl-8">
-
-  <div class="post-content">
-    <h2 class="display-6">Let us know if you are interested</h2>
-    <p>If you are a Station or Advertiser interested in participating in the Dovetail Ad Marketplace, please fill out this form and we will start a discussion on best meeting your needs.</p>
-    {% if jekyll.environment == 'production' -%}
-    <form name="contact_form" accept-charset="UTF-8" action="#" method="POST">
-    {%- else -%}
-    <form name="contact_form" accept-charset="UTF-8" action="#" method="POST">
-    {%- endif %}
-      <div class="form-group">
-        <label for="inputName">Name*</label>
-        <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="inputName" placeholder="Enter your name" required>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail">Email address*</label>
-        <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
-        <small class="form-text">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="textOrganization">Organization</label>
-        <input type="text" class="form-control" id="textOrganization" name="textOrganization" aria-describedby="textOrganization" placeholder="Enter your organization">
-      </div>
-      <div class="form-group">
-        <label for="textJobTitle">Job Title</label>
-        <input type="text" class="form-control" id="textJobTitle" name="textJobTitle" aria-describedby="textJobTitle" placeholder="Enter your job title">
-      </div>
-      <div class="form-group">
-        <label for="textPhone">Phone Number</label>
-        <input type="text" class="form-control" id="textPhone" name="textPhone" aria-describedby="textPhone" placeholder="(xxx)-xxx-xxxx">
-      </div>
-      <div class="cf-turnstile" data-sitekey="#"></div>
-      <input type="hidden" id="messageType" name="messageType" value="contact" />
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div class="post-content">
+      <h2 class="display-6">Let us know if you are interested</h2>
+      <p>If you are a Station or Advertiser interested in participating in the Dovetail Ad Marketplace, please fill out this form and we will start a discussion on best meeting your needs.</p>
+      {% if jekyll.environment == 'production' -%}
+      <form name="marketplace_interest_form" accept-charset="UTF-8" action="https://g26e6h83r5.execute-api.us-east-1.amazonaws.com/v1/submit" method="POST">
+      {%- else -%}
+      <form name="marketplace_interest_form" accept-charset="UTF-8" action="https://dsmt2m9oj5.execute-api.us-east-1.amazonaws.com/v1/submit" method="POST">
+      {%- endif %}
+        <div class="form-group">
+          <label for="inputName">Name*</label>
+          <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="inputName" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email address*</label>
+          <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <small class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="textOrganization">Organization Name</label>
+          <input type="text" class="form-control" id="textOrganization" name="textOrganization" aria-describedby="textOrganization" placeholder="Enter your organization">
+        </div>
+        <div class="form-group">
+          <label for="selectOrgType">Which best describes your Organization?</label>
+          <select name="orgType" id="selectOrgType" class="form-control form-select">
+            <option value="">--Please choose an option--</option>
+            <option value="ad-agency">Ad Agency</option>
+            <option value="advertiser">Advertiser</option>
+            <option value="podcast-producer">Podcast Producer</option>
+            <option value="public-media-station">Public Media Station</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="textJobTitle">Job Title</label>
+          <input type="text" class="form-control" id="textJobTitle" name="textJobTitle" aria-describedby="textJobTitle" placeholder="Enter your job title">
+        </div>
+        <div class="form-group">
+          <label for="textPhone">Phone Number</label>
+          <input type="text" class="form-control" id="textPhone" name="textPhone" aria-describedby="textPhone" placeholder="(xxx)-xxx-xxxx">
+        </div>
+        <div class="cf-turnstile" data-sitekey="#"></div>
+        <input type="hidden" id="messageType" name="messageType" value="marketplace" />
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </div>
 </div>

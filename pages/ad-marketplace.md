@@ -25,7 +25,21 @@ image: /assets/img/og-image.jpg
 
 <section class="section bg-navy text-white p-5">
   <div class="container col-xxl-8">
-    <h2 class="mb-3">For Public Media Stations</h2>
+    <h2 class="mb-3">For Advertisers</h2>
+    <p>The Dovetail Ad Marketplace is the self-service way for reaching Public Media audiences. Think of it as a direct line to premium public media audiences without the complexity of programmatic buying.</p>
+    <ul>
+      <li><strong>Brand-safe environment</strong>: You’re buying into curated, premium content, not open auction inventory.</li>
+      <li><strong>Simple, transparent pricing</strong>: You know what you’ll pay before you buy.</li>
+      <li><strong>Self-service speed</strong>: Agree to terms, bring your own creative, place a buy, and your ad will be running with only one quick approval.</li>
+      <li><strong>Audience reach by channel</strong>: Channels group shows by theme, station, or geography, so you can reach the right mix of listeners without needing to research individual podcasts.</li>
+      <li><strong>Built in reporting</strong>: for confidence in your ad spend.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section bg-gray-x p-5">
+  <div class="container col-xxl-8">
+    <h2 class="mb-3">For Producers</h2>
     <p>PRX is expanding Dovetail by creating a self-service ad marketplace. It will allow advertisers to purchase public media podcast ad inventory directly by accessing inventory that isn’t being used by direct sales, all without requiring manual intervention from your team.</p>
     <ul>
       <li>Gain new revenue from unsold inventory.</li>
@@ -35,20 +49,6 @@ image: /assets/img/og-image.jpg
       <li>Brand Safety you can trust, all advertisers are approved by PRX.</li>
       <li>No extra work, sign up and watch revenue flow in.</li>
       <li>Another avenue to grow your podcast audience through buying cross-promotions across the national channel.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="section bg-gray-x p-5">
-  <div class="container col-xxl-8">
-    <h2 class="mb-3">For Advertisers</h2>
-    <p>The Dovetail Ad Marketplace is the self-service way for reaching Public Media audiences. Think of it as a direct line to premium public media audiences without the complexity of programmatic buying.</p>
-    <ul>
-      <li><strong>Brand-safe environment</strong>: You’re buying into curated, premium content, not open auction inventory.</li>
-      <li><strong>Simple, transparent pricing</strong>: You know what you’ll pay before you buy.</li>
-      <li><strong>Self-service speed</strong>: Agree to terms, bring your own creative, place a buy, and your ad will be running with only one quick approval.</li>
-      <li><strong>Audience reach by channel</strong>: Channels group shows by theme, station, or geography, so you can reach the right mix of listeners without needing to research individual podcasts.</li>
-      <li><strong>Built in reporting</strong>: for confidence in your ad spend.</li>
     </ul>
   </div>
 </section>
